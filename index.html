@@ -60,7 +60,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;paddi
 <div class="wrap">
 <header>
   <h1>0xelitesystem</h1>
-  <p>225 open-source repos. 102 single-file browser tools, every one with a live demo. 123 plain-language references. All MIT, all self-contained, nothing phones home.</p>
+  <p><span id="hdr-stats">225 open-source repos. 102 single-file browser tools, every one with a live demo. 123 plain-language references.</span> All MIT, all self-contained, nothing phones home.</p>
   <p>Operator hub: <a href="https://elitesystem.ai">elitesystem.ai</a> · <a href="https://github.com/0xelitesystem">github.com/0xelitesystem</a> · machine-readable: <a href="catalog.json">catalog.json</a></p>
 </header>
 
@@ -97,7 +97,14 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;paddi
 let DATA=[], filter="all", query="";
 const list=document.getElementById("list"), count=document.getElementById("count"), q=document.getElementById("q");
 
-fetch("catalog.json").then(r=>r.json()).then(d=>{DATA=d;render();});
+fetch("catalog.json").then(r=>r.json()).then(d=>{
+  DATA=d;
+  const tools=d.filter(i=>i.t==="tool").length, refs=d.length-tools;
+  document.getElementById("hdr-stats").textContent =
+    d.length+" open-source repos. "+tools+" single-file browser tools, every one with a live demo. "+refs+" plain-language references and projects.";
+  q.placeholder="Search "+d.length+" repos… (press / to focus)";
+  render();
+});
 
 function score(item,terms){
   const hay=(item.s+" "+item.d).toLowerCase();

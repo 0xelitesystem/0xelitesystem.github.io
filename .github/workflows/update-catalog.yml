@@ -1,0 +1,43 @@
+name: Update catalog
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild catalog.json from the live repo list
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Existing catalog wins on type (tool/ref) so manual classifications
+          # survive; new repos default to tool when they have Pages, else ref.
+          gh api --paginate "users/0xelitesystem/repos?per_page=100" --jq '.[]' | jq -s \
+            --slurpfile old catalog.json '
+            ($old[0] | map({(.s): .t}) | add) as $types
+            | [ .[]
+                | select(.fork == false and .archived == false)
+                | select(.name != "0xelitesystem" and .name != "0xelitesystem.github.io")
+                | { s: .name,
+                    t: ($types[.name] // (if .has_pages then "tool" else "ref" end)),
+                    d: (.description // "") } ]
+            | sort_by(.s)' > catalog.new.json
+          # Refuse a suspiciously small result rather than wreck the index.
+          count=$(jq length catalog.new.json)
+          if [ "$count" -lt 100 ]; then echo "only $count repos returned, aborting"; exit 1; fi
+          mv catalog.new.json catalog.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "0xelitesystem"
+          git config user.email "113920829+0xelitesystem@users.noreply.github.com"
+          git add catalog.json
+          git diff --cached --quiet || { git commit -m "catalog: auto-update from live repo list"; git push; }
