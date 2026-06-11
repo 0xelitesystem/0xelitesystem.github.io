@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>0xelitesystem — 225 tools and references, searchable</title>
+<meta name="description" content="225 open-source repos: 102 zero-dependency browser tools with live demos and 123 plain-language references. Search them all on one page.">
+<link rel="canonical" href="https://0xelitesystem.github.io/">
+<meta property="og:title" content="0xelitesystem — 225 tools and references">
+<meta property="og:description" content="102 single-file browser tools with live demos. 123 plain-language references. All MIT, all self-contained.">
+<meta property="og:url" content="https://0xelitesystem.github.io/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"0xelitesystem","url":"https://0xelitesystem.github.io/","description":"225 open-source repos: zero-dependency browser tools with live demos and plain-language references.","author":{"@type":"Person","name":"0xelitesystem","url":"https://elitesystem.ai","sameAs":["https://github.com/0xelitesystem","https://www.youtube.com/@0xelitesystem"]}}
+</script>
+<style>
+:root{
+  --bg:#fafafa; --fg:#16181d; --muted:#5d6470; --card:#ffffff; --line:#e4e6ea;
+  --accent:#0b5fff; --chip:#eef1f5; --chip-on:#16181d; --chip-on-fg:#ffffff;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0e1013; --fg:#e8eaed; --muted:#9aa1ac; --card:#16191e; --line:#262a31;
+         --accent:#6ea8ff; --chip:#1d2127; --chip-on:#e8eaed; --chip-on-fg:#0e1013; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:40px 20px 80px}
+header h1{font-size:1.7rem;margin:0 0 6px;letter-spacing:-.02em}
+header p{margin:0 0 4px;color:var(--muted)}
+header a{color:var(--accent);text-decoration:none}
+header a:hover{text-decoration:underline}
+.controls{position:sticky;top:0;background:var(--bg);padding:18px 0 12px;z-index:5}
+#q{width:100%;padding:12px 14px;font-size:1rem;border:1px solid var(--line);border-radius:10px;
+   background:var(--card);color:var(--fg);outline:none}
+#q:focus{border-color:var(--accent)}
+.chips{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;align-items:center}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:999px;
+      padding:5px 14px;font-size:.85rem;cursor:pointer}
+.chip.on{background:var(--chip-on);color:var(--chip-on-fg);border-color:var(--chip-on)}
+#count{margin-left:auto;color:var(--muted);font-size:.85rem}
+#list{margin-top:14px;display:grid;gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card .top{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.card .name{font-weight:600}
+.card a{color:var(--accent);text-decoration:none}
+.card a:hover{text-decoration:underline}
+.badge{font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;border-radius:5px;padding:2px 7px}
+.badge.tool{background:#0b5fff1a;color:var(--accent)}
+.badge.ref{background:#7a828e22;color:var(--muted)}
+.card .desc{margin:6px 0 0;color:var(--muted);font-size:.92rem}
+.card .links{margin-top:8px;font-size:.85rem;display:flex;gap:16px}
+.suite{margin:26px 0 8px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.suite h2{margin:0 0 6px;font-size:1rem}
+.suite p{margin:0;color:var(--muted);font-size:.92rem}
+footer{margin-top:46px;color:var(--muted);font-size:.85rem}
+footer a{color:var(--accent);text-decoration:none}
+kbd{border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 5px;font-size:.8em}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>0xelitesystem</h1>
+  <p>225 open-source repos. 102 single-file browser tools, every one with a live demo. 123 plain-language references. All MIT, all self-contained, nothing phones home.</p>
+  <p>Operator hub: <a href="https://elitesystem.ai">elitesystem.ai</a> · <a href="https://github.com/0xelitesystem">github.com/0xelitesystem</a> · machine-readable: <a href="catalog.json">catalog.json</a></p>
+</header>
+
+<div class="suite">
+  <h2>The agent accountability suite</h2>
+  <p>Five zero-dependency Python CLIs that audit a finished AI coding-agent session:
+  <a href="https://github.com/0xelitesystem/agent-receipts">agent-receipts</a> (claims vs reality) ·
+  <a href="https://github.com/0xelitesystem/agent-leaks">agent-leaks</a> (secrets in transcripts) ·
+  <a href="https://github.com/0xelitesystem/agent-blast-radius">agent-blast-radius</a> (irreversible actions) ·
+  <a href="https://github.com/0xelitesystem/agent-rules">agent-rules</a> (CLAUDE.md compliance) ·
+  <a href="https://github.com/0xelitesystem/agent-cost">agent-cost</a> (token and dollar forensics)</p>
+</div>
+
+<div class="controls">
+  <input id="q" type="search" placeholder="Search 225 repos… (press / to focus)" autocomplete="off">
+  <div class="chips">
+    <button class="chip on" data-f="all">All</button>
+    <button class="chip" data-f="tool">Tools</button>
+    <button class="chip" data-f="ref">References</button>
+    <span id="count"></span>
+  </div>
+</div>
+
+<div id="list"></div>
+
+<footer>
+  <p>Every tool runs entirely in your browser: no frameworks, no CDN, no analytics, no build step.
+  View source on any of them — one HTML file each.</p>
+  <p>MIT licensed. Built and maintained by <a href="https://elitesystem.ai">~RBL</a>.</p>
+</footer>
+</div>
+
+<script>
+let DATA=[], filter="all", query="";
+const list=document.getElementById("list"), count=document.getElementById("count"), q=document.getElementById("q");
+
+fetch("catalog.json").then(r=>r.json()).then(d=>{DATA=d;render();});
+
+function score(item,terms){
+  const hay=(item.s+" "+item.d).toLowerCase();
+  let sc=0;
+  for(const t of terms){
+    if(!hay.includes(t)) return -1;
+    sc += item.s.toLowerCase().includes(t)?2:1;
+    if(item.s.toLowerCase().startsWith(t)) sc+=2;
+  }
+  return sc;
+}
+function esc(s){const d=document.createElement("div");d.textContent=s;return d.innerHTML;}
+function render(){
+  const terms=query.toLowerCase().split(/\s+/).filter(Boolean);
+  let items=DATA.filter(i=>filter==="all"||i.t===filter);
+  if(terms.length){
+    items=items.map(i=>[score(i,terms),i]).filter(x=>x[0]>=0)
+               .sort((a,b)=>b[0]-a[0]).map(x=>x[1]);
+  }
+  count.textContent=items.length+" of "+DATA.length;
+  list.innerHTML=items.map(i=>{
+    const repo="https://github.com/0xelitesystem/"+i.s;
+    const demo=i.t==="tool"?'<a href="https://0xelitesystem.github.io/'+i.s+'/">live demo</a>':"";
+    return '<div class="card"><div class="top"><span class="badge '+i.t+'">'+(i.t==="tool"?"tool":"reference")+'</span>'+
+      '<a class="name" href="'+repo+'">'+esc(i.s)+'</a></div>'+
+      '<p class="desc">'+esc(i.d)+'</p>'+
+      '<div class="links"><a href="'+repo+'">repo</a>'+demo+'</div></div>';
+  }).join("");
+}
+q.addEventListener("input",()=>{query=q.value;render();});
+document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{
+  document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
+  c.classList.add("on");filter=c.dataset.f;render();
+}));
+document.addEventListener("keydown",e=>{
+  if(e.key==="/"&&document.activeElement!==q){e.preventDefault();q.focus();}
+});
+</script>
+</body>
+</html>
