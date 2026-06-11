@@ -1,1 +1,1167 @@
-[{"s":"accessibility-basics-reference","t":"ref","d":"Web accessibility means building so that people with disabilities can perceive, operate, and understand your site, including those using a keyboard only, a s..."},{"s":"affiliate-disclosure-reference","t":"ref","d":"A plain-language reference on affiliate disclosure: what an affiliate relationship is, why you must disclose it, what the FTC endorsement guides require, whe..."},{"s":"affiliate-disclosure-templates","t":"ref","d":"Plain-English, FTC-compliant disclosure language for video, blog, social, podcast, and email. Copy what you need."},{"s":"agent-diff-reviewer","t":"tool","d":"Paste a unified diff (from Claude Code, Cursor, Aider, or `git diff`), get a structured review with scary-changes detection. Browser only."},{"s":"agent-failure-modes","t":"ref","d":"The recurring ways LLM agents fail in production, with detection signals and mitigations for each."},{"s":"agent-trace-viewer","t":"tool","d":"Visualize agent tool-call traces as a flame graph. Drop in JSON from an Anthropic or OpenAI trace and see what your agent actually did."},{"s":"agentic-workflow-patterns","t":"ref","d":"Patterns for working with coding agents productively. How to scope work, validate output, recover from stuck agents, and know when to take over."},{"s":"ai-agent-guardrails-reference","t":"ref","d":"A plain-language reference on putting guardrails around AI agents: limiting what an agent can access, capping what it can spend, scoping what it can do, and ..."},{"s":"ai-citability-scorer","t":"tool","d":"Paste a paragraph, get scored on AI citation likelihood. Browser-only, no signup."},{"s":"ai-coding-prompt-discipline","t":"ref","d":"Prompts and rules that make AI coding assistants push back, refuse over-engineering, and stay in scope."},{"s":"ai-coding-prompt-recipes","t":"ref","d":"Specific prompt recipes for common dev tasks with coding agents (Claude Code, Cursor, Aider, Continue, etc.). Each recipe is opinionated about the situation,..."},{"s":"ai-content-disclosure-reference","t":"ref","d":"A plain-language reference on disclosing AI-generated content: when disclosure is required or expected, how rules like the FTC guidance, California AB 2013, ..."},{"s":"ai-crawler-access-and-llms-txt-reference","t":"ref","d":"A plain-language reference on letting AI crawlers into your site: the robots.txt rules that control GPTBot, ClaudeBot, PerplexityBot, and Google-Extended, th..."},{"s":"ai-generated-code-review-rubrics","t":"ref","d":"Code review rubrics specifically calibrated for AI-generated code. Different from human-code rubrics because AI fails differently, confident-but-wrong patter..."},{"s":"ai-llm-security-audit","t":"ref","d":"Ten sections covering the practical attack surface of LLM-backed applications: prompt injection, output handling, model supply chain, agent tool use, and eva..."},{"s":"ai-product-disclaimers","t":"ref","d":"Copy-paste disclaimers for AI-powered features. For developers shipping AI products who need accurate, non-overclaiming language to put on their pages."},{"s":"amazon-product-url-cleaner","t":"tool","d":"Strip tracking parameters from Amazon product URLs, extract the ASIN, and generate a clean canonical URL. Optionally append your own affiliate tag. Browser o..."},{"s":"analytics-without-creepiness-reference","t":"ref","d":"You can understand how your site is used without tracking people across the web, building profiles, or collecting more than you need. Most operators run inva..."},{"s":"answer-engine-citability-guide","t":"ref","d":"A reference on writing web pages that AI answer engines can quote and cite. Search increasingly happens inside AI systems that read pages, extract a direct a..."},{"s":"api-changelog-rss","t":"tool","d":"Paste two OpenAPI specs, get a structured changelog: added, removed, changed, breaking. Export as Markdown. Single HTML file, browser-only."},{"s":"api-mock-recipes","t":"ref","d":"Working code for mocking the API calls in your tests. Stripe, OpenAI, Anthropic, Google APIs, SendGrid, Twilio. Python and Node."},{"s":"api-provider-cost-control-reference","t":"ref","d":"A plain-language reference on understanding and controlling what you spend on AI provider APIs. It covers how providers charge, when bring-your-own-key beats..."},{"s":"api-security-audit-checklist","t":"ref","d":"Seven checklists covering the audit surface of HTTP, GraphQL, and gRPC APIs. Each checklist is structured as audit questions paired with concrete tests and m..."},{"s":"api-versioning-basics-reference","t":"ref","d":"A plain-language reference on versioning APIs: why versioning exists, how to expose versions, how to decide what counts as a breaking change, and how to reti..."},{"s":"aspect-ratio-calculator","t":"tool","d":"Turn pixel dimensions into a simplified ratio, or solve for a missing dimension from a ratio. No server, no tracking, no third-party scripts."},{"s":"audience-before-monetization-reference","t":"ref","d":"An audience is a group of people who choose to hear from you and trust what you say. Monetization is asking some of them to pay. The order matters: trust ear..."},{"s":"background-jobs-and-queues-basics-reference","t":"ref","d":"This is a plain-language technical reference for background jobs and queues. It covers why work moves out of the request path, how queues differ from cron, w..."},{"s":"backup-and-recovery-reference","t":"ref","d":"A backup is a copy of your data you can restore from when the original is lost, corrupted, or compromised. Recovery is the process of getting back to working..."},{"s":"base64-url-encoder-decoder","t":"tool","d":"This tool encodes and decodes text two ways: Base64, in the standard or URL-safe alphabet, and percent-encoding for URLs. It handles Unicode correctly by wor..."},{"s":"brand-mention-tracker","t":"ref","d":"Templates and procedures for tracking brand mentions across the web. The \"3x signal\" from the GEO baseline: brand mentions correlate roughly 3x stronger with..."},{"s":"break-even-units-calculator","t":"tool","d":"Your break-even point is the number of units where total revenue equals total cost: fixed costs divided by the contribution margin per unit, which is price m..."},{"s":"breakeven-runway-calculator","t":"tool","d":"![Breakeven and Runway Calculator screenshot](screenshot.png)"},{"s":"byok-api-key-setup-reference","t":"ref","d":"A plain-language reference on bring-your-own-key setup: what an API key is, how to get one from the major AI providers, how to keep it safe, and how to set s..."},{"s":"byok-patterns","t":"ref","d":"Production reference implementations for \"Bring Your Own Key\" architectures. Each pattern is a complete, working example targeting a different deployment con..."},{"s":"byok-research-grid-patterns","t":"ref","d":"Architecture patterns for building a bring-your-own-key research grid: a setup that queries several data and model providers through their official APIs, usi..."},{"s":"byok-security-checklist","t":"ref","d":"A security threat model for \"Bring Your Own Key\" (BYOK) products. Lists the attack vectors, the mitigations, and what you can and cannot honestly tell users."},{"s":"byok-setup-guide","t":"ref","d":"A plain-language guide to bring-your-own-key for people who do not write code. It explains what an API key is, where to get one, how to store it without leak..."},{"s":"caching-basics-reference","t":"ref","d":"A plain-language technical reference for caching fundamentals. It covers what caching is, the layers where caches live (browser, CDN, application, database),..."},{"s":"cagr-and-rule-of-72-calculator","t":"tool","d":"Compound annual growth rate between two values, and how long money takes to double."},{"s":"canonical-and-hreflang-reference","t":"ref","d":"A plain-language reference on two tags that prevent search problems: the canonical tag, which tells search engines the preferred version of a page when dupli..."},{"s":"canonical-hreflang-tag-helper","t":"tool","d":"This tool builds a canonical link tag and a set of hreflang alternate tags for the language and region versions of a page, plus an optional x-default. It out..."},{"s":"case-converter","t":"tool","d":"Convert text between camelCase, snake_case, kebab-case, CONSTANT_CASE, and more."},{"s":"cash-flow-vs-profit-reference","t":"ref","d":"Profit is what is left after you subtract costs from revenue over a period. Cash flow is the movement of money in and out of your accounts over that same per..."},{"s":"claude-eval-harness","t":"tool","d":"Run the same prompt against multiple Claude models side-by-side. Compare outputs, latency, and cost. BYOK. Single HTML file."},{"s":"claude-mcp-starter","t":"ref","d":"Bare-minimum [Model Context Protocol](https://modelcontextprotocol.io) server templates. Two equivalent implementations: one in Node/TypeScript, one in Pytho..."},{"s":"claude-md-generator","t":"tool","d":"Interactive builder for the per-project markdown file every coding agent should read first. Outputs `CLAUDE.md` (Claude Code) or `AGENTS.md` (general convent..."},{"s":"claude-skills-collection","t":"ref","d":"Curated, working Claude Skills you can drop into any project. Each skill is in its own folder with `SKILL.md` plus any reference files. All MIT licensed and ..."},{"s":"claude-skills-templates","t":"ref","d":"Five production-ready Claude Skills you can drop into Claude Code, Claude.ai, or the Claude API. Each skill demonstrates a different SKILL.md pattern: pure-p..."},{"s":"claude-skills-validator","t":"tool","d":"Lint a Claude Skill `SKILL.md` file for spec compliance and triggering quality. Browser-only, single HTML file."},{"s":"color-contrast-checker","t":"tool","d":"A single-file browser tool that takes a text color and a background color and reports the contrast ratio between them, checked against the WCAG 2.1 threshold..."},{"s":"color-format-converter","t":"tool","d":"Convert a color between HEX, RGB, HSL, and HSV with a live swatch. No server, no tracking, no third-party scripts."},{"s":"compound-interest-visualizer","t":"tool","d":"This tool shows how a starting amount and monthly contributions grow over time with monthly compounding. It returns the ending balance, the total you put in,..."},{"s":"content-repurposing-reference","t":"ref","d":"Repurposing is turning one substantial piece of content into many smaller pieces shaped for different platforms, so a single effort reaches more people in mo..."},{"s":"content-security-policy-builder","t":"tool","d":"This tool builds a Content-Security-Policy header by toggling directives and choosing their allowed sources. It assembles the header string live, flags the s..."},{"s":"content-voice-templates","t":"ref","d":"Voice guides and writing rules for four distinct content personas. Drop-in references for solo founders, indie creators, technical writers, and anonymous exp..."},{"s":"context-windows-and-tokens-reference","t":"ref","d":"A language model reads and writes in tokens, which are chunks of text roughly the size of a short word or word-piece, not in characters or whole words. The c..."},{"s":"contractor-and-1099-tax-basics-reference","t":"ref","d":"In the United States, an independent contractor is paid without tax withheld, reports that income themselves, and owes both income tax and self-employment ta..."},{"s":"core-web-vitals-reference","t":"ref","d":"Core Web Vitals are three measurements Google uses to score the real-world experience of loading and using a page: how fast the main content appears, how qui..."},{"s":"cron-builder","t":"tool","d":"Visual cron expression builder with human-readable description and the next 5 firing times. Single HTML file. Browser-only."},{"s":"cron-expression-explainer","t":"tool","d":"This tool reads a standard five-field cron expression, minute, hour, day of month, month, and day of week, and explains it in plain English, field by field a..."},{"s":"csp-builder","t":"tool","d":"Build Content-Security-Policy headers visually. Pick directives, toggle keywords, add custom hosts, copy as a header / meta tag / Express snippet. Single HTM..."},{"s":"csv-to-anything","t":"tool","d":"Convert CSV or TSV input to JSON, SQL inserts, Markdown table, or TypeScript types. Single HTML file. Browser-only."},{"s":"cursor-rules-collection","t":"ref","d":"Curated `.cursorrules` and `CLAUDE.md` files for popular stacks. Drop one into your project and your AI coding assistant stops fighting the conventions."},{"s":"dark-mode-tester","t":"tool","d":"Test your light and dark color tokens side by side. See a full UI mockup in both modes and get WCAG contrast scores for every text/background pair. Single HT..."},{"s":"data-privacy-laws-basics-reference","t":"ref","d":"A plain-language overview of the main data privacy laws: the EU's GDPR and California's CCPA as amended by the CPRA, what counts as personal data, the role o..."},{"s":"dca-visualizer","t":"tool","d":"Compare deploying a fixed amount of capital all at once against spreading it across several months, on a price path you control. The tool runs entirely in yo..."},{"s":"dca-vs-lump-sum-reference","t":"ref","d":"A plain-language reference on dollar-cost averaging versus investing a lump sum: what each one is, what the evidence actually says about returns, why the low..."},{"s":"debt-payoff-planner","t":"tool","d":"A single-file browser tool that compares the two common debt payoff methods, snowball and avalanche, and shows your debt-free date, total interest, and how m..."},{"s":"dependency-supply-chain-reference","t":"ref","d":"A plain-language reference on dependency and supply-chain risk: the danger that comes from the third-party code your project pulls in, why it matters, and th..."},{"s":"diversification-basics-reference","t":"ref","d":"A plain-language reference on diversification: spreading money across many investments so that no single one can sink the whole portfolio. It covers why dive..."},{"s":"dividend-compounding-calculator","t":"tool","d":"Model how reinvested dividends, ongoing contributions, and price appreciation compound over many years. The tool runs entirely in your browser and reports fi..."},{"s":"dns-email-authentication-reference","t":"ref","d":"A plain-language reference on SPF, DKIM, and DMARC: the three DNS records that prove your email is really from you, stop others from spoofing your domain, an..."},{"s":"domain-and-dns-basics-reference","t":"ref","d":"DNS, the domain name system, is the address book of the internet: it translates a domain name people can remember into the numeric addresses and routing info..."},{"s":"e-e-a-t-auditor","t":"tool","d":"Audit any web page's HTML for E-E-A-T signals: Experience, Expertise, Authoritativeness, Trust. Browser-only."},{"s":"eeat-signals-reference","t":"ref","d":"A plain-language reference on E-E-A-T: experience, expertise, authoritativeness, and trustworthiness, the qualities search and AI systems use to judge whethe..."},{"s":"effective-hourly-rate-calculator","t":"tool","d":"Your effective hourly rate is your income after expenses divided by every hour you actually work, including the unpaid ones. This tool computes it from your ..."},{"s":"email-deliverability-reference","t":"ref","d":"Deliverability is whether your email actually reaches the inbox, not just whether it was sent. Mailbox providers decide where each message goes, the inbox, t..."},{"s":"email-spam-score-checker","t":"tool","d":"A browser tool that scores your email content against 40 SpamAssassin-style rules locally. No upload, no API, no tracking."},{"s":"embedding-cost-estimator","t":"tool","d":"Estimate embedding costs across 11 providers before you commit to a RAG strategy."},{"s":"embeddings-and-vector-search-basics-reference","t":"ref","d":"A plain-language reference on embeddings and vector search: what a vector embedding actually is, how similarity is measured, what a vector database does, how..."},{"s":"emergency-fund-and-runway-reference","t":"ref","d":"An emergency fund is money set aside in cash to cover essential costs when income stops or a large unplanned expense lands. The common starting target is thr..."},{"s":"env-var-checker","t":"tool","d":"Compare your `.env.example` (the committed reference) against your actual `.env`. Find missing variables, undocumented additions, and possible leaked secrets..."},{"s":"etf-vs-index-fund-basics-reference","t":"ref","d":"A plain-language reference comparing exchange-traded funds (ETFs) with index mutual funds. Both can track the same index and hold the same stocks, yet they d..."},{"s":"evaluating-llm-output-reference","t":"ref","d":"Evaluating a language model means measuring whether its output is good enough for your task, in a way you can repeat. Without evaluation you are guessing, an..."},{"s":"faq-schema-reference","t":"ref","d":"A plain-language reference on FAQ structured data: marking up question-and-answer content so search engines and AI systems understand it as questions and ans..."},{"s":"feature-flags-basics-reference","t":"ref","d":"A plain-language technical reference on feature flags for working developers. It covers what flags are, the four common types (release, ops, experiment, perm..."},{"s":"fine-tuning-vs-rag-vs-prompting-reference","t":"ref","d":"When a language model's default output is not good enough, there are three ways to shape it: change the prompt, give the model the right information to read ..."},{"s":"founder-customer-research-templates","t":"ref","d":"Plain-text templates for talking to your customers and prospects. Discovery interviews, churn calls, surveys, jobs-to-be-done worksheets, win/loss debriefs. ..."},{"s":"geo-audit-checklist","t":"ref","d":"A page-by-page checklist for auditing a site for AI engine citability. ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews."},{"s":"git-basics-reference","t":"ref","d":"A plain-language reference on the fundamentals of Git: the three areas your work moves through, the core commands you use every day, how branches and merging..."},{"s":"heading-outline-checker","t":"tool","d":"A clean heading tree, and the structure problems search engines and screen readers trip on."},{"s":"http-status-codes-reference","t":"ref","d":"A plain-language reference on HTTP status codes: what the five classes mean, the specific codes that actually come up in real API and web work, and when to u..."},{"s":"https-and-tls-basics-reference","t":"ref","d":"HTTPS is HTTP carried over an encrypted, authenticated connection, provided by TLS. It does two things: it encrypts the traffic between the browser and the s..."},{"s":"iam-policy-analyzer","t":"tool","d":"Browser-based analyzer for AWS IAM policies. Paste a policy document, get back a list of findings: privilege escalation paths, overly broad grants, missing c..."},{"s":"image-seo-and-alt-text-reference","t":"ref","d":"A plain-language reference on making images work for search and for people: descriptive filenames, alt text that serves both accessibility and SEO, useful ca..."},{"s":"incident-response-runbooks","t":"ref","d":"Ten runbooks for common security incidents. Each one follows the same skeleton so on-call responders aren't reading a different document structure for every ..."},{"s":"indie-newsletter-launch-checklist","t":"ref","d":"Pre-launch checklist for indie newsletter operators. ESP setup, deliverability, list hygiene, growth, compliance, monetization."},{"s":"indie-operator-bookkeeping-basics","t":"ref","d":"A plain-language reference for solo operators who need to keep their business money straight without becoming an accountant. It covers separating business fr..."},{"s":"indie-saas-financial-baseline","t":"ref","d":"Money discipline for solo SaaS operators. The boring infrastructure work that keeps an indie business out of trouble with the IRS, with banks, and with itself."},{"s":"indie-saas-pricing-calculator","t":"tool","d":"![Indie SaaS Pricing Calculator screenshot](screenshot.png)"},{"s":"inflation-and-real-returns-basics-reference","t":"ref","d":"A plain-language reference on inflation and real returns: the difference between the number on your statement and what that money can actually buy. It covers..."},{"s":"internal-linking-hub-spoke-reference","t":"ref","d":"A plain-language reference on the hub-and-spoke model of internal linking: organizing your site so a central hub page on a topic links to detailed spoke page..."},{"s":"invoice-late-fee-calculator","t":"tool","d":"This tool calculates how many days an invoice is overdue, the interest accrued at an annual rate, any flat late fee, and the total now owed as of a chosen da..."},{"s":"invoice-total-builder","t":"tool","d":"This tool builds an invoice from line items, applies a discount and a tax rate, and totals it. Discount applies to the subtotal first, then tax applies to th..."},{"s":"json-formatter-and-validator","t":"tool","d":"This tool formats, minifies, and validates JSON in the browser. It uses the browser's own JSON parser, so what it accepts matches what your code will accept,..."},{"s":"json-ld-schema-builder","t":"tool","d":"This tool builds valid JSON-LD structured data for a local business, organization, software application, or article. You pick a type, fill the fields, and it..."},{"s":"json-to-typescript","t":"tool","d":"Paste any JSON value, get TypeScript interface declarations. Single HTML file. Browser-only."},{"s":"jwt-decoder","t":"tool","d":"This tool decodes the header and payload of a JSON Web Token so you can read its claims. It decodes only and never verifies the signature, because a JWT's fi..."},{"s":"jwt-inspector","t":"tool","d":"Decode and verify JSON Web Tokens in your browser. No server, no tracking, no third-party scripts."},{"s":"keyboard-driven-todo","t":"tool","d":"A todo list with vim-style keyboard shortcuts. Single HTML file. No mouse required, no buttons, no dependencies."},{"s":"kubernetes-manifest-security-scanner","t":"tool","d":"Browser-based scanner for Kubernetes manifests. Paste a YAML file (Pod, Deployment, StatefulSet, DaemonSet, Job, CronJob), get findings against the Pod Secur..."},{"s":"landing-page-anti-patterns","t":"ref","d":"A catalog of 50 things that make landing pages worse, organized by category. Use this as a checklist when reviewing your own pages or when critiquing others."},{"s":"landing-page-conversion-reference","t":"ref","d":"A landing page exists to get one specific action from a visitor: sign up, buy, book, subscribe. It converts when the visitor quickly understands what is offe..."},{"s":"lead-magnet-playbook-reference","t":"ref","d":"A plain-language reference on lead magnets: the free thing you offer in exchange for an email address. It covers what makes a lead magnet convert, the format..."},{"s":"legal-pages-starter","t":"ref","d":"Terms of Service, Privacy Policy, and a list of common disclaimers as fill-in-the-blanks templates. For solo developers and small SaaS launches who need some..."},{"s":"llm-eval-datasets-starter","t":"ref","d":"Small, public-domain evaluation datasets for LLM applications. Plus the scoring scripts and format spec so you can actually use them."},{"s":"llm-pricing-data","t":"ref","d":"Machine-readable pricing for major LLM providers. JSON files, community-maintained, structured for programmatic use."},{"s":"llms-txt-generator","t":"tool","d":"Generate a spec-compliant `llms.txt` for your site. Browser-only, no signup, no API calls."},{"s":"loan-amortization-visualizer","t":"tool","d":"A single-file browser tool that takes a loan amount, an annual interest rate, a term in years, and an optional extra monthly payment, and shows the monthly p..."},{"s":"local-directory-seo-pack","t":"ref","d":"A complete kit for building a local business directory that search engines and AI answer engines can read and cite. It covers the structured data a directory..."},{"s":"local-llm-vs-api-reference","t":"ref","d":"A plain-language reference on running an AI model locally versus calling a provider API: what each means, the real tradeoffs in cost, privacy, capability, an..."},{"s":"logging-and-observability-basics-reference","t":"ref","d":"This reference is a plain-language guide to logging and observability for working developers. It covers the three pillars (logs, metrics, and traces), how to..."},{"s":"mcp-basics-reference","t":"ref","d":"A plain-language reference on the Model Context Protocol (MCP): what it is, why it exists, the primitives it defines (tools, resources, and prompts), how cli..."},{"s":"mcp-server-registry","t":"ref","d":"A community-maintained directory of public MCP (Model Context Protocol) servers. Find one to use, or list yours."},{"s":"meta-og-tag-generator","t":"tool","d":"A single-file browser tool that turns a page title, description, and image into ready-to-paste meta, Open Graph, and Twitter Card tags, with live previews of..."},{"s":"meta-robots-tag-helper","t":"tool","d":"This tool builds a meta robots tag and the matching X-Robots-Tag header by toggling crawl and index directives. The meta tag goes in the head of an HTML page..."},{"s":"mortgage-affordability-calculator","t":"tool","d":"How much home your income supports, before a lender ever runs the numbers."},{"s":"net-worth-snapshot","t":"tool","d":"Assets minus what you owe, on one clean sheet."},{"s":"oauth-and-sso-basics-reference","t":"ref","d":"A plain-language reference on OAuth 2.0 and single sign-on: the roles involved, the authorization code flow with PKCE, the three kinds of tokens, scopes, Ope..."},{"s":"oauth-flow-debugger","t":"tool","d":"Paste an OAuth URL, see what's in it, and get warnings about common mistakes. All decoding happens in your browser."},{"s":"og-image-generator","t":"tool","d":"Generate Open Graph social cards from text input. 1200x630, ready to download. Browser-only, no signup, no Canva."},{"s":"open-graph-image-dimension-checker","t":"tool","d":"Check a share image against Open Graph and Twitter card rules."},{"s":"open-graph-preview-tester","t":"tool","d":"A single-file browser tool that previews how a link's Open Graph card will look when shared, from an og:title, og:description, og:image URL, and canonical UR..."},{"s":"options-literacy-glossary","t":"ref","d":"A definitions-only reference for the vocabulary of options. It explains what the terms mean so you can read and understand options discussion. It does not co..."},{"s":"oss-license-picker","t":"tool","d":"Pick the right open source license for your project. Four questions, plain-English summaries, full license text ready to paste. Single HTML file, browser-only."},{"s":"oss-readme-template","t":"ref","d":"A battle-tested README structure for open source projects. Skip the AI cliches and the empty \"Features\" section. Use the structure that actually answers what..."},{"s":"password-strength-meter","t":"tool","d":"This tool estimates a password's entropy in bits and a rough offline crack time, scoring it from very weak to very strong. It runs only in your browser; the ..."},{"s":"percentage-calculator","t":"tool","d":"Four common percentage questions with clearly labeled inputs and live answers. No server, no tracking, no third-party scripts."},{"s":"permission-email-vs-spam","t":"ref","d":"A plain-language reference on the difference between permission-based email and spam, why permission is the whole game for email that works, what legally cou..."},{"s":"platform-deplatforming-runbook","t":"ref","d":"A practical runbook for creators and small operators who depend on platforms they do not control. It covers how to prepare before anything goes wrong, how to..."},{"s":"portfolio-rebalance-tool","t":"tool","d":"Set target allocations across buckets, enter what you currently hold in each, and get the exact dollar amount to buy or trim in every bucket to return to tar..."},{"s":"position-sizing-and-risk-reference","t":"ref","d":"A plain-language reference on position sizing: deciding how much to put into a single position based on how much you are willing to lose, not on how confiden..."},{"s":"position-sizing-calculator","t":"tool","d":"![Position Sizing Calculator screenshot](screenshot.png)"},{"s":"pricing-page-patterns","t":"tool","d":"Ten pricing page layouts with notes on when each one fits and what to watch out for. Browse rendered examples or copy the HTML."},{"s":"pricing-psychology-reference","t":"ref","d":"People do not judge a price against some absolute sense of value. They judge it against other prices, against what they expected, and against how the offer i..."},{"s":"pricing-tier-comparison-builder","t":"tool","d":"This tool builds two to four pricing tiers, previews them as cards, and copies a markdown comparison table. The table lists every feature across all tiers as..."},{"s":"privacy-policy-and-cookie-consent-basics-reference","t":"ref","d":"A plain-language overview of privacy policies and cookie consent: what a privacy policy should cover, the categories of cookies, how to build a consent banne..."},{"s":"product-review-honesty-guide","t":"ref","d":"A practical guide for honest product reviews: how to disclose how you got the product, when to say no to incentivized reviews, and what makes a review trustw..."},{"s":"profit-margin-and-markup-calculator","t":"tool","d":"Margin and markup describe the same profit against two different bases: margin divides profit by the selling price and can never reach 100 percent, while mar..."},{"s":"prompt-cost-calculator","t":"tool","d":"Estimate token count and API cost for a prompt across Anthropic, OpenAI, and Google models. Browser-only. No API calls. No tracking. Single HTML file."},{"s":"prompt-diff","t":"tool","d":"Compare two versions of a prompt and see exactly what changed. Word, character, and line-level diffs. Single HTML file. Browser-only."},{"s":"prompt-injection-defense-reference","t":"ref","d":"Prompt injection is when text that a language model reads as input contains instructions that hijack what the model does, overriding the developer's intent. ..."},{"s":"prompt-injection-test-suite","t":"ref","d":"A categorized corpus of prompt injection attempts. Use to test your LLM product's defenses before attackers do."},{"s":"prompt-templates","t":"ref","d":"Production prompts for working with LLMs. Each one is built around a specific failure mode of default model behavior: AI slop, sycophantic recommendations, s..."},{"s":"prompt-token-meter","t":"tool","d":"Visual context-window meter. Paste a prompt, see estimated token usage as gauges across major LLMs (Claude, GPT, Gemini, Llama, DeepSeek, Mistral). Browser o..."},{"s":"rag-basics-reference","t":"ref","d":"Retrieval-augmented generation, or RAG, is a pattern for giving a language model relevant information at the moment it answers, instead of relying only on wh..."},{"s":"rag-chunk-visualizer","t":"tool","d":"See how four different chunking strategies split your text. Side by side. With overlap highlighted."},{"s":"rag-evaluation-rubrics","t":"ref","d":"Practical evaluation rubrics for RAG (retrieval-augmented generation) systems. Concrete checks, not vague metrics."},{"s":"rate-limit-tester","t":"tool","d":"Probe a URL with N requests per second from your browser. See when it 429s, what `Retry-After` it returns, and how rate-limit headers behave."},{"s":"rate-limiting-and-abuse-reference","t":"ref","d":"Rate limiting caps how many requests a caller can make in a given time, so that no single user, script, or attacker can overwhelm your service, run up your c..."},{"s":"reading-an-earnings-report-reference","t":"ref","d":"A plain-language reference on how to read a company's earnings report: what the three financial statements show, the headline numbers that matter, how result..."},{"s":"readme-slop-checker","t":"tool","d":"Audit a GitHub README for AI-generated cliche patterns. Single HTML file. BYOK Claude API."},{"s":"real-return-calculator","t":"tool","d":"See how inflation erodes purchasing power over time and what nominal return you need just to break even. The tool runs entirely in your browser and reports t..."},{"s":"redirects-301-vs-302-reference","t":"ref","d":"A redirect sends a visitor or a crawler from one URL to another. The type tells engines whether the move is permanent or temporary, and that distinction matt..."},{"s":"refund-and-chargeback-policy-reference","t":"ref","d":"A plain-language reference on refund policies and chargebacks for small sellers: why a clear refund policy protects you, what it should say, the difference b..."},{"s":"regex-redos-checker","t":"tool","d":"Browser-based checker for catastrophic backtracking and ReDoS-prone regex patterns. Paste a pattern, get findings on the structures most likely to cause expo..."},{"s":"regex-tester","t":"tool","d":"A single-file browser tool that tests a JavaScript regular expression against sample text with live match highlighting, capture groups, match positions, and ..."},{"s":"regex-tester-with-explainer","t":"tool","d":"Test a regular expression against sample text AND get a plain-English breakdown of what each token does. Single HTML file. Browser-only."},{"s":"regular-expressions-basics-reference","t":"ref","d":"A plain-language reference on regular expressions: the building blocks (literals, character classes, quantifiers, anchors, groups, alternation), a brief look..."},{"s":"rest-api-design-basics-reference","t":"ref","d":"This reference is a plain-language walkthrough of how to design clean, predictable REST APIs over HTTP. It covers resource modeling and naming, the HTTP meth..."},{"s":"retail-vs-smart-money-field-guide","t":"ref","d":"A plain-language reference for what people mean by \"retail\" and \"smart money,\" what market data can and cannot tell you about each, and the common ways the d..."},{"s":"robots-llms-txt-generator","t":"tool","d":"A single-file browser tool that generates a robots.txt naming the major AI crawlers and an llms.txt skeleton that points AI answer engines at your key pages."},{"s":"robots-txt-ai-builder","t":"tool","d":"Build a `robots.txt` with named AI crawler allow/block rules for 17 cataloged bots. Browser-only, no signup."},{"s":"runway-and-burn-calculator","t":"tool","d":"Your runway is the cash on hand divided by your net monthly burn, where net burn is monthly expenses minus monthly revenue. This tool computes the number of ..."},{"s":"sales-tax-nexus-awareness-reference","t":"ref","d":"A plain-language reference for solo operators and small sellers on sales tax nexus: what it is, how economic nexus changed the rules, why selling into a stat..."},{"s":"savings-goal-planner","t":"tool","d":"Solve for the monthly amount, or for how long the goal takes."},{"s":"schema-markup-generator","t":"tool","d":"Generate JSON-LD schema markup for 12 schema types. Browser-only, no signup, no API calls."},{"s":"schema-types-overview-reference","t":"ref","d":"Structured data is machine-readable markup you add to a page that tells search engines and AI systems exactly what the page is about: a product, an article, ..."},{"s":"secrets-leak-response-runbook","t":"ref","d":"Eight runbooks for responding to specific secret leaks. Generic guidance (\"rotate the secret\") is the easy part; the hard parts are the rotation order, the d..."},{"s":"secrets-management-reference","t":"ref","d":"A secret is any credential that grants access or proves identity: an API key, a password, a token, a private key, a database connection string. Managing secr..."},{"s":"secrets-scanner-bookmarklet","t":"tool","d":"A bookmarklet that scans the current web page for exposed API keys, tokens, and credentials. Drag to your bookmarks bar, click on any page, see findings."},{"s":"security-headers-reference","t":"ref","d":"A plain-language reference on HTTP security headers: the response headers that tell browsers to behave more safely, what each common one does, why they matte..."},{"s":"serp-snippet-preview","t":"tool","d":"See how your page looks in search before it ships, with truncation estimates."},{"s":"session-cookie-auditor","t":"tool","d":"Browser-based auditor for `Set-Cookie` headers. Paste one or more headers, get a hardening grade and a list of missing or weak attributes per cookie."},{"s":"short-form-video-hooks-reference","t":"ref","d":"A plain-language reference on hooks for short-form video on Shorts, Reels, and TikTok: the first one to three seconds that decide whether a viewer stays or s..."},{"s":"single-file-saas-template","t":"tool","d":"A complete BYOK SaaS scaffolded into one HTML file. Free tier with daily limit, Pro tier unlocked by a license code, key never leaves the user's browser. Ada..."},{"s":"sitemap-xml-generator","t":"tool","d":"This tool turns a list of page URLs into a valid sitemap.xml, with lastmod, changefreq, and priority on every entry. Paste one URL per line, set the defaults..."},{"s":"slug-generator","t":"tool","d":"A single-file browser tool that turns a title or phrase into a clean URL slug: lowercase, hyphen-separated, punctuation removed, accents optionally stripped,..."},{"s":"solo-operator-launch-checklist","t":"ref","d":"A practical pre-launch checklist for a solo operator shipping a product or site: the legal, security, technical, content, and distribution items to confirm b..."},{"s":"solo-saas-launch-checklist","t":"ref","d":"A pre-launch checklist for solo developers shipping a SaaS. About 100 items organized by category, with notes on which items are critical, which are nice-to-..."},{"s":"stack-trace-cleaner","t":"tool","d":"Strip framework noise from stack traces. Paste a trace from Node, Python, Rust, Java, Ruby, or Go, get only the frames in your code, with the option to expan..."},{"s":"structured-data-examples","t":"ref","d":"Real-world JSON-LD schema examples for every business type. Production-grade, ready to study and adapt."},{"s":"structured-output-and-json-mode-reference","t":"ref","d":"A plain-language reference on getting reliable structured output from language models: JSON mode, tool and function calling, schema enforcement, validation a..."},{"s":"subscription-cost-auditor","t":"tool","d":"This tool totals your recurring subscriptions into a yearly figure, a monthly figure, and the annual cost of the ones you marked idle. It normalizes monthly ..."},{"s":"system-prompt-leak-tester","t":"tool","d":"A BYOK browser tool that runs 24 extraction attacks against your system prompt and reports what leaked."},{"s":"terminal-portfolio","t":"tool","d":"A single-file personal portfolio styled as an interactive terminal. Visitors type commands (`help`, `about`, `projects`, `contact`) and get formatted output...."},{"s":"terraform-security-linter","t":"tool","d":"Browser-based linter for Terraform/HCL. Paste a `.tf` file, get findings on common AWS misconfigurations and embedded secrets."},{"s":"threat-modeling-worksheets","t":"ref","d":"Seven worksheets covering the methodologies people actually use for threat modeling, plus five worked examples that show what the output looks like for real ..."},{"s":"tip-and-split-calculator","t":"tool","d":"Set a tip, split the check, or round each share up to a clean total."},{"s":"titles-and-meta-descriptions-reference","t":"ref","d":"The title tag and meta description are the snippet a page presents in search results: the title is the clickable headline, and the description is the short s..."},{"s":"token-cost-estimator","t":"tool","d":"This tool estimates the token count of a prompt and the API cost of running it at any provider's rates, with no API key and no calls. It counts input tokens ..."},{"s":"unit-economics-basics-reference","t":"ref","d":"A plain-language reference on unit economics: the profit and cost of a single unit of a business, whether that unit is one customer, one order, or one subscr..."},{"s":"unix-timestamp-converter","t":"tool","d":"A single-file browser tool that converts a unix timestamp to UTC, local, and ISO 8601 time and back, detecting seconds versus milliseconds automatically and ..."},{"s":"url-parser-and-query-editor","t":"tool","d":"Break a URL into its parts, edit the query parameters in a table, and rebuild it live. No server, no tracking, no third-party scripts."},{"s":"utm-campaign-builder","t":"tool","d":"A single-file browser tool that builds clean, consistent UTM-tagged campaign URLs for email, social, and ads, so your analytics stay readable."},{"s":"uuid-and-ulid-generator","t":"tool","d":"Random v4 UUIDs and lexicographically sortable ULIDs, generated in your browser."},{"s":"valuation-multiples-basics-reference","t":"ref","d":"A plain-language reference on valuation multiples: shorthand ratios that compare a company's price to a measure of its business, used to gauge whether a stoc..."},{"s":"vibe-coding-anti-patterns","t":"ref","d":"Things AI coding agents do badly, with detection strategies and fixes. Field-observed, not speculative."},{"s":"vibe-coding-test-strategies","t":"ref","d":"How to test code an AI wrote. Different from testing human-written code because AI fails differently."},{"s":"video-description-templates","t":"ref","d":"Structured description box templates for different video types. Optimized for clarity, discoverability, and getting required disclosures above the fold."},{"s":"video-script-outline-templates","t":"ref","d":"Structural skeletons for common video formats. Outline-level only, the bones, not the script."},{"s":"video-srt-cleaner","t":"tool","d":"Clean auto-generated SRT subtitle files: fix capitalization, remove filler words, merge short segments, renumber. Browser only."},{"s":"video-to-blog-companion-seo-reference","t":"ref","d":"A plain-language reference on turning a video into an SEO companion blog post: the transcript, the summary, chapters and timestamps, VideoObject structured d..."},{"s":"warm-outreach-vs-cold-reference","t":"ref","d":"A plain-language reference on warm outreach versus cold outreach: why reaching people who already know you outperforms messaging strangers, what counts as wa..."},{"s":"wcag-audit-snippet","t":"tool","d":"Quick heuristic WCAG checks for any web page. Single HTML file plus a bookmarklet you can drag to your bookmarks bar to audit any site you visit."},{"s":"webhook-basics-reference","t":"ref","d":"A webhook is a way for one service to notify another the moment something happens, by sending an HTTP request to a URL you provide, instead of you repeatedly..."},{"s":"webhook-inspector","t":"tool","d":"Local webhook inspector. Registers a Service Worker that intercepts requests to a configured path on the same origin and displays them in real time. Single H..."},{"s":"webhook-signature-verifier","t":"tool","d":"Verify webhook signatures from Stripe, GitHub, Slack, Twilio, and any HMAC-based service. Runs entirely in your browser."},{"s":"word-and-character-counter","t":"tool","d":"Paste text and get a live count of words, characters, sentences, paragraphs, and reading time. No server, no tracking, no third-party scripts."},{"s":"wordpress-hardening-checklist","t":"ref","d":"A practical reference for making a WordPress site harder to break into and easier to recover. It covers accounts and logins, updates and plugins, file and se..."},{"s":"youtube-chapter-marker-builder","t":"tool","d":"Validate and format YouTube chapter timestamps. Two input modes (row-by-row or paste-block). Browser only."},{"s":"youtube-creator-checklist","t":"ref","d":"Pre-publish, post-publish, and monthly review checklists for YouTube creators. Useful as a final pass before hitting publish, and as a recurring quality disc..."},{"s":"youtube-description-seo-reference","t":"ref","d":"A plain-language reference on writing YouTube video descriptions and companion content that get found, by YouTube search, by Google, and by AI answer engines..."},{"s":"youtube-thumbnail-tester","t":"tool","d":"Preview a thumbnail and title across the YouTube placements that actually matter: search results, home feed, mobile feed, sidebar, notifications, channel pag..."},{"s":"youtube-title-ab-tester","t":"tool","d":"Compare 2 to 5 candidate video titles side by side. Length, word overlap, signal patterns, search-result preview. Browser only."}]
+[
+  {
+    "s": "accessibility-basics-reference",
+    "t": "ref",
+    "d": "Accessibility Basics Reference"
+  },
+  {
+    "s": "affiliate-disclosure-reference",
+    "t": "ref",
+    "d": "Affiliate Disclosure"
+  },
+  {
+    "s": "affiliate-disclosure-templates",
+    "t": "ref",
+    "d": "affiliate-disclosure-templates"
+  },
+  {
+    "s": "agent-blast-radius",
+    "t": "ref",
+    "d": "Reconstruct every irreversible action an AI agent took in a session — from the transcript you already have. Forensics for unattended agents."
+  },
+  {
+    "s": "agent-cost",
+    "t": "ref",
+    "d": "Retrospective token and cost forensics for AI agent sessions, with runaway-loop detection. No proxy, no setup — reads the transcript you already have."
+  },
+  {
+    "s": "agent-diff-reviewer",
+    "t": "tool",
+    "d": "agent-diff-reviewer"
+  },
+  {
+    "s": "agent-failure-modes",
+    "t": "ref",
+    "d": "agent-failure-modes"
+  },
+  {
+    "s": "agent-leaks",
+    "t": "ref",
+    "d": "Scan and redact leaked secrets sitting in your AI agent session transcripts. Your agent ran `cat .env` once — that key is in ~/.claude/projects forever."
+  },
+  {
+    "s": "agent-receipts",
+    "t": "ref",
+    "d": "Audit what your coding agent claimed against what it actually did. Your agent says 'all tests pass' — prove it."
+  },
+  {
+    "s": "agent-rules",
+    "t": "ref",
+    "d": "Check whether your coding agent actually followed its CLAUDE.md / AGENTS.md / .cursorrules. Linters check the file; this checks the behavior."
+  },
+  {
+    "s": "agent-trace-viewer",
+    "t": "tool",
+    "d": "agent-trace-viewer"
+  },
+  {
+    "s": "agentic-workflow-patterns",
+    "t": "ref",
+    "d": "agentic-workflow-patterns"
+  },
+  {
+    "s": "ai-agent-guardrails-reference",
+    "t": "ref",
+    "d": "AI Agent Guardrails"
+  },
+  {
+    "s": "ai-citability-scorer",
+    "t": "tool",
+    "d": "ai-citability-scorer"
+  },
+  {
+    "s": "ai-coding-prompt-discipline",
+    "t": "ref",
+    "d": "ai-coding-prompt-discipline"
+  },
+  {
+    "s": "ai-coding-prompt-recipes",
+    "t": "ref",
+    "d": "ai-coding-prompt-recipes"
+  },
+  {
+    "s": "ai-content-disclosure-reference",
+    "t": "ref",
+    "d": "AI Content Disclosure"
+  },
+  {
+    "s": "ai-crawler-access-and-llms-txt-reference",
+    "t": "ref",
+    "d": "AI Crawler Access and llms.txt"
+  },
+  {
+    "s": "ai-generated-code-review-rubrics",
+    "t": "ref",
+    "d": "ai-generated-code-review-rubrics"
+  },
+  {
+    "s": "ai-llm-security-audit",
+    "t": "ref",
+    "d": "Ten audit sections covering practical LLM security: prompt injection (direct + indirect), jailbreaks, RAG, output handling, model supply chain, training data, agent tools, multimodal, eval."
+  },
+  {
+    "s": "ai-product-disclaimers",
+    "t": "ref",
+    "d": "ai-product-disclaimers"
+  },
+  {
+    "s": "amazon-product-url-cleaner",
+    "t": "tool",
+    "d": "amazon-product-url-cleaner"
+  },
+  {
+    "s": "analytics-without-creepiness-reference",
+    "t": "ref",
+    "d": "Analytics Without Creepiness Reference"
+  },
+  {
+    "s": "answer-engine-citability-guide",
+    "t": "ref",
+    "d": "Answer Engine Citability Guide"
+  },
+  {
+    "s": "api-changelog-rss",
+    "t": "tool",
+    "d": "api-changelog-rss"
+  },
+  {
+    "s": "api-mock-recipes",
+    "t": "ref",
+    "d": "api-mock-recipes"
+  },
+  {
+    "s": "api-provider-cost-control-reference",
+    "t": "ref",
+    "d": "API Provider Cost Control Reference"
+  },
+  {
+    "s": "api-security-audit-checklist",
+    "t": "ref",
+    "d": "Seven API security audit checklists: REST OWASP API Top 10, GraphQL, gRPC, BOLA/IDOR, mass assignment, broken auth, rate limiting and introspection."
+  },
+  {
+    "s": "api-versioning-basics-reference",
+    "t": "ref",
+    "d": "API Versioning Basics"
+  },
+  {
+    "s": "aspect-ratio-calculator",
+    "t": "tool",
+    "d": "Aspect Ratio Calculator"
+  },
+  {
+    "s": "audience-before-monetization-reference",
+    "t": "ref",
+    "d": "Audience Before Monetization Reference"
+  },
+  {
+    "s": "background-jobs-and-queues-basics-reference",
+    "t": "ref",
+    "d": "Background Jobs and Queues Basics"
+  },
+  {
+    "s": "backup-and-recovery-reference",
+    "t": "ref",
+    "d": "Backup and Recovery Reference"
+  },
+  {
+    "s": "base64-url-encoder-decoder",
+    "t": "tool",
+    "d": "Base64 and URL Encoder Decoder"
+  },
+  {
+    "s": "brand-mention-tracker",
+    "t": "ref",
+    "d": "brand-mention-tracker"
+  },
+  {
+    "s": "break-even-units-calculator",
+    "t": "tool",
+    "d": "Break-Even Units Calculator"
+  },
+  {
+    "s": "breakeven-runway-calculator",
+    "t": "tool",
+    "d": "breakeven-runway-calculator"
+  },
+  {
+    "s": "byok-api-key-setup-reference",
+    "t": "ref",
+    "d": "BYOK API Key Setup"
+  },
+  {
+    "s": "byok-patterns",
+    "t": "ref",
+    "d": "Production reference implementations for \"Bring Your Own Key\" patterns. Three deeply-built examples: browser-only (single HTML), WordPress plugin (encrypted storage), Node proxy server (zero deps). Each includes security model, audit, and customization guide. MIT licensed."
+  },
+  {
+    "s": "byok-research-grid-patterns",
+    "t": "ref",
+    "d": "BYOK Research Grid Patterns"
+  },
+  {
+    "s": "byok-security-checklist",
+    "t": "ref",
+    "d": "byok-security-checklist"
+  },
+  {
+    "s": "byok-setup-guide",
+    "t": "ref",
+    "d": "BYOK Setup Guide"
+  },
+  {
+    "s": "caching-basics-reference",
+    "t": "ref",
+    "d": "Caching Basics"
+  },
+  {
+    "s": "cagr-and-rule-of-72-calculator",
+    "t": "tool",
+    "d": "Compound annual growth rate between two values, and how long money takes to double."
+  },
+  {
+    "s": "canonical-and-hreflang-reference",
+    "t": "ref",
+    "d": "Canonical and Hreflang"
+  },
+  {
+    "s": "canonical-hreflang-tag-helper",
+    "t": "tool",
+    "d": "Canonical and Hreflang Tag Helper"
+  },
+  {
+    "s": "case-converter",
+    "t": "tool",
+    "d": "Convert text between camelCase, snake_case, kebab-case, CONSTANT_CASE, and more."
+  },
+  {
+    "s": "cash-flow-vs-profit-reference",
+    "t": "ref",
+    "d": "Cash Flow vs Profit Reference"
+  },
+  {
+    "s": "claude-eval-harness",
+    "t": "tool",
+    "d": "Run the same prompt against multiple Claude models side-by-side. Compare outputs, latency, and cost in one click. BYOK, single HTML file, deploy free via GitHub Pages. MIT licensed."
+  },
+  {
+    "s": "claude-mcp-starter",
+    "t": "ref",
+    "d": "Bare-minimum Model Context Protocol server templates. Two equivalent implementations: Node/TypeScript and Python. Pick one, copy the folder, edit the tools, ship."
+  },
+  {
+    "s": "claude-md-generator",
+    "t": "tool",
+    "d": "claude-md-generator"
+  },
+  {
+    "s": "claude-skills-collection",
+    "t": "ref",
+    "d": "claude-skills-collection"
+  },
+  {
+    "s": "claude-skills-templates",
+    "t": "ref",
+    "d": "Five production-ready Claude Skill templates: one-pager writer, code reviewer, brand voice keeper, CSV cleaner, decision-doc generator. Each demonstrates a different SKILL.md pattern. Drop into Claude Code or Claude.ai. MIT licensed."
+  },
+  {
+    "s": "claude-skills-validator",
+    "t": "tool",
+    "d": "Lint a Claude Skill SKILL.md file for spec compliance and triggering quality. Browser-only, single HTML file."
+  },
+  {
+    "s": "color-contrast-checker",
+    "t": "tool",
+    "d": "Color Contrast Checker"
+  },
+  {
+    "s": "color-format-converter",
+    "t": "tool",
+    "d": "Color Format Converter"
+  },
+  {
+    "s": "compound-interest-visualizer",
+    "t": "tool",
+    "d": "Compound Interest Visualizer"
+  },
+  {
+    "s": "content-repurposing-reference",
+    "t": "ref",
+    "d": "Content Repurposing Reference"
+  },
+  {
+    "s": "content-security-policy-builder",
+    "t": "tool",
+    "d": "Content Security Policy Builder"
+  },
+  {
+    "s": "content-voice-templates",
+    "t": "ref",
+    "d": "content-voice-templates"
+  },
+  {
+    "s": "context-windows-and-tokens-reference",
+    "t": "ref",
+    "d": "Context Windows and Tokens Reference"
+  },
+  {
+    "s": "contractor-and-1099-tax-basics-reference",
+    "t": "ref",
+    "d": "Contractor and 1099 Tax Basics Reference"
+  },
+  {
+    "s": "core-web-vitals-reference",
+    "t": "ref",
+    "d": "Core Web Vitals Reference"
+  },
+  {
+    "s": "cron-builder",
+    "t": "tool",
+    "d": "cron-builder"
+  },
+  {
+    "s": "cron-expression-explainer",
+    "t": "tool",
+    "d": "Cron Expression Explainer"
+  },
+  {
+    "s": "csp-builder",
+    "t": "tool",
+    "d": "csp-builder"
+  },
+  {
+    "s": "csv-to-anything",
+    "t": "tool",
+    "d": "csv-to-anything"
+  },
+  {
+    "s": "cursor-rules-collection",
+    "t": "ref",
+    "d": "cursor-rules-collection"
+  },
+  {
+    "s": "dark-mode-tester",
+    "t": "tool",
+    "d": "dark-mode-tester"
+  },
+  {
+    "s": "data-privacy-laws-basics-reference",
+    "t": "ref",
+    "d": "Data Privacy Laws Basics"
+  },
+  {
+    "s": "dca-visualizer",
+    "t": "tool",
+    "d": "DCA Visualizer"
+  },
+  {
+    "s": "dca-vs-lump-sum-reference",
+    "t": "ref",
+    "d": "DCA vs Lump Sum"
+  },
+  {
+    "s": "debt-payoff-planner",
+    "t": "tool",
+    "d": "Debt Payoff Planner"
+  },
+  {
+    "s": "dependency-supply-chain-reference",
+    "t": "ref",
+    "d": "Dependency Supply Chain"
+  },
+  {
+    "s": "diversification-basics-reference",
+    "t": "ref",
+    "d": "Diversification Basics"
+  },
+  {
+    "s": "dividend-compounding-calculator",
+    "t": "tool",
+    "d": "Dividend Compounding Calculator"
+  },
+  {
+    "s": "dns-email-authentication-reference",
+    "t": "ref",
+    "d": "DNS Email Authentication"
+  },
+  {
+    "s": "domain-and-dns-basics-reference",
+    "t": "ref",
+    "d": "Domain and DNS Basics Reference"
+  },
+  {
+    "s": "dredge",
+    "t": "ref",
+    "d": "Surface what search engines bury. OSINT toolkit for suppressed records, deleted content, and adversarially-buried search results."
+  },
+  {
+    "s": "e-e-a-t-auditor",
+    "t": "tool",
+    "d": "e-e-a-t-auditor"
+  },
+  {
+    "s": "eeat-signals-reference",
+    "t": "ref",
+    "d": "E-E-A-T Signals"
+  },
+  {
+    "s": "effective-hourly-rate-calculator",
+    "t": "tool",
+    "d": "Effective Hourly Rate Calculator"
+  },
+  {
+    "s": "email-deliverability-reference",
+    "t": "ref",
+    "d": "Email Deliverability Reference"
+  },
+  {
+    "s": "email-spam-score-checker",
+    "t": "tool",
+    "d": "email-spam-score-checker"
+  },
+  {
+    "s": "embedding-cost-estimator",
+    "t": "tool",
+    "d": "embedding-cost-estimator"
+  },
+  {
+    "s": "embeddings-and-vector-search-basics-reference",
+    "t": "ref",
+    "d": "Embeddings and Vector Search Basics"
+  },
+  {
+    "s": "emergency-fund-and-runway-reference",
+    "t": "ref",
+    "d": "Emergency Fund and Runway Reference"
+  },
+  {
+    "s": "env-var-checker",
+    "t": "tool",
+    "d": "env-var-checker"
+  },
+  {
+    "s": "etf-vs-index-fund-basics-reference",
+    "t": "ref",
+    "d": "ETF vs Index Fund Basics"
+  },
+  {
+    "s": "evaluating-llm-output-reference",
+    "t": "ref",
+    "d": "Evaluating LLM Output Reference"
+  },
+  {
+    "s": "faq-schema-reference",
+    "t": "ref",
+    "d": "FAQ Schema"
+  },
+  {
+    "s": "feature-flags-basics-reference",
+    "t": "ref",
+    "d": "Feature Flags Basics"
+  },
+  {
+    "s": "fine-tuning-vs-rag-vs-prompting-reference",
+    "t": "ref",
+    "d": "Fine-Tuning vs RAG vs Prompting Reference"
+  },
+  {
+    "s": "founder-customer-research-templates",
+    "t": "ref",
+    "d": "founder-customer-research-templates"
+  },
+  {
+    "s": "geo-audit-checklist",
+    "t": "ref",
+    "d": "geo-audit-checklist"
+  },
+  {
+    "s": "git-basics-reference",
+    "t": "ref",
+    "d": "Git Basics"
+  },
+  {
+    "s": "heading-outline-checker",
+    "t": "tool",
+    "d": "A clean heading tree, and the structure problems search engines and screen readers trip on."
+  },
+  {
+    "s": "http-status-codes-reference",
+    "t": "ref",
+    "d": "HTTP Status Codes"
+  },
+  {
+    "s": "https-and-tls-basics-reference",
+    "t": "ref",
+    "d": "HTTPS and TLS Basics Reference"
+  },
+  {
+    "s": "iam-policy-analyzer",
+    "t": "tool",
+    "d": "Browser-based AWS IAM policy analyzer. Flags privilege-escalation paths, wildcards, missing conditions, and trust-policy issues."
+  },
+  {
+    "s": "image-seo-and-alt-text-reference",
+    "t": "ref",
+    "d": "Image SEO and Alt Text"
+  },
+  {
+    "s": "incident-response-runbooks",
+    "t": "ref",
+    "d": "Ten incident response runbooks following a common skeleton: trigger, immediate, investigation, containment, eradication, recovery, post-incident."
+  },
+  {
+    "s": "indie-newsletter-launch-checklist",
+    "t": "ref",
+    "d": "indie-newsletter-launch-checklist"
+  },
+  {
+    "s": "indie-operator-bookkeeping-basics",
+    "t": "ref",
+    "d": "Indie Operator Bookkeeping Basics"
+  },
+  {
+    "s": "indie-saas-financial-baseline",
+    "t": "ref",
+    "d": "indie-saas-financial-baseline"
+  },
+  {
+    "s": "indie-saas-pricing-calculator",
+    "t": "tool",
+    "d": "indie-saas-pricing-calculator"
+  },
+  {
+    "s": "inflation-and-real-returns-basics-reference",
+    "t": "ref",
+    "d": "Inflation and Real Returns Basics"
+  },
+  {
+    "s": "internal-linking-hub-spoke-reference",
+    "t": "ref",
+    "d": "Internal Linking: Hub and Spoke"
+  },
+  {
+    "s": "invoice-late-fee-calculator",
+    "t": "tool",
+    "d": "Invoice Late Fee Calculator"
+  },
+  {
+    "s": "invoice-total-builder",
+    "t": "tool",
+    "d": "Invoice Total Builder"
+  },
+  {
+    "s": "json-formatter-and-validator",
+    "t": "tool",
+    "d": "JSON Formatter and Validator"
+  },
+  {
+    "s": "json-ld-schema-builder",
+    "t": "tool",
+    "d": "JSON-LD Schema Builder"
+  },
+  {
+    "s": "json-to-typescript",
+    "t": "tool",
+    "d": "json-to-typescript"
+  },
+  {
+    "s": "jwt-decoder",
+    "t": "tool",
+    "d": "JWT Decoder"
+  },
+  {
+    "s": "jwt-inspector",
+    "t": "tool",
+    "d": "JWT Inspector"
+  },
+  {
+    "s": "keyboard-driven-todo",
+    "t": "tool",
+    "d": "keyboard-driven-todo"
+  },
+  {
+    "s": "kubernetes-manifest-security-scanner",
+    "t": "tool",
+    "d": "Browser-based Kubernetes manifest scanner. Checks Pod Security Standards, capabilities, image hygiene, probes, and service-account hardening."
+  },
+  {
+    "s": "landing-page-anti-patterns",
+    "t": "ref",
+    "d": "landing-page-anti-patterns"
+  },
+  {
+    "s": "landing-page-conversion-reference",
+    "t": "ref",
+    "d": "Landing Page Conversion Reference"
+  },
+  {
+    "s": "lead-magnet-playbook-reference",
+    "t": "ref",
+    "d": "Lead Magnet Playbook"
+  },
+  {
+    "s": "legal-pages-starter",
+    "t": "ref",
+    "d": "legal-pages-starter"
+  },
+  {
+    "s": "llm-eval-datasets-starter",
+    "t": "ref",
+    "d": "llm-eval-datasets-starter"
+  },
+  {
+    "s": "llm-pricing-data",
+    "t": "ref",
+    "d": "llm-pricing-data"
+  },
+  {
+    "s": "llms-txt-generator",
+    "t": "tool",
+    "d": "llms-txt-generator"
+  },
+  {
+    "s": "loan-amortization-visualizer",
+    "t": "tool",
+    "d": "Loan Amortization Visualizer"
+  },
+  {
+    "s": "local-directory-seo-pack",
+    "t": "ref",
+    "d": "Local Directory SEO Pack"
+  },
+  {
+    "s": "local-llm-vs-api-reference",
+    "t": "ref",
+    "d": "Local LLM vs API"
+  },
+  {
+    "s": "logging-and-observability-basics-reference",
+    "t": "ref",
+    "d": "Logging and Observability Basics"
+  },
+  {
+    "s": "mcp-basics-reference",
+    "t": "ref",
+    "d": "MCP Basics"
+  },
+  {
+    "s": "mcp-server-registry",
+    "t": "ref",
+    "d": "mcp-server-registry"
+  },
+  {
+    "s": "meta-og-tag-generator",
+    "t": "tool",
+    "d": "Meta and OG Tag Generator"
+  },
+  {
+    "s": "meta-robots-tag-helper",
+    "t": "tool",
+    "d": "Meta Robots Tag Helper"
+  },
+  {
+    "s": "mortgage-affordability-calculator",
+    "t": "tool",
+    "d": "How much home your income supports, before a lender ever runs the numbers."
+  },
+  {
+    "s": "net-worth-snapshot",
+    "t": "tool",
+    "d": "Assets minus what you owe, on one clean sheet."
+  },
+  {
+    "s": "oauth-and-sso-basics-reference",
+    "t": "ref",
+    "d": "OAuth and SSO Basics"
+  },
+  {
+    "s": "oauth-flow-debugger",
+    "t": "tool",
+    "d": "OAuth Flow Debugger"
+  },
+  {
+    "s": "og-image-generator",
+    "t": "tool",
+    "d": "og-image-generator"
+  },
+  {
+    "s": "open-graph-image-dimension-checker",
+    "t": "tool",
+    "d": "Check a share image against Open Graph and Twitter card rules."
+  },
+  {
+    "s": "open-graph-preview-tester",
+    "t": "tool",
+    "d": "Open Graph Preview Tester"
+  },
+  {
+    "s": "options-literacy-glossary",
+    "t": "ref",
+    "d": "Options Literacy Glossary"
+  },
+  {
+    "s": "oss-license-picker",
+    "t": "tool",
+    "d": "oss-license-picker"
+  },
+  {
+    "s": "oss-readme-template",
+    "t": "ref",
+    "d": "A battle-tested README structure for open source projects. Skip the AI cliches. Use the structure that actually answers what visitors want to know."
+  },
+  {
+    "s": "password-strength-meter",
+    "t": "tool",
+    "d": "Password Strength Meter"
+  },
+  {
+    "s": "percentage-calculator",
+    "t": "tool",
+    "d": "Percentage Calculator"
+  },
+  {
+    "s": "permission-email-vs-spam",
+    "t": "ref",
+    "d": "Permission Email vs Spam"
+  },
+  {
+    "s": "platform-deplatforming-runbook",
+    "t": "ref",
+    "d": "Platform Deplatforming Runbook"
+  },
+  {
+    "s": "portfolio-rebalance-tool",
+    "t": "tool",
+    "d": "Portfolio Rebalance Tool"
+  },
+  {
+    "s": "position-sizing-and-risk-reference",
+    "t": "ref",
+    "d": "Position Sizing and Risk"
+  },
+  {
+    "s": "position-sizing-calculator",
+    "t": "tool",
+    "d": "**Not financial advice.** This is a math calculator. It does no recommendations, no live data, no advice tailored to your situation. Position sizing without a tested edge is just slower losing. Pair this with your own backtested rules and a licens..."
+  },
+  {
+    "s": "pricing-page-patterns",
+    "t": "tool",
+    "d": "pricing-page-patterns"
+  },
+  {
+    "s": "pricing-psychology-reference",
+    "t": "ref",
+    "d": "Pricing Psychology Reference"
+  },
+  {
+    "s": "pricing-tier-comparison-builder",
+    "t": "tool",
+    "d": "Pricing Tier Comparison Builder"
+  },
+  {
+    "s": "privacy-policy-and-cookie-consent-basics-reference",
+    "t": "ref",
+    "d": "Privacy Policy and Cookie Consent Basics"
+  },
+  {
+    "s": "product-review-honesty-guide",
+    "t": "ref",
+    "d": "product-review-honesty-guide"
+  },
+  {
+    "s": "profit-margin-and-markup-calculator",
+    "t": "tool",
+    "d": "Profit Margin and Markup Calculator"
+  },
+  {
+    "s": "prompt-cost-calculator",
+    "t": "tool",
+    "d": "Estimate token count and API cost for a prompt across Anthropic, OpenAI, and Google models. Browser-only, no API calls, no tracking. Single HTML file, MIT licensed."
+  },
+  {
+    "s": "prompt-diff",
+    "t": "tool",
+    "d": "Compare two versions of a prompt and see exactly what changed. Word, character, and line-level diffs. Single HTML file, browser-only."
+  },
+  {
+    "s": "prompt-injection-defense-reference",
+    "t": "ref",
+    "d": "Prompt Injection Defense Reference"
+  },
+  {
+    "s": "prompt-injection-test-suite",
+    "t": "ref",
+    "d": "prompt-injection-test-suite"
+  },
+  {
+    "s": "prompt-templates",
+    "t": "ref",
+    "d": "Production prompts that target specific failure modes of LLM behavior: AI slop, sycophantic recommendations, shallow code review, unstructured output. MIT licensed. Tested with Claude and GPT-4o."
+  },
+  {
+    "s": "prompt-token-meter",
+    "t": "tool",
+    "d": "prompt-token-meter"
+  },
+  {
+    "s": "prosegrain",
+    "t": "ref",
+    "d": "A linter for AI-generated prose patterns. Catches structural cadence and false agency, not just word lists."
+  },
+  {
+    "s": "rag-basics-reference",
+    "t": "ref",
+    "d": "RAG Basics Reference"
+  },
+  {
+    "s": "rag-chunk-visualizer",
+    "t": "tool",
+    "d": "rag-chunk-visualizer"
+  },
+  {
+    "s": "rag-evaluation-rubrics",
+    "t": "ref",
+    "d": "rag-evaluation-rubrics"
+  },
+  {
+    "s": "rate-limit-tester",
+    "t": "tool",
+    "d": "Rate Limit Tester"
+  },
+  {
+    "s": "rate-limiting-and-abuse-reference",
+    "t": "ref",
+    "d": "Rate Limiting and Abuse Reference"
+  },
+  {
+    "s": "reading-an-earnings-report-reference",
+    "t": "ref",
+    "d": "Reading an Earnings Report"
+  },
+  {
+    "s": "readme-slop-checker",
+    "t": "tool",
+    "d": "Audit a GitHub README for AI-generated cliche patterns. Single HTML file, BYOK Claude API, MIT licensed. No build step, no backend. Deploy free via GitHub Pages."
+  },
+  {
+    "s": "real-return-calculator",
+    "t": "tool",
+    "d": "Real Return Calculator"
+  },
+  {
+    "s": "redirects-301-vs-302-reference",
+    "t": "ref",
+    "d": "Redirects: 301 vs 302 Reference"
+  },
+  {
+    "s": "refund-and-chargeback-policy-reference",
+    "t": "ref",
+    "d": "Refund and Chargeback Policy"
+  },
+  {
+    "s": "regex-redos-checker",
+    "t": "tool",
+    "d": "Browser-based ReDoS checker. Detects catastrophic-backtracking patterns and synthesizes evil inputs to demonstrate the worst case."
+  },
+  {
+    "s": "regex-tester",
+    "t": "tool",
+    "d": "Regex Tester"
+  },
+  {
+    "s": "regex-tester-with-explainer",
+    "t": "tool",
+    "d": "regex-tester-with-explainer"
+  },
+  {
+    "s": "regular-expressions-basics-reference",
+    "t": "ref",
+    "d": "Regular Expressions Basics"
+  },
+  {
+    "s": "rest-api-design-basics-reference",
+    "t": "ref",
+    "d": "REST API Design Basics"
+  },
+  {
+    "s": "retail-vs-smart-money-field-guide",
+    "t": "ref",
+    "d": "Retail vs Smart Money Field Guide"
+  },
+  {
+    "s": "robots-llms-txt-generator",
+    "t": "tool",
+    "d": "robots.txt and llms.txt Generator"
+  },
+  {
+    "s": "robots-txt-ai-builder",
+    "t": "tool",
+    "d": "robots-txt-ai-builder"
+  },
+  {
+    "s": "runway-and-burn-calculator",
+    "t": "tool",
+    "d": "Runway and Burn Calculator"
+  },
+  {
+    "s": "sales-tax-nexus-awareness-reference",
+    "t": "ref",
+    "d": "Sales Tax Nexus Awareness"
+  },
+  {
+    "s": "savings-goal-planner",
+    "t": "tool",
+    "d": "Solve for the monthly amount, or for how long the goal takes."
+  },
+  {
+    "s": "schema-markup-generator",
+    "t": "tool",
+    "d": "schema-markup-generator"
+  },
+  {
+    "s": "schema-types-overview-reference",
+    "t": "ref",
+    "d": "Schema Types Overview Reference"
+  },
+  {
+    "s": "secrets-leak-response-runbook",
+    "t": "ref",
+    "d": "Eight runbooks for responding to specific secret leaks: AWS keys, GCP service accounts, GitHub PAT, Slack webhooks, DB credentials, JWT signing keys, TLS keys, OAuth client secrets."
+  },
+  {
+    "s": "secrets-management-reference",
+    "t": "ref",
+    "d": "Secrets Management Reference"
+  },
+  {
+    "s": "secrets-scanner-bookmarklet",
+    "t": "tool",
+    "d": "Secrets Scanner Bookmarklet"
+  },
+  {
+    "s": "security-headers-reference",
+    "t": "ref",
+    "d": "Security Headers"
+  },
+  {
+    "s": "security-legal-baseline",
+    "t": "ref",
+    "d": "A pre-launch security and legal checklist for solo builders shipping web products. About 250 items: secrets, headers, auth, authorization, input/output, rate limits, data handling, AI/LLM specifics, plus privacy policy, GDPR/CCPA rights, vendor management, business protection."
+  },
+  {
+    "s": "serp-snippet-preview",
+    "t": "tool",
+    "d": "See how your page looks in search before it ships, with truncation estimates."
+  },
+  {
+    "s": "session-cookie-auditor",
+    "t": "tool",
+    "d": "Browser-based Set-Cookie header auditor. Grades cookies A–F on hardening attributes (Secure, HttpOnly, SameSite, scoping, prefixes)"
+  },
+  {
+    "s": "short-form-video-hooks-reference",
+    "t": "ref",
+    "d": "Short-Form Video Hooks"
+  },
+  {
+    "s": "single-file-saas-template",
+    "t": "tool",
+    "d": "A complete BYOK SaaS scaffolded into one HTML file. Free tier with daily limit, Pro tier unlocked by license code, key never leaves the user's browser."
+  },
+  {
+    "s": "sitemap-xml-generator",
+    "t": "tool",
+    "d": "Sitemap XML Generator"
+  },
+  {
+    "s": "slug-generator",
+    "t": "tool",
+    "d": "Slug Generator"
+  },
+  {
+    "s": "solo-operator-launch-checklist",
+    "t": "ref",
+    "d": "Solo Operator Launch Checklist"
+  },
+  {
+    "s": "solo-saas-launch-checklist",
+    "t": "ref",
+    "d": "solo-saas-launch-checklist"
+  },
+  {
+    "s": "stack-trace-cleaner",
+    "t": "tool",
+    "d": "stack-trace-cleaner"
+  },
+  {
+    "s": "structured-data-examples",
+    "t": "ref",
+    "d": "structured-data-examples"
+  },
+  {
+    "s": "structured-output-and-json-mode-reference",
+    "t": "ref",
+    "d": "Structured Output and JSON Mode"
+  },
+  {
+    "s": "subscription-cost-auditor",
+    "t": "tool",
+    "d": "Subscription Cost Auditor"
+  },
+  {
+    "s": "system-prompt-leak-tester",
+    "t": "tool",
+    "d": "system-prompt-leak-tester"
+  },
+  {
+    "s": "terminal-portfolio",
+    "t": "tool",
+    "d": "terminal-portfolio"
+  },
+  {
+    "s": "terraform-security-linter",
+    "t": "tool",
+    "d": "Browser-based Terraform/HCL security linter. Flags AWS misconfigurations across S3, IAM, RDS, security groups, and more, plus embedded secrets."
+  },
+  {
+    "s": "threat-modeling-worksheets",
+    "t": "ref",
+    "d": "Seven threat-modeling worksheets (STRIDE, LINDDUN, PASTA, attack tree, DFD, trust boundary, abuse case) plus five worked examples (web, mobile, ML, IaC, IoT)."
+  },
+  {
+    "s": "tip-and-split-calculator",
+    "t": "tool",
+    "d": "Set a tip, split the check, or round each share up to a clean total."
+  },
+  {
+    "s": "titles-and-meta-descriptions-reference",
+    "t": "ref",
+    "d": "Titles and Meta Descriptions Reference"
+  },
+  {
+    "s": "token-cost-estimator",
+    "t": "tool",
+    "d": "Token Cost Estimator"
+  },
+  {
+    "s": "unit-economics-basics-reference",
+    "t": "ref",
+    "d": "Unit Economics Basics"
+  },
+  {
+    "s": "unix-timestamp-converter",
+    "t": "tool",
+    "d": "Unix Timestamp Converter"
+  },
+  {
+    "s": "url-parser-and-query-editor",
+    "t": "tool",
+    "d": "URL Parser and Query Editor"
+  },
+  {
+    "s": "utm-campaign-builder",
+    "t": "tool",
+    "d": "UTM Campaign Builder"
+  },
+  {
+    "s": "uuid-and-ulid-generator",
+    "t": "tool",
+    "d": "Random v4 UUIDs and lexicographically sortable ULIDs, generated in your browser."
+  },
+  {
+    "s": "valuation-multiples-basics-reference",
+    "t": "ref",
+    "d": "Valuation Multiples Basics"
+  },
+  {
+    "s": "vibe-coding-anti-patterns",
+    "t": "ref",
+    "d": "vibe-coding-anti-patterns"
+  },
+  {
+    "s": "vibe-coding-test-strategies",
+    "t": "ref",
+    "d": "vibe-coding-test-strategies"
+  },
+  {
+    "s": "video-description-templates",
+    "t": "ref",
+    "d": "video-description-templates"
+  },
+  {
+    "s": "video-script-outline-templates",
+    "t": "ref",
+    "d": "video-script-outline-templates"
+  },
+  {
+    "s": "video-srt-cleaner",
+    "t": "tool",
+    "d": "video-srt-cleaner"
+  },
+  {
+    "s": "video-to-blog-companion-seo-reference",
+    "t": "ref",
+    "d": "Video to Blog Companion SEO"
+  },
+  {
+    "s": "warm-outreach-vs-cold-reference",
+    "t": "ref",
+    "d": "Warm Outreach vs Cold"
+  },
+  {
+    "s": "wcag-audit-snippet",
+    "t": "tool",
+    "d": "wcag-audit-snippet"
+  },
+  {
+    "s": "webhook-basics-reference",
+    "t": "ref",
+    "d": "Webhook Basics Reference"
+  },
+  {
+    "s": "webhook-inspector",
+    "t": "tool",
+    "d": "webhook-inspector"
+  },
+  {
+    "s": "webhook-signature-verifier",
+    "t": "tool",
+    "d": "Webhook Signature Verifier"
+  },
+  {
+    "s": "word-and-character-counter",
+    "t": "tool",
+    "d": "Word and Character Counter"
+  },
+  {
+    "s": "wordpress-hardening-checklist",
+    "t": "ref",
+    "d": "WordPress Hardening Checklist"
+  },
+  {
+    "s": "youtube-chapter-marker-builder",
+    "t": "tool",
+    "d": "youtube-chapter-marker-builder"
+  },
+  {
+    "s": "youtube-creator-checklist",
+    "t": "ref",
+    "d": "youtube-creator-checklist"
+  },
+  {
+    "s": "youtube-description-seo-reference",
+    "t": "ref",
+    "d": "YouTube Description SEO"
+  },
+  {
+    "s": "youtube-thumbnail-tester",
+    "t": "tool",
+    "d": "youtube-thumbnail-tester"
+  },
+  {
+    "s": "youtube-title-ab-tester",
+    "t": "tool",
+    "d": "youtube-title-ab-tester"
+  }
+]
