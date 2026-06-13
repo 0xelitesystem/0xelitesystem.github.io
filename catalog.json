@@ -485,6 +485,11 @@
     "d": "A clean heading tree, and the structure problems search engines and screen readers trip on."
   },
   {
+    "s": "html-entity-encoder-decoder",
+    "t": "tool",
+    "d": "Encode text to HTML entities and decode entities back to text, in your browser. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "http-status-codes-reference",
     "t": "ref",
     "d": "HTTP Status Codes"
@@ -668,6 +673,11 @@
     "s": "net-worth-snapshot",
     "t": "tool",
     "d": "Assets minus what you owe, on one clean sheet."
+  },
+  {
+    "s": "number-base-converter",
+    "t": "tool",
+    "d": "Convert an integer between binary, octal, decimal, hexadecimal, and any base from 2 to 36, in your browser. No server, no tracking, no third-party scripts."
   },
   {
     "s": "oauth-and-sso-basics-reference",
@@ -1025,6 +1035,11 @@
     "d": "Browser-based Terraform/HCL security linter. Flags AWS misconfigurations across S3, IAM, RDS, security groups, and more, plus embedded secrets."
   },
   {
+    "s": "text-diff-viewer",
+    "t": "tool",
+    "d": "Compare two blocks of text and see a line-level diff in your browser. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "threat-modeling-worksheets",
     "t": "ref",
     "d": "Seven threat-modeling worksheets (STRIDE, LINDDUN, PASTA, attack tree, DFD, trust boundary, abuse case) plus five worked examples (web, mobile, ML, IaC, IoT)."
@@ -1138,6 +1153,11 @@
     "s": "wordpress-hardening-checklist",
     "t": "ref",
     "d": "WordPress Hardening Checklist"
+  },
+  {
+    "s": "yaml-to-json",
+    "t": "tool",
+    "d": "Convert YAML to JSON and back, in your browser. No server, no upload, no tracking."
   },
   {
     "s": "youtube-chapter-marker-builder",
