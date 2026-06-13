@@ -35,9 +35,51 @@ jobs:
           if [ "$count" -lt 100 ]; then echo "only $count repos returned, aborting"; exit 1; fi
           mv catalog.new.json catalog.json
 
+      - name: Generate sitemap.xml (index + every tool demo page)
+        run: |
+          DATE=$(date -u +%Y-%m-%d)
+          {
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+            echo "<url><loc>https://0xelitesystem.github.io/</loc><lastmod>${DATE}</lastmod><priority>1.0</priority></url>"
+            jq -r '.[] | select(.t=="tool") | .s' catalog.json | while read -r s; do
+              echo "<url><loc>https://0xelitesystem.github.io/${s}/</loc><lastmod>${DATE}</lastmod><priority>0.8</priority></url>"
+            done
+            echo '</urlset>'
+          } > sitemap.xml
+
+      - name: Generate feed.xml (RSS of the 40 newest repos)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --paginate "users/0xelitesystem/repos?per_page=100" --jq '.[]' \
+            | jq -s '[ .[]
+                | select(.fork==false and .archived==false)
+                | select(.name!="0xelitesystem" and .name!="0xelitesystem.github.io") ]
+                | sort_by(.created_at) | reverse | .[0:40]' > recent.json
+          BUILT=$(date -u -R)
+          {
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<rss version="2.0"><channel>'
+            echo '<title>0xelitesystem new repos</title>'
+            echo '<link>https://0xelitesystem.github.io/</link>'
+            echo '<description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>'
+            echo "<lastBuildDate>${BUILT}</lastBuildDate>"
+            jq -c '.[]' recent.json | while read -r row; do
+              name=$(jq -r '.name' <<<"$row")
+              url=$(jq -r '.html_url' <<<"$row")
+              created=$(jq -r '.created_at' <<<"$row")
+              desc=$(jq -r '.description // ""' <<<"$row" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g')
+              pub=$(date -u -d "$created" -R)
+              echo "<item><title>${name}</title><link>${url}</link><guid>${url}</guid><pubDate>${pub}</pubDate><description>${desc}</description></item>"
+            done
+            echo '</channel></rss>'
+          } > feed.xml
+          rm -f recent.json
+
       - name: Commit if changed
         run: |
           git config user.name "0xelitesystem"
           git config user.email "113920829+0xelitesystem@users.noreply.github.com"
-          git add catalog.json
-          git diff --cached --quiet || { git commit -m "catalog: auto-update from live repo list"; git push; }
+          git add catalog.json sitemap.xml feed.xml
+          git diff --cached --quiet || { git commit -m "auto-update catalog, sitemap, and feed from live repo list"; git push; }
