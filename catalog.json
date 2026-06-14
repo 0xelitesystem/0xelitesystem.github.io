@@ -570,6 +570,11 @@
     "d": "json-to-typescript"
   },
   {
+    "s": "json-workbench",
+    "t": "tool",
+    "d": "Format, validate, query (JSONPath), diff, and convert JSON entirely in your browser. No upload, no ads, no tracking."
+  },
+  {
     "s": "jwt-decoder",
     "t": "tool",
     "d": "JWT Decoder"
@@ -873,6 +878,11 @@
     "s": "regex-redos-checker",
     "t": "tool",
     "d": "Browser-based ReDoS checker. Detects catastrophic-backtracking patterns and synthesizes evil inputs to demonstrate the worst case."
+  },
+  {
+    "s": "regex-studio",
+    "t": "tool",
+    "d": "An open-source regex playground: live match highlighting, plain-English explanation, structure diagram, and ReDoS warnings. All client-side."
   },
   {
     "s": "regex-tester",
