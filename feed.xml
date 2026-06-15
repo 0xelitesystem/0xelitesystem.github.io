@@ -3,7 +3,8 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Sun, 14 Jun 2026 09:56:51 +0000</lastBuildDate>
+<lastBuildDate>Mon, 15 Jun 2026 12:43:57 +0000</lastBuildDate>
+<item><title>markdown-previewer</title><link>https://github.com/0xelitesystem/markdown-previewer</link><guid>https://github.com/0xelitesystem/markdown-previewer</guid><pubDate>Mon, 15 Jun 2026 00:50:57 +0000</pubDate><description>Live markdown to HTML preview with one-click copy, in a single HTML file.</description></item>
 <item><title>json-workbench</title><link>https://github.com/0xelitesystem/json-workbench</link><guid>https://github.com/0xelitesystem/json-workbench</guid><pubDate>Sat, 13 Jun 2026 14:58:57 +0000</pubDate><description>Format, validate, query (JSONPath), diff, and convert JSON entirely in your browser. No upload, no ads, no tracking.</description></item>
 <item><title>regex-studio</title><link>https://github.com/0xelitesystem/regex-studio</link><guid>https://github.com/0xelitesystem/regex-studio</guid><pubDate>Sat, 13 Jun 2026 14:58:48 +0000</pubDate><description>An open-source regex playground: live match highlighting, plain-English explanation, structure diagram, and ReDoS warnings. All client-side.</description></item>
 <item><title>yaml-to-json</title><link>https://github.com/0xelitesystem/yaml-to-json</link><guid>https://github.com/0xelitesystem/yaml-to-json</guid><pubDate>Sat, 13 Jun 2026 14:03:54 +0000</pubDate><description>Convert YAML to JSON and back, in your browser. No server, no upload, no tracking.</description></item>
@@ -43,5 +44,4 @@
 <item><title>youtube-title-ab-tester</title><link>https://github.com/0xelitesystem/youtube-title-ab-tester</link><guid>https://github.com/0xelitesystem/youtube-title-ab-tester</guid><pubDate>Thu, 11 Jun 2026 15:39:47 +0000</pubDate><description>youtube-title-ab-tester</description></item>
 <item><title>youtube-thumbnail-tester</title><link>https://github.com/0xelitesystem/youtube-thumbnail-tester</link><guid>https://github.com/0xelitesystem/youtube-thumbnail-tester</guid><pubDate>Thu, 11 Jun 2026 15:39:34 +0000</pubDate><description>youtube-thumbnail-tester</description></item>
 <item><title>youtube-description-seo-reference</title><link>https://github.com/0xelitesystem/youtube-description-seo-reference</link><guid>https://github.com/0xelitesystem/youtube-description-seo-reference</guid><pubDate>Thu, 11 Jun 2026 15:39:23 +0000</pubDate><description>YouTube Description SEO</description></item>
-<item><title>youtube-creator-checklist</title><link>https://github.com/0xelitesystem/youtube-creator-checklist</link><guid>https://github.com/0xelitesystem/youtube-creator-checklist</guid><pubDate>Thu, 11 Jun 2026 15:39:11 +0000</pubDate><description>youtube-creator-checklist</description></item>
 </channel></rss>

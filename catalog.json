@@ -650,6 +650,11 @@
     "d": "Logging and Observability Basics"
   },
   {
+    "s": "markdown-previewer",
+    "t": "tool",
+    "d": "Live markdown to HTML preview with one-click copy, in a single HTML file."
+  },
+  {
     "s": "mcp-basics-reference",
     "t": "ref",
     "d": "MCP Basics"
