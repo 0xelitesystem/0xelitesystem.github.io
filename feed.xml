@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Mon, 15 Jun 2026 12:43:57 +0000</lastBuildDate>
+<lastBuildDate>Tue, 16 Jun 2026 11:35:06 +0000</lastBuildDate>
 <item><title>markdown-previewer</title><link>https://github.com/0xelitesystem/markdown-previewer</link><guid>https://github.com/0xelitesystem/markdown-previewer</guid><pubDate>Mon, 15 Jun 2026 00:50:57 +0000</pubDate><description>Live markdown to HTML preview with one-click copy, in a single HTML file.</description></item>
 <item><title>json-workbench</title><link>https://github.com/0xelitesystem/json-workbench</link><guid>https://github.com/0xelitesystem/json-workbench</guid><pubDate>Sat, 13 Jun 2026 14:58:57 +0000</pubDate><description>Format, validate, query (JSONPath), diff, and convert JSON entirely in your browser. No upload, no ads, no tracking.</description></item>
 <item><title>regex-studio</title><link>https://github.com/0xelitesystem/regex-studio</link><guid>https://github.com/0xelitesystem/regex-studio</guid><pubDate>Sat, 13 Jun 2026 14:58:48 +0000</pubDate><description>An open-source regex playground: live match highlighting, plain-English explanation, structure diagram, and ReDoS warnings. All client-side.</description></item>
