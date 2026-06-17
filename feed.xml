@@ -3,7 +3,8 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Tue, 16 Jun 2026 11:35:06 +0000</lastBuildDate>
+<lastBuildDate>Wed, 17 Jun 2026 11:17:41 +0000</lastBuildDate>
+<item><title>markdown-toc-generator</title><link>https://github.com/0xelitesystem/markdown-toc-generator</link><guid>https://github.com/0xelitesystem/markdown-toc-generator</guid><pubDate>Tue, 16 Jun 2026 14:03:15 +0000</pubDate><description>Generate a linked table of contents from markdown headings, entirely in your browser.</description></item>
 <item><title>markdown-previewer</title><link>https://github.com/0xelitesystem/markdown-previewer</link><guid>https://github.com/0xelitesystem/markdown-previewer</guid><pubDate>Mon, 15 Jun 2026 00:50:57 +0000</pubDate><description>Live markdown to HTML preview with one-click copy, in a single HTML file.</description></item>
 <item><title>json-workbench</title><link>https://github.com/0xelitesystem/json-workbench</link><guid>https://github.com/0xelitesystem/json-workbench</guid><pubDate>Sat, 13 Jun 2026 14:58:57 +0000</pubDate><description>Format, validate, query (JSONPath), diff, and convert JSON entirely in your browser. No upload, no ads, no tracking.</description></item>
 <item><title>regex-studio</title><link>https://github.com/0xelitesystem/regex-studio</link><guid>https://github.com/0xelitesystem/regex-studio</guid><pubDate>Sat, 13 Jun 2026 14:58:48 +0000</pubDate><description>An open-source regex playground: live match highlighting, plain-English explanation, structure diagram, and ReDoS warnings. All client-side.</description></item>
@@ -43,5 +44,4 @@
 <item><title>ai-crawler-access-and-llms-txt-reference</title><link>https://github.com/0xelitesystem/ai-crawler-access-and-llms-txt-reference</link><guid>https://github.com/0xelitesystem/ai-crawler-access-and-llms-txt-reference</guid><pubDate>Thu, 11 Jun 2026 15:39:59 +0000</pubDate><description>AI Crawler Access and llms.txt</description></item>
 <item><title>youtube-title-ab-tester</title><link>https://github.com/0xelitesystem/youtube-title-ab-tester</link><guid>https://github.com/0xelitesystem/youtube-title-ab-tester</guid><pubDate>Thu, 11 Jun 2026 15:39:47 +0000</pubDate><description>youtube-title-ab-tester</description></item>
 <item><title>youtube-thumbnail-tester</title><link>https://github.com/0xelitesystem/youtube-thumbnail-tester</link><guid>https://github.com/0xelitesystem/youtube-thumbnail-tester</guid><pubDate>Thu, 11 Jun 2026 15:39:34 +0000</pubDate><description>youtube-thumbnail-tester</description></item>
-<item><title>youtube-description-seo-reference</title><link>https://github.com/0xelitesystem/youtube-description-seo-reference</link><guid>https://github.com/0xelitesystem/youtube-description-seo-reference</guid><pubDate>Thu, 11 Jun 2026 15:39:23 +0000</pubDate><description>YouTube Description SEO</description></item>
 </channel></rss>

@@ -655,6 +655,11 @@
     "d": "Live markdown to HTML preview with one-click copy, in a single HTML file."
   },
   {
+    "s": "markdown-toc-generator",
+    "t": "tool",
+    "d": "Generate a linked table of contents from markdown headings, entirely in your browser."
+  },
+  {
     "s": "mcp-basics-reference",
     "t": "ref",
     "d": "MCP Basics"
