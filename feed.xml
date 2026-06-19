@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Thu, 18 Jun 2026 10:48:31 +0000</lastBuildDate>
+<lastBuildDate>Fri, 19 Jun 2026 10:57:31 +0000</lastBuildDate>
 <item><title>markdown-toc-generator</title><link>https://github.com/0xelitesystem/markdown-toc-generator</link><guid>https://github.com/0xelitesystem/markdown-toc-generator</guid><pubDate>Tue, 16 Jun 2026 14:03:15 +0000</pubDate><description>Generate a linked table of contents from markdown headings, entirely in your browser.</description></item>
 <item><title>markdown-previewer</title><link>https://github.com/0xelitesystem/markdown-previewer</link><guid>https://github.com/0xelitesystem/markdown-previewer</guid><pubDate>Mon, 15 Jun 2026 00:50:57 +0000</pubDate><description>Live markdown to HTML preview with one-click copy, in a single HTML file.</description></item>
 <item><title>json-workbench</title><link>https://github.com/0xelitesystem/json-workbench</link><guid>https://github.com/0xelitesystem/json-workbench</guid><pubDate>Sat, 13 Jun 2026 14:58:57 +0000</pubDate><description>Format, validate, query (JSONPath), diff, and convert JSON entirely in your browser. No upload, no ads, no tracking.</description></item>
