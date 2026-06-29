@@ -480,6 +480,11 @@
     "d": "Git Basics"
   },
   {
+    "s": "hash-generator",
+    "t": "tool",
+    "d": "Compute MD5, SHA-1, SHA-256, and SHA-512 hashes locally in your browser."
+  },
+  {
     "s": "heading-outline-checker",
     "t": "tool",
     "d": "A clean heading tree, and the structure problems search engines and screen readers trip on."

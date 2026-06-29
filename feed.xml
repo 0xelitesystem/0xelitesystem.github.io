@@ -3,7 +3,8 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Mon, 22 Jun 2026 12:28:21 +0000</lastBuildDate>
+<lastBuildDate>Mon, 29 Jun 2026 11:25:51 +0000</lastBuildDate>
+<item><title>hash-generator</title><link>https://github.com/0xelitesystem/hash-generator</link><guid>https://github.com/0xelitesystem/hash-generator</guid><pubDate>Tue, 23 Jun 2026 14:21:53 +0000</pubDate><description>Compute MD5, SHA-1, SHA-256, and SHA-512 hashes locally in your browser.</description></item>
 <item><title>xml-formatter</title><link>https://github.com/0xelitesystem/xml-formatter</link><guid>https://github.com/0xelitesystem/xml-formatter</guid><pubDate>Sun, 21 Jun 2026 14:24:08 +0000</pubDate><description>Format, minify, and validate XML in your browser. One HTML file, no network, nothing leaves your machine.</description></item>
 <item><title>markdown-table-generator</title><link>https://github.com/0xelitesystem/markdown-table-generator</link><guid>https://github.com/0xelitesystem/markdown-table-generator</guid><pubDate>Fri, 19 Jun 2026 14:12:25 +0000</pubDate><description>Build a table visually and copy clean GitHub Flavored Markdown.</description></item>
 <item><title>markdown-toc-generator</title><link>https://github.com/0xelitesystem/markdown-toc-generator</link><guid>https://github.com/0xelitesystem/markdown-toc-generator</guid><pubDate>Tue, 16 Jun 2026 14:03:15 +0000</pubDate><description>Generate a linked table of contents from markdown headings, entirely in your browser.</description></item>
@@ -43,5 +44,4 @@
 <item><title>background-jobs-and-queues-basics-reference</title><link>https://github.com/0xelitesystem/background-jobs-and-queues-basics-reference</link><guid>https://github.com/0xelitesystem/background-jobs-and-queues-basics-reference</guid><pubDate>Thu, 11 Jun 2026 15:40:36 +0000</pubDate><description>Background Jobs and Queues Basics</description></item>
 <item><title>aspect-ratio-calculator</title><link>https://github.com/0xelitesystem/aspect-ratio-calculator</link><guid>https://github.com/0xelitesystem/aspect-ratio-calculator</guid><pubDate>Thu, 11 Jun 2026 15:40:23 +0000</pubDate><description>Aspect Ratio Calculator</description></item>
 <item><title>api-versioning-basics-reference</title><link>https://github.com/0xelitesystem/api-versioning-basics-reference</link><guid>https://github.com/0xelitesystem/api-versioning-basics-reference</guid><pubDate>Thu, 11 Jun 2026 15:40:11 +0000</pubDate><description>API Versioning Basics</description></item>
-<item><title>ai-crawler-access-and-llms-txt-reference</title><link>https://github.com/0xelitesystem/ai-crawler-access-and-llms-txt-reference</link><guid>https://github.com/0xelitesystem/ai-crawler-access-and-llms-txt-reference</guid><pubDate>Thu, 11 Jun 2026 15:39:59 +0000</pubDate><description>AI Crawler Access and llms.txt</description></item>
 </channel></rss>
