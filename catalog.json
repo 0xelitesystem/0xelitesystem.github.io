@@ -335,6 +335,11 @@
     "d": "csv-to-anything"
   },
   {
+    "s": "curl-to-fetch",
+    "t": "tool",
+    "d": "Paste a curl command and get JavaScript fetch and Python requests code, generated entirely in your browser."
+  },
+  {
     "s": "cursor-rules-collection",
     "t": "ref",
     "d": "cursor-rules-collection"
@@ -393,6 +398,11 @@
     "s": "dredge",
     "t": "ref",
     "d": "Surface what search engines bury. OSINT toolkit for suppressed records, deleted content, and adversarially-buried search results."
+  },
+  {
+    "s": "duration-calculator",
+    "t": "tool",
+    "d": "Exact time between two dates, business day counts with holiday exclusions, and add or subtract durations from any date, all in a single HTML file."
   },
   {
     "s": "e-e-a-t-auditor",
