@@ -170,6 +170,11 @@
     "d": "Base64 and URL Encoder Decoder"
   },
   {
+    "s": "box-shadow-generator",
+    "t": "tool",
+    "d": "Visual CSS box-shadow builder with live preview, stacked layers, inset support, and copy-ready output."
+  },
+  {
     "s": "brand-mention-tracker",
     "t": "ref",
     "d": "brand-mention-tracker"
@@ -465,6 +470,11 @@
     "d": "FAQ Schema"
   },
   {
+    "s": "favicon-generator",
+    "t": "tool",
+    "d": "Make a favicon from text, an emoji, or an uploaded image, right in your browser."
+  },
+  {
     "s": "feature-flags-basics-reference",
     "t": "ref",
     "d": "Feature Flags Basics"
@@ -488,6 +498,11 @@
     "s": "git-basics-reference",
     "t": "ref",
     "d": "Git Basics"
+  },
+  {
+    "s": "gradient-generator",
+    "t": "tool",
+    "d": "Build CSS linear, radial, and conic gradients with a live preview and one-click copy."
   },
   {
     "s": "hash-generator",
@@ -520,9 +535,19 @@
     "d": "Browser-based AWS IAM policy analyzer. Flags privilege-escalation paths, wildcards, missing conditions, and trust-policy issues."
   },
   {
+    "s": "image-compressor",
+    "t": "tool",
+    "d": "Compress and resize images in your browser. Fully local, no upload, no account."
+  },
+  {
     "s": "image-seo-and-alt-text-reference",
     "t": "ref",
     "d": "Image SEO and Alt Text"
+  },
+  {
+    "s": "image-to-data-uri",
+    "t": "tool",
+    "d": "Convert any image into a base64 data URI you can paste straight into HTML, CSS, or Markdown."
   },
   {
     "s": "incident-response-runbooks",
@@ -1060,6 +1085,11 @@
     "d": "Subscription Cost Auditor"
   },
   {
+    "s": "svg-optimizer",
+    "t": "tool",
+    "d": "Strip and minify SVG markup in your browser: no upload, no network, nothing leaves your machine."
+  },
+  {
     "s": "system-prompt-leak-tester",
     "t": "tool",
     "d": "system-prompt-leak-tester"
@@ -1083,6 +1113,11 @@
     "s": "threat-modeling-worksheets",
     "t": "ref",
     "d": "Seven threat-modeling worksheets (STRIDE, LINDDUN, PASTA, attack tree, DFD, trust boundary, abuse case) plus five worked examples (web, mobile, ML, IaC, IoT)."
+  },
+  {
+    "s": "timezone-converter",
+    "t": "tool",
+    "d": "A single-file world clock and meeting planner. Track the current time across any set of zones, then pick a moment to see it everywhere at once and find the working-hours overlap for a call."
   },
   {
     "s": "tip-and-split-calculator",

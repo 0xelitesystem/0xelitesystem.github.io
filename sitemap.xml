@@ -8,6 +8,7 @@
 <url><loc>https://0xelitesystem.github.io/api-changelog-rss/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/aspect-ratio-calculator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/base64-url-encoder-decoder/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/box-shadow-generator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/break-even-units-calculator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/breakeven-runway-calculator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/cagr-and-rule-of-72-calculator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
@@ -35,10 +36,14 @@
 <url><loc>https://0xelitesystem.github.io/email-spam-score-checker/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/embedding-cost-estimator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/env-var-checker/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/favicon-generator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/gradient-generator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/hash-generator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/heading-outline-checker/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/html-entity-encoder-decoder/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/iam-policy-analyzer/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/image-compressor/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/image-to-data-uri/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/indie-saas-pricing-calculator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/invoice-late-fee-calculator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/invoice-total-builder/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
@@ -96,10 +101,12 @@
 <url><loc>https://0xelitesystem.github.io/slug-generator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/stack-trace-cleaner/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/subscription-cost-auditor/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/svg-optimizer/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/system-prompt-leak-tester/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/terminal-portfolio/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/terraform-security-linter/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/text-diff-viewer/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/timezone-converter/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/tip-and-split-calculator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/token-cost-estimator/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/unix-timestamp-converter/</loc><lastmod>2026-07-06</lastmod><priority>0.8</priority></url>
