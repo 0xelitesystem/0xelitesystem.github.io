@@ -1065,6 +1065,11 @@
     "d": "solo-saas-launch-checklist"
   },
   {
+    "s": "sql-formatter",
+    "t": "tool",
+    "d": "Pretty-print and minify SQL in your browser. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "stack-trace-cleaner",
     "t": "tool",
     "d": "stack-trace-cleaner"
@@ -1148,6 +1153,11 @@
     "s": "url-parser-and-query-editor",
     "t": "tool",
     "d": "URL Parser and Query Editor"
+  },
+  {
+    "s": "user-agent-parser",
+    "t": "tool",
+    "d": "Break a User-Agent string into browser, engine, operating system, and device type. No server, no tracking, no third-party scripts."
   },
   {
     "s": "utm-campaign-builder",
