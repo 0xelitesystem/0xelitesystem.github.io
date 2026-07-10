@@ -335,9 +335,19 @@
     "d": "csp-builder"
   },
   {
+    "s": "css-clamp-calculator",
+    "t": "tool",
+    "d": "Compute a CSS `clamp()` for fluid typography and spacing from a min and max viewport and size, with correct `vw`-based linear interpolation and the math explained. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "csv-to-anything",
     "t": "tool",
     "d": "csv-to-anything"
+  },
+  {
+    "s": "cubic-bezier-editor",
+    "t": "tool",
+    "d": "A visual CSS `cubic-bezier()` easing editor with draggable control points, a live animation preview, and a copy button. No server, no tracking, no third-party scripts."
   },
   {
     "s": "curl-to-fetch",
@@ -603,6 +613,11 @@
     "s": "json-ld-schema-builder",
     "t": "tool",
     "d": "JSON-LD Schema Builder"
+  },
+  {
+    "s": "json-path-tester",
+    "t": "tool",
+    "d": "Paste JSON and a JSONPath expression, see the matched values and their paths live, in your browser. No server, no tracking, no third-party scripts."
   },
   {
     "s": "json-to-typescript",
