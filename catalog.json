@@ -360,6 +360,11 @@
     "d": "csp-builder"
   },
   {
+    "s": "csrf-and-xss-reference",
+    "t": "ref",
+    "d": "A plain-language reference on the two most common web application attacks: cross-site request forgery (CSRF) and cross-site scripting (XSS). It covers what each attack actually is, how it works step by step, the real defenses that stop it, and how..."
+  },
+  {
     "s": "css-clamp-calculator",
     "t": "tool",
     "d": "Compute a CSS `clamp()` for fluid typography and spacing from a min and max viewport and size, with correct `vw`-based linear interpolation and the math explained. No server, no tracking, no third-party scripts."
@@ -543,6 +548,11 @@
     "s": "gradient-generator",
     "t": "tool",
     "d": "Build CSS linear, radial, and conic gradients with a live preview and one-click copy."
+  },
+  {
+    "s": "graphql-basics-reference",
+    "t": "ref",
+    "d": "A plain-language reference on GraphQL: a query language for APIs where the client asks for exactly the fields it wants from a single endpoint. It covers the schema and type system, the difference between queries, mutations, and subscriptions, how ..."
   },
   {
     "s": "gzip-size-estimator",
@@ -760,6 +770,11 @@
     "d": "Live markdown to HTML preview with one-click copy, in a single HTML file."
   },
   {
+    "s": "markdown-syntax-reference",
+    "t": "ref",
+    "d": "A plain-language reference for practical Markdown: the syntax you actually look up when writing a README, an issue, or docs. It covers headings, emphasis, lists, links, images, code, blockquotes, tables, task lists, and the escaping and line-break..."
+  },
+  {
     "s": "markdown-table-generator",
     "t": "tool",
     "d": "Build a table visually and copy clean GitHub Flavored Markdown."
@@ -848,6 +863,11 @@
     "s": "oss-readme-template",
     "t": "ref",
     "d": "A battle-tested README structure for open source projects. Skip the AI cliches. Use the structure that actually answers what visitors want to know."
+  },
+  {
+    "s": "password-hashing-reference",
+    "t": "ref",
+    "d": "A plain-language reference on how to store user passwords safely. It covers why plaintext, encryption, and fast hashes are all wrong for this job, what salting and peppering actually do, the three algorithms worth using (bcrypt, scrypt, argon2), h..."
   },
   {
     "s": "password-strength-meter",
@@ -1155,6 +1175,11 @@
     "d": "Pretty-print and minify SQL in your browser. No server, no tracking, no third-party scripts."
   },
   {
+    "s": "sql-joins-reference",
+    "t": "ref",
+    "d": "A plain-language reference on SQL joins: the operations that combine rows from two or more tables. It covers each join type (INNER, LEFT, RIGHT, FULL OUTER, CROSS, and self joins) with small example tables and the exact result rows, plus the mista..."
+  },
+  {
     "s": "stack-trace-cleaner",
     "t": "tool",
     "d": "stack-trace-cleaner"
@@ -1318,6 +1343,11 @@
     "s": "webhook-signature-verifier",
     "t": "tool",
     "d": "Webhook Signature Verifier"
+  },
+  {
+    "s": "websockets-basics-reference",
+    "t": "ref",
+    "d": "A plain-language reference on WebSockets: the protocol that gives a web page a persistent, two-way connection to a server. It covers what a WebSocket is, how the connection starts as an HTTP request and upgrades, when to reach for it instead of po..."
   },
   {
     "s": "word-and-character-counter",
