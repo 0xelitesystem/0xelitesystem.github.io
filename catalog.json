@@ -245,6 +245,11 @@
     "d": "Cash Flow vs Profit Reference"
   },
   {
+    "s": "chatml-message-builder",
+    "t": "tool",
+    "d": "Visually build a chat messages array and export it in OpenAI-style and Anthropic-style JSON. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "claude-eval-harness",
     "t": "tool",
     "d": "Run the same prompt against multiple Claude models side-by-side. Compare outputs, latency, and cost in one click. BYOK, single HTML file, deploy free via GitHub Pages. MIT licensed."
@@ -325,9 +330,19 @@
     "d": "Contractor and 1099 Tax Basics Reference"
   },
   {
+    "s": "conventional-commits-reference",
+    "t": "ref",
+    "d": "Conventional Commits is a lightweight convention for writing commit messages in a structured, machine-readable way. It defines a small set of rules for the first line of a commit so that both people and tooling can understand what changed. This re..."
+  },
+  {
     "s": "core-web-vitals-reference",
     "t": "ref",
     "d": "Core Web Vitals Reference"
+  },
+  {
+    "s": "cors-basics-reference",
+    "t": "ref",
+    "d": "A plain-language reference for CORS (Cross-Origin Resource Sharing), the browser mechanism that controls when JavaScript on one origin may read responses from another origin. It covers what an origin is, how requests are categorized, the exact HTT..."
   },
   {
     "s": "cron-builder",
@@ -348,6 +363,11 @@
     "s": "css-clamp-calculator",
     "t": "tool",
     "d": "Compute a CSS `clamp()` for fluid typography and spacing from a min and max viewport and size, with correct `vw`-based linear interpolation and the math explained. No server, no tracking, no third-party scripts."
+  },
+  {
+    "s": "css-grid-generator",
+    "t": "tool",
+    "d": "A visual CSS Grid builder. Set columns, rows, track sizes, and gaps, preview the grid live, name a few areas, and copy the generated CSS. No server, no tracking, no third-party scripts."
   },
   {
     "s": "csv-to-anything",
@@ -540,6 +560,11 @@
     "d": "A clean heading tree, and the structure problems search engines and screen readers trip on."
   },
   {
+    "s": "htaccess-redirect-generator",
+    "t": "tool",
+    "d": "Build Apache `.htaccess` redirect and rewrite rules in your browser. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "html-entity-encoder-decoder",
     "t": "tool",
     "d": "Encode text to HTML entities and decode entities back to text, in your browser. No server, no tracking, no third-party scripts."
@@ -635,6 +660,11 @@
     "d": "Paste JSON and a JSONPath expression, see the matched values and their paths live, in your browser. No server, no tracking, no third-party scripts."
   },
   {
+    "s": "json-schema-to-tool-definition",
+    "t": "tool",
+    "d": "Paste a JSON Schema and generate a function/tool-calling definition in both the OpenAI function-calling format and the Anthropic tool format. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "json-to-typescript",
     "t": "tool",
     "d": "json-to-typescript"
@@ -720,6 +750,11 @@
     "d": "Logging and Observability Basics"
   },
   {
+    "s": "lorem-ipsum-generator",
+    "t": "tool",
+    "d": "Generate lorem ipsum placeholder text in your browser. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "markdown-previewer",
     "t": "tool",
     "d": "Live markdown to HTML preview with one-click copy, in a single HTML file."
@@ -753,6 +788,11 @@
     "s": "meta-robots-tag-helper",
     "t": "tool",
     "d": "Meta Robots Tag Helper"
+  },
+  {
+    "s": "mock-data-generator",
+    "t": "tool",
+    "d": "Generate fake test data in your browser. No server, no tracking, no third-party scripts."
   },
   {
     "s": "mortgage-affordability-calculator",
@@ -895,6 +935,11 @@
     "d": "prompt-injection-test-suite"
   },
   {
+    "s": "prompt-template-linter",
+    "t": "tool",
+    "d": "Paste a prompt template and get a local report: unfilled variables, an approximate token and length estimate, flagged prompt-injection patterns, and simple quality checks. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "prompt-templates",
     "t": "ref",
     "d": "Production prompts that target specific failure modes of LLM behavior: AI slop, sycophantic recommendations, shallow code review, unstructured output. MIT licensed. Tested with Claude and GPT-4o."
@@ -958,6 +1003,11 @@
     "s": "refund-and-chargeback-policy-reference",
     "t": "ref",
     "d": "Refund and Chargeback Policy"
+  },
+  {
+    "s": "regex-cheatsheet-playground",
+    "t": "tool",
+    "d": "A regex cheatsheet, a live tester with match highlighting, and a library of common tested patterns, in one page. No server, no tracking, no third-party scripts."
   },
   {
     "s": "regex-redos-checker",
@@ -1053,6 +1103,11 @@
     "s": "security-legal-baseline",
     "t": "ref",
     "d": "A pre-launch security and legal checklist for solo builders shipping web products. About 250 items: secrets, headers, auth, authorization, input/output, rate limits, data handling, AI/LLM specifics, plus privacy policy, GDPR/CCPA rights, vendor management, business protection."
+  },
+  {
+    "s": "semantic-versioning-reference",
+    "t": "ref",
+    "d": "Semantic Versioning (SemVer) is a naming convention for software releases that turns a version number into a promise about compatibility. It gives every release a three-part number so that anyone depending on your code can predict, at a glance, wh..."
   },
   {
     "s": "serp-snippet-preview",
@@ -1168,6 +1223,11 @@
     "s": "token-cost-estimator",
     "t": "tool",
     "d": "Token Cost Estimator"
+  },
+  {
+    "s": "tokenizer-visualizer",
+    "t": "tool",
+    "d": "See approximate token boundaries in any text, color-coded, with a live token and character count. No server, no tracking, no third-party scripts."
   },
   {
     "s": "unit-economics-basics-reference",
