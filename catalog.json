@@ -275,6 +275,11 @@
     "d": "Lint a Claude Skill SKILL.md file for spec compliance and triggering quality. Browser-only, single HTML file."
   },
   {
+    "s": "color-blindness-simulator",
+    "t": "tool",
+    "d": "Preview how an image or a set of colors reads under common color-vision deficiencies, all in your browser. No server, no tracking, no third-party scripts."
+  },
+  {
     "s": "color-contrast-checker",
     "t": "tool",
     "d": "Color Contrast Checker"
@@ -283,6 +288,11 @@
     "s": "color-format-converter",
     "t": "tool",
     "d": "Color Format Converter"
+  },
+  {
+    "s": "color-palette-from-image",
+    "t": "tool",
+    "d": "Extract a dominant color palette from any image, right in your browser. No server, no tracking, no third-party scripts."
   },
   {
     "s": "compound-interest-visualizer",
@@ -513,6 +523,11 @@
     "s": "gradient-generator",
     "t": "tool",
     "d": "Build CSS linear, radial, and conic gradients with a live preview and one-click copy."
+  },
+  {
+    "s": "gzip-size-estimator",
+    "t": "tool",
+    "d": "Paste text or code and see its raw byte size versus gzip and deflate compressed size, right in your browser. No server, no tracking, no third-party scripts."
   },
   {
     "s": "hash-generator",
