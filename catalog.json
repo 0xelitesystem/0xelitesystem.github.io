@@ -5,6 +5,11 @@
     "d": "Accessibility Basics Reference"
   },
   {
+    "s": "acid-and-transactions-reference",
+    "t": "ref",
+    "d": "A plain-language reference on database transactions and the ACID properties. It covers what a transaction is, what each of the four ACID letters guarantees, the isolation levels a database offers, the read anomalies each level prevents, and when r..."
+  },
+  {
     "s": "affiliate-disclosure-reference",
     "t": "ref",
     "d": "Affiliate Disclosure"
@@ -245,9 +250,19 @@
     "d": "Cash Flow vs Profit Reference"
   },
   {
+    "s": "character-encoding-utf8-basics-reference",
+    "t": "ref",
+    "d": "A plain-language reference on character encoding: how text, which humans read as characters, is stored and transmitted as bytes, which machines actually handle. It covers the difference between bytes and characters, ASCII, Unicode code points, the..."
+  },
+  {
     "s": "chatml-message-builder",
     "t": "tool",
     "d": "Visually build a chat messages array and export it in OpenAI-style and Anthropic-style JSON. No server, no tracking, no third-party scripts."
+  },
+  {
+    "s": "ci-cd-basics-reference",
+    "t": "ref",
+    "d": "A plain-language reference on continuous integration and continuous delivery/deployment: the practice of automatically building, testing, and shipping code so that changes reach production safely and often. It covers what CI, CD (delivery), and CD..."
   },
   {
     "s": "claude-eval-harness",
@@ -405,6 +420,11 @@
     "d": "Data Privacy Laws Basics"
   },
   {
+    "s": "database-indexing-basics-reference",
+    "t": "ref",
+    "d": "A plain-language reference on database indexes: what they are, how they make reads fast, what they cost on writes and storage, and how to decide which columns to index. It covers B-tree indexes, single versus composite indexes, covering indexes, w..."
+  },
+  {
     "s": "dca-visualizer",
     "t": "tool",
     "d": "DCA Visualizer"
@@ -438,6 +458,11 @@
     "s": "dns-email-authentication-reference",
     "t": "ref",
     "d": "DNS Email Authentication"
+  },
+  {
+    "s": "docker-basics-reference",
+    "t": "ref",
+    "d": "A plain-language reference on Docker: what images and containers are, how the Dockerfile builds layered images, the handful of commands you use daily, how volumes and ports connect a container to the outside world, and how containers differ from v..."
   },
   {
     "s": "domain-and-dns-basics-reference",
@@ -1228,6 +1253,11 @@
     "s": "threat-modeling-worksheets",
     "t": "ref",
     "d": "Seven threat-modeling worksheets (STRIDE, LINDDUN, PASTA, attack tree, DFD, trust boundary, abuse case) plus five worked examples (web, mobile, ML, IaC, IoT)."
+  },
+  {
+    "s": "timezone-and-utc-basics-reference",
+    "t": "ref",
+    "d": "A plain-language reference on handling time correctly in software: the difference between UTC and local time, what offsets and time zones actually are, why daylight saving time breaks naive assumptions, and how to represent timestamps unambiguousl..."
   },
   {
     "s": "timezone-converter",
