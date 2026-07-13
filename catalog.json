@@ -5,6 +5,11 @@
     "d": "Accessibility Basics Reference"
   },
   {
+    "s": "accessibility-quick-audit",
+    "t": "tool",
+    "d": "Paste an HTML snippet or a full page's source and get a real client-side accessibility audit. The tool parses your HTML safely (it never executes it) and reports concrete WCAG-aligned issues with a severity, the offending element, the relevant suc..."
+  },
+  {
     "s": "acid-and-transactions-reference",
     "t": "ref",
     "d": "A plain-language reference on database transactions and the ACID properties. It covers what a transaction is, what each of the four ACID letters guarantees, the isolation levels a database offers, the read anomalies each level prevents, and when r..."
