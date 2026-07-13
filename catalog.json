@@ -150,6 +150,11 @@
     "d": "API Versioning Basics"
   },
   {
+    "s": "aria-roles-reference",
+    "t": "ref",
+    "d": "A plain-language reference on ARIA, the set of roles, states, and properties that make web interfaces understandable to assistive technology like screen readers. It covers what ARIA is, the first rule of ARIA (use native HTML first), the differenc..."
+  },
+  {
     "s": "aspect-ratio-calculator",
     "t": "tool",
     "d": "Aspect Ratio Calculator"
@@ -625,6 +630,11 @@
     "d": "Compress and resize images in your browser. Fully local, no upload, no account."
   },
   {
+    "s": "image-formats-reference",
+    "t": "ref",
+    "d": "A plain-language reference on the image formats used on the web: JPEG, PNG, GIF, WebP, AVIF, and SVG. It covers the concepts that separate them (lossy versus lossless, transparency, animation, raster versus vector), what each format is good at, a ..."
+  },
+  {
     "s": "image-seo-and-alt-text-reference",
     "t": "ref",
     "d": "Image SEO and Alt Text"
@@ -718,6 +728,11 @@
     "s": "jwt-inspector",
     "t": "tool",
     "d": "JWT Inspector"
+  },
+  {
+    "s": "jwt-vs-session-reference",
+    "t": "ref",
+    "d": "A plain-language reference on the two common ways to keep a user logged in: server-side session cookies and stateless JSON Web Tokens (JWTs). It covers how each one works, the difference between storing session state on the server and carrying sig..."
   },
   {
     "s": "keyboard-driven-todo",
@@ -1198,6 +1213,11 @@
     "s": "sql-formatter",
     "t": "tool",
     "d": "Pretty-print and minify SQL in your browser. No server, no tracking, no third-party scripts."
+  },
+  {
+    "s": "sql-injection-basics-reference",
+    "t": "ref",
+    "d": "A plain-language reference on SQL injection: the vulnerability that lets an attacker change the meaning of a database query by feeding it crafted input. It covers what the attack is, how string-concatenated queries get exploited, why parameterized..."
   },
   {
     "s": "sql-joins-reference",
