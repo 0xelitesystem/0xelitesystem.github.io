@@ -180,6 +180,11 @@
     "d": "Base64 and URL Encoder Decoder"
   },
   {
+    "s": "bcrypt-playground",
+    "t": "tool",
+    "d": "An educational, fully client-side bcrypt playground. Generate and verify bcrypt hashes, inspect the anatomy of a hash string, and learn why bcrypt is the right tool for password storage. Everything runs in your browser with no external dependencies."
+  },
+  {
     "s": "box-shadow-generator",
     "t": "tool",
     "d": "Visual CSS box-shadow builder with live preview, stacked layers, inset support, and copy-ready output."
