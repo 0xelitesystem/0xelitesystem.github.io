@@ -275,6 +275,11 @@
     "d": "Visually build a chat messages array and export it in OpenAI-style and Anthropic-style JSON. No server, no tracking, no third-party scripts."
   },
   {
+    "s": "chmod-calculator",
+    "t": "tool",
+    "d": "A Unix file-permission calculator. Toggle read, write, and execute for owner, group, and other in a 3x3 grid, and watch the octal value (like 755) and the symbolic string (like rwxr-xr-x) stay in sync. Every representation is editable and drives t..."
+  },
+  {
     "s": "ci-cd-basics-reference",
     "t": "ref",
     "d": "A plain-language reference on continuous integration and continuous delivery/deployment: the practice of automatically building, testing, and shipping code so that changes reach production safely and often. It covers what CI, CD (delivery), and CD..."
@@ -403,6 +408,11 @@
     "s": "css-grid-generator",
     "t": "tool",
     "d": "A visual CSS Grid builder. Set columns, rows, track sizes, and gaps, preview the grid live, name a few areas, and copy the generated CSS. No server, no tracking, no third-party scripts."
+  },
+  {
+    "s": "css-specificity-calculator",
+    "t": "tool",
+    "d": "Type any CSS selector and get its specificity as (a, b, c), with a plain-English breakdown of exactly what contributed. Switch to compare mode and it tells you which of two selectors wins a conflict and why. Runs entirely in your browser, no serve..."
   },
   {
     "s": "csv-to-anything",
@@ -618,6 +628,16 @@
     "s": "html-entity-encoder-decoder",
     "t": "tool",
     "d": "Encode text to HTML entities and decode entities back to text, in your browser. No server, no tracking, no third-party scripts."
+  },
+  {
+    "s": "html-to-jsx-converter",
+    "t": "tool",
+    "d": "Paste HTML and get valid JSX you can drop into a React component. It renames the attributes React expects, converts inline styles to objects, self-closes void elements, and rewrites comments. The HTML is parsed with the browser's built-in parser a..."
+  },
+  {
+    "s": "http-header-analyzer",
+    "t": "tool",
+    "d": "Paste a raw HTTP response or request header block and get a per-header explanation plus a security posture summary. It parses text only, makes no requests, and runs entirely in your browser with no external dependencies. Works offline."
   },
   {
     "s": "http-status-codes-reference",
@@ -853,6 +873,11 @@
     "s": "meta-robots-tag-helper",
     "t": "tool",
     "d": "Meta Robots Tag Helper"
+  },
+  {
+    "s": "mime-type-lookup",
+    "t": "tool",
+    "d": "A fast, searchable lookup between file extensions and MIME (media) types, in both directions. Around 200 common types are built in as an inline table, so it works with no external dependencies and works offline."
   },
   {
     "s": "mock-data-generator",
@@ -1233,6 +1258,11 @@
     "s": "sql-joins-reference",
     "t": "ref",
     "d": "A plain-language reference on SQL joins: the operations that combine rows from two or more tables. It covers each join type (INNER, LEFT, RIGHT, FULL OUTER, CROSS, and self joins) with small example tables and the exact result rows, plus the mista..."
+  },
+  {
+    "s": "srt-to-vtt-converter",
+    "t": "tool",
+    "d": "Convert subtitle files between SubRip (.srt) and WebVTT (.vtt) in both directions. The input format is auto-detected, multi-line cues and blank lines are handled, and everything runs in your browser with no external dependencies. Works offline."
   },
   {
     "s": "stack-trace-cleaner",
