@@ -615,6 +615,11 @@
     "d": "Feature Flags Basics"
   },
   {
+    "s": "ffmpeg-command-builder",
+    "t": "tool",
+    "d": "Task-first ffmpeg helper. Instead of digging through documentation, pick what you want to do (compress a video, make a GIF, trim a clip, extract the audio) and get the exact command, with every flag explained in plain language and honest warnings ..."
+  },
+  {
     "s": "fine-tuning-vs-rag-vs-prompting-reference",
     "t": "ref",
     "d": "Fine-Tuning vs RAG vs Prompting Reference"
@@ -935,6 +940,11 @@
     "d": "MCP Basics"
   },
   {
+    "s": "mcp-config-generator",
+    "t": "tool",
+    "d": "Build and validate MCP (Model Context Protocol) server configuration JSON in your browser. MCP is an open protocol for connecting tools and data sources to LLM clients; clients read a JSON config listing the servers to connect to. Getting that JSO..."
+  },
+  {
     "s": "mcp-server-registry",
     "t": "ref",
     "d": "mcp-server-registry"
@@ -1213,6 +1223,11 @@
     "s": "rest-api-design-basics-reference",
     "t": "ref",
     "d": "REST API Design Basics"
+  },
+  {
+    "s": "resume-keyword-matcher",
+    "t": "tool",
+    "d": "Paste your resume and a job description, get an honest keyword-overlap analysis. One HTML file, no server, no tracking, no external dependencies. Works offline."
   },
   {
     "s": "retail-vs-smart-money-field-guide",
