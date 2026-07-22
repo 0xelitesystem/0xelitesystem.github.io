@@ -135,6 +135,11 @@
     "d": "api-changelog-rss"
   },
   {
+    "s": "api-key-redactor",
+    "t": "ref",
+    "d": "Paste logs, code, config, or chat transcripts and get back a redacted copy with likely secrets replaced by labeled placeholders like `[REDACTED:aws-access-key]`. Built for the moment before you paste something into a bug report, a support ticket, ..."
+  },
+  {
     "s": "api-mock-recipes",
     "t": "ref",
     "d": "api-mock-recipes"
@@ -995,6 +1000,11 @@
     "d": "OAuth Flow Debugger"
   },
   {
+    "s": "offer-comparison-calculator",
+    "t": "tool",
+    "d": "Compare two job offers side by side, fully in your browser. Base salary, signing bonus, annual bonus, equity, 401k match, benefits, PTO, and commute cost, with a live component-by-component difference table. No server, no tracking, no external dep..."
+  },
+  {
     "s": "og-image-generator",
     "t": "tool",
     "d": "og-image-generator"
@@ -1368,6 +1378,11 @@
     "s": "stack-trace-cleaner",
     "t": "tool",
     "d": "stack-trace-cleaner"
+  },
+  {
+    "s": "star-method-builder",
+    "t": "tool",
+    "d": "Guided builder for STAR interview answers (Situation, Task, Action, Result). Four guided sections with prompts and word targets, a live assembled preview, a bank of common behavioral questions, and locally saved answers. No external services, a st..."
   },
   {
     "s": "structured-data-examples",
