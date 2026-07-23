@@ -560,6 +560,11 @@
     "d": "Effective Hourly Rate Calculator"
   },
   {
+    "s": "electron-security-basics-reference",
+    "t": "ref",
+    "d": "Plain-language notes on securing Electron desktop apps, from a team that ships many local-first Electron apps and treats every renderer like a hostile web page."
+  },
+  {
     "s": "email-deliverability-reference",
     "t": "ref",
     "d": "Email Deliverability Reference"
@@ -908,6 +913,11 @@
     "s": "local-directory-seo-pack",
     "t": "ref",
     "d": "Local Directory SEO Pack"
+  },
+  {
+    "s": "local-first-software-reference",
+    "t": "ref",
+    "d": "A plain-language reference on what local-first software actually means, the architecture patterns behind it, and the honest tradeoffs, written by practitioners who build local-first tools."
   },
   {
     "s": "local-llm-vs-api-reference",
@@ -1418,6 +1428,11 @@
     "s": "subscription-cost-auditor",
     "t": "tool",
     "d": "Subscription Cost Auditor"
+  },
+  {
+    "s": "svg-badge-generator",
+    "t": "tool",
+    "d": "Generate README status badges as pure inline SVG with copy-ready markdown and HTML embeds - no badge service, no rate limits, works offline."
   },
   {
     "s": "svg-optimizer",
