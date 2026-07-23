@@ -530,6 +530,11 @@
     "d": "Domain and DNS Basics Reference"
   },
   {
+    "s": "dotenv-example-generator",
+    "t": "tool",
+    "d": "Paste a real .env file and get a sanitized .env.example with secret values stripped and comments kept, ready to commit, all in your browser."
+  },
+  {
     "s": "dredge",
     "t": "ref",
     "d": "Surface what search engines bury. OSINT toolkit for suppressed records, deleted content, and adversarially-buried search results."
@@ -1060,6 +1065,11 @@
     "d": "Permission Email vs Spam"
   },
   {
+    "s": "pkce-generator",
+    "t": "tool",
+    "d": "Generate an OAuth 2.0 PKCE code_verifier and S256 code_challenge in your browser with the WebCrypto API, plus a plain-language explainer of why PKCE exists."
+  },
+  {
     "s": "platform-deplatforming-runbook",
     "t": "ref",
     "d": "Platform Deplatforming Runbook"
@@ -1243,6 +1253,11 @@
     "s": "retail-vs-smart-money-field-guide",
     "t": "ref",
     "d": "Retail vs Smart Money Field Guide"
+  },
+  {
+    "s": "retry-backoff-calculator",
+    "t": "tool",
+    "d": "Visualize exponential backoff with jitter for API retry logic: per-attempt delay table, worst-case wait, bar chart, and a copyable JavaScript snippet."
   },
   {
     "s": "robots-llms-txt-generator",
