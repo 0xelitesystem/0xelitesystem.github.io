@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Fri, 24 Jul 2026 23:16:24 +0000</lastBuildDate>
+<lastBuildDate>Mon, 27 Jul 2026 10:11:21 +0000</lastBuildDate>
 <item><title>tool-ergonomics-sandbox</title><link>https://github.com/0xelitesystem/tool-ergonomics-sandbox</link><guid>https://github.com/0xelitesystem/tool-ergonomics-sandbox</guid><pubDate>Fri, 24 Jul 2026 23:16:03 +0000</pubDate><description>Lint your LLM tool definitions for model-tripping ambiguity, then play the model yourself: build tool calls by hand against live schema validation and export the transcript as an eval case.</description></item>
 <item><title>eval-regression-viewer</title><link>https://github.com/0xelitesystem/eval-regression-viewer</link><guid>https://github.com/0xelitesystem/eval-regression-viewer</guid><pubDate>Fri, 24 Jul 2026 23:15:57 +0000</pubDate><description>Drop two eval-run files (JSONL, JSON array, or CSV) and get a case-by-case regression diff: new failures, new passes, score deltas, and flaky cases, all in your browser.</description></item>
 <item><title>mcp-2026-spec-migration-reference</title><link>https://github.com/0xelitesystem/mcp-2026-spec-migration-reference</link><guid>https://github.com/0xelitesystem/mcp-2026-spec-migration-reference</guid><pubDate>Fri, 24 Jul 2026 23:15:51 +0000</pubDate><description>A plain-language walkthrough of the MCP 2026-07-28 specification release and what it changes for anyone running an existing MCP server, written against the release candidate.</description></item>
