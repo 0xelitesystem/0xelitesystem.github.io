@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Thu, 30 Jul 2026 14:32:50 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Jul 2026 14:33:50 +0000</lastBuildDate>
 <item><title>mcp-tool-poisoning-scanner</title><link>https://github.com/0xelitesystem/mcp-tool-poisoning-scanner</link><guid>https://github.com/0xelitesystem/mcp-tool-poisoning-scanner</guid><pubDate>Thu, 30 Jul 2026 14:32:28 +0000</pubDate><description>Paste an MCP server's tool definitions and statically scan them for prompt injection, hidden characters, tool shadowing, and exfiltration-shaped parameters before you install it.</description></item>
 <item><title>llm-json-repair</title><link>https://github.com/0xelitesystem/llm-json-repair</link><guid>https://github.com/0xelitesystem/llm-json-repair</guid><pubDate>Thu, 30 Jul 2026 14:32:22 +0000</pubDate><description>Paste the broken JSON an LLM just handed you, get valid JSON back, plus a named diagnosis for every repair and the prompt change that prevents it next time.</description></item>
 <item><title>llm-stream-inspector</title><link>https://github.com/0xelitesystem/llm-stream-inspector</link><guid>https://github.com/0xelitesystem/llm-stream-inspector</guid><pubDate>Thu, 30 Jul 2026 14:32:15 +0000</pubDate><description>Paste a raw Server-Sent Events dump from a streaming LLM response and get it parsed, reassembled, and diagnosed in your browser.</description></item>
