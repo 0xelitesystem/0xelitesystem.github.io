@@ -77,9 +77,29 @@ jobs:
           } > feed.xml
           rm -f recent.json
 
+      - name: Sync the counts shown in index.html and llms.txt
+        run: |
+          TOTAL=$(jq length catalog.json)
+          TOOLS=$(jq '[.[] | select(.t=="tool")] | length' catalog.json)
+          REFS=$((TOTAL - TOOLS))
+          sed -i \
+            -e "s|<title>0xelitesystem - [0-9]\+ tools|<title>0xelitesystem - ${TOTAL} tools|" \
+            -e "s|content=\"0xelitesystem - [0-9]\+ tools and references\"|content=\"0xelitesystem - ${TOTAL} tools and references\"|" \
+            -e "s|content=\"[0-9]\+ open-source repos: [0-9]\+ zero-dependency browser tools with live demos and [0-9]\+ plain-language|content=\"${TOTAL} open-source repos: ${TOOLS} zero-dependency browser tools with live demos and ${REFS} plain-language|" \
+            -e "s|content=\"[0-9]\+ single-file browser tools with live demos. [0-9]\+ plain-language|content=\"${TOOLS} single-file browser tools with live demos. ${REFS} plain-language|" \
+            -e "s|\"description\":\"[0-9]\+ open-source repos:|\"description\":\"${TOTAL} open-source repos:|" \
+            -e "s|<span id=\"hdr-stats\">[0-9]\+ open-source repos. [0-9]\+ single-file browser tools, every one with a live demo. [0-9]\+ plain-language references.</span>|<span id=\"hdr-stats\">${TOTAL} open-source repos. ${TOOLS} single-file browser tools, every one with a live demo. ${REFS} plain-language references.</span>|" \
+            -e "s|placeholder=\"Search [0-9]\+ repos|placeholder=\"Search ${TOTAL} repos|" \
+            index.html
+          sed -i \
+            -e "s|^> [0-9]\+ open-source repos by one operator: [0-9]\+ zero-dependency single-file browser tools with live demos, and [0-9]\+ plain-language|> ${TOTAL} open-source repos by one operator: ${TOOLS} zero-dependency single-file browser tools with live demos, and ${REFS} plain-language|" \
+            -e "s|\[Searchable index of all [0-9]\+ repos\]|[Searchable index of all ${TOTAL} repos]|" \
+            llms.txt
+          echo "synced to ${TOTAL} total / ${TOOLS} tools / ${REFS} refs"
+
       - name: Commit if changed
         run: |
           git config user.name "0xelitesystem"
           git config user.email "113920829+0xelitesystem@users.noreply.github.com"
-          git add catalog.json sitemap.xml feed.xml
+          git add catalog.json sitemap.xml feed.xml index.html llms.txt
           git diff --cached --quiet || { git commit -m "auto-update catalog, sitemap, and feed from live repo list"; git push; }

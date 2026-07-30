@@ -2,3 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://0xelitesystem.github.io/sitemap.xml
+
+# Machine-readable summaries for AI crawlers
+# https://0xelitesystem.github.io/llms.txt
+# https://0xelitesystem.github.io/catalog.json
