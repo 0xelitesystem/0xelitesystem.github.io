@@ -900,9 +900,19 @@
     "d": "llm-eval-datasets-starter"
   },
   {
+    "s": "llm-json-repair",
+    "t": "tool",
+    "d": "Paste the broken JSON an LLM just handed you, get valid JSON back, plus a named diagnosis for every repair and the prompt change that prevents it next time."
+  },
+  {
     "s": "llm-pricing-data",
     "t": "ref",
     "d": "llm-pricing-data"
+  },
+  {
+    "s": "llm-stream-inspector",
+    "t": "tool",
+    "d": "Paste a raw Server-Sent Events dump from a streaming LLM response and get it parsed, reassembled, and diagnosed in your browser."
   },
   {
     "s": "llms-txt-generator",
@@ -978,6 +988,11 @@
     "s": "mcp-server-registry",
     "t": "ref",
     "d": "mcp-server-registry"
+  },
+  {
+    "s": "mcp-tool-poisoning-scanner",
+    "t": "tool",
+    "d": "Paste an MCP server's tool definitions and statically scan them for prompt injection, hidden characters, tool shadowing, and exfiltration-shaped parameters before you install it."
   },
   {
     "s": "meta-og-tag-generator",
