@@ -370,6 +370,11 @@
     "d": "content-voice-templates"
   },
   {
+    "s": "context-budget-planner",
+    "t": "tool",
+    "d": "Plan an agent's context window like a budget: allocate it across every consumer, watch the stacked bar, and find the overflow before production does."
+  },
+  {
     "s": "context-windows-and-tokens-reference",
     "t": "ref",
     "d": "Context Windows and Tokens Reference"
@@ -913,6 +918,11 @@
     "s": "llm-stream-inspector",
     "t": "tool",
     "d": "Paste a raw Server-Sent Events dump from a streaming LLM response and get it parsed, reassembled, and diagnosed in your browser."
+  },
+  {
+    "s": "llm-vram-calculator",
+    "t": "tool",
+    "d": "Estimate the GPU memory a local LLM needs, with the arithmetic shown, an honest range instead of a fake-precise number, and a fits-or-not verdict for common GPUs."
   },
   {
     "s": "llms-txt-generator",
@@ -1473,6 +1483,11 @@
     "s": "tailwind-to-css",
     "t": "tool",
     "d": "Paste a string of Tailwind utility classes and get the equivalent plain CSS, grouped into a single rule. It covers a solid set of common utilities using the default theme values. It is honest about scope: this maps common utilities with the defaul..."
+  },
+  {
+    "s": "temperature-top-p-playground",
+    "t": "tool",
+    "d": "Drag temperature, top_k and top_p and watch a real softmax distribution reshape live, with every stage of the truncation pipeline shown and the edge cases explained."
   },
   {
     "s": "terminal-portfolio",
