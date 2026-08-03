@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Fri, 31 Jul 2026 05:48:32 +0000</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 10:07:46 +0000</lastBuildDate>
 <item><title>llm-vram-calculator</title><link>https://github.com/0xelitesystem/llm-vram-calculator</link><guid>https://github.com/0xelitesystem/llm-vram-calculator</guid><pubDate>Fri, 31 Jul 2026 05:46:25 +0000</pubDate><description>Estimate the GPU memory a local LLM needs, with the arithmetic shown, an honest range instead of a fake-precise number, and a fits-or-not verdict for common GPUs.</description></item>
 <item><title>temperature-top-p-playground</title><link>https://github.com/0xelitesystem/temperature-top-p-playground</link><guid>https://github.com/0xelitesystem/temperature-top-p-playground</guid><pubDate>Fri, 31 Jul 2026 05:46:17 +0000</pubDate><description>Drag temperature, top_k and top_p and watch a real softmax distribution reshape live, with every stage of the truncation pipeline shown and the edge cases explained.</description></item>
 <item><title>context-budget-planner</title><link>https://github.com/0xelitesystem/context-budget-planner</link><guid>https://github.com/0xelitesystem/context-budget-planner</guid><pubDate>Fri, 31 Jul 2026 05:46:05 +0000</pubDate><description>Plan an agent's context window like a budget: allocate it across every consumer, watch the stacked bar, and find the overflow before production does.</description></item>
