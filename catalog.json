@@ -620,6 +620,11 @@
     "d": "Drop two eval-run files (JSONL, JSON array, or CSV) and get a case-by-case regression diff: new failures, new passes, score deltas, and flaky cases, all in your browser."
   },
   {
+    "s": "eval-significance-calculator",
+    "t": "tool",
+    "d": "Paste two eval runs, or just the counts, and find out whether that 3-point score move is a real improvement or sampling noise."
+  },
+  {
     "s": "evaluating-llm-output-reference",
     "t": "ref",
     "d": "Evaluating LLM Output Reference"
@@ -920,6 +925,11 @@
     "d": "Paste a raw Server-Sent Events dump from a streaming LLM response and get it parsed, reassembled, and diagnosed in your browser."
   },
   {
+    "s": "llm-timeout-budget",
+    "t": "tool",
+    "d": "Model your worst-case LLM request end to end, check it against every timeout between your code and the API, and find out whether streaming saves you or does nothing at all."
+  },
+  {
     "s": "llm-vram-calculator",
     "t": "tool",
     "d": "Estimate the GPU memory a local LLM needs, with the arithmetic shown, an honest range instead of a fake-precise number, and a fits-or-not verdict for common GPUs."
@@ -1163,6 +1173,11 @@
     "s": "profit-margin-and-markup-calculator",
     "t": "tool",
     "d": "Profit Margin and Markup Calculator"
+  },
+  {
+    "s": "prompt-cache-inspector",
+    "t": "tool",
+    "d": "Paste two consecutive Anthropic request bodies and find the exact byte where your cached prefix broke, whether your breakpoints are legal, and whether caching pays for itself at your request rate."
   },
   {
     "s": "prompt-cost-calculator",
