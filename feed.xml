@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Fri, 07 Aug 2026 23:26:25 +0000</lastBuildDate>
+<lastBuildDate>Sat, 08 Aug 2026 05:42:49 +0000</lastBuildDate>
 <item><title>eval-significance-calculator</title><link>https://github.com/0xelitesystem/eval-significance-calculator</link><guid>https://github.com/0xelitesystem/eval-significance-calculator</guid><pubDate>Fri, 07 Aug 2026 23:25:02 +0000</pubDate><description>Paste two eval runs, or just the counts, and find out whether that 3-point score move is a real improvement or sampling noise.</description></item>
 <item><title>llm-timeout-budget</title><link>https://github.com/0xelitesystem/llm-timeout-budget</link><guid>https://github.com/0xelitesystem/llm-timeout-budget</guid><pubDate>Fri, 07 Aug 2026 23:24:56 +0000</pubDate><description>Model your worst-case LLM request end to end, check it against every timeout between your code and the API, and find out whether streaming saves you or does nothing at all.</description></item>
 <item><title>prompt-cache-inspector</title><link>https://github.com/0xelitesystem/prompt-cache-inspector</link><guid>https://github.com/0xelitesystem/prompt-cache-inspector</guid><pubDate>Fri, 07 Aug 2026 23:24:49 +0000</pubDate><description>Paste two consecutive Anthropic request bodies and find the exact byte where your cached prefix broke, whether your breakpoints are legal, and whether caching pays for itself at your request rate.</description></item>
