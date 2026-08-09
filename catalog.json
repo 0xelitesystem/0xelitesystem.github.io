@@ -915,6 +915,16 @@
     "d": "Paste the broken JSON an LLM just handed you, get valid JSON back, plus a named diagnosis for every repair and the prompt change that prevents it next time."
   },
   {
+    "s": "llm-message-array-linter",
+    "t": "tool",
+    "d": "Paste the Anthropic `messages` array from a request that returned a 400 and get the exact block index that broke it, plus every index where the transcript can legally be truncated."
+  },
+  {
+    "s": "llm-output-sink-scanner",
+    "t": "tool",
+    "d": "Paste a model response and see every URL your renderer would silently GET, every cell a spreadsheet would run as a formula, and every terminal escape that overwrites what you read."
+  },
+  {
     "s": "llm-pricing-data",
     "t": "ref",
     "d": "Machine-readable pricing for major LLM providers. JSON files, community-maintained, structured for programmatic use."
@@ -1033,6 +1043,11 @@
     "s": "mock-data-generator",
     "t": "tool",
     "d": "Generate fake test data in your browser. No server, no tracking, no third-party scripts."
+  },
+  {
+    "s": "model-pickle-scanner",
+    "t": "tool",
+    "d": "Drop a .pt, .bin, .ckpt or .pkl and read its pickle opcodes in the browser without executing them, including exactly which global or opcode makes torch.load(weights_only=True) refuse the file."
   },
   {
     "s": "mortgage-affordability-calculator",
