@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Sun, 09 Aug 2026 07:59:34 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 08:00:12 +0000</lastBuildDate>
 <item><title>llm-output-sink-scanner</title><link>https://github.com/0xelitesystem/llm-output-sink-scanner</link><guid>https://github.com/0xelitesystem/llm-output-sink-scanner</guid><pubDate>Sun, 09 Aug 2026 07:59:16 +0000</pubDate><description>Paste a model response and see every URL your renderer would silently GET, every cell a spreadsheet would run as a formula, and every terminal escape that overwrites what you read.</description></item>
 <item><title>llm-message-array-linter</title><link>https://github.com/0xelitesystem/llm-message-array-linter</link><guid>https://github.com/0xelitesystem/llm-message-array-linter</guid><pubDate>Sun, 09 Aug 2026 07:59:09 +0000</pubDate><description>Paste the Anthropic `messages` array from a request that returned a 400 and get the exact block index that broke it, plus every index where the transcript can legally be truncated.</description></item>
 <item><title>model-pickle-scanner</title><link>https://github.com/0xelitesystem/model-pickle-scanner</link><guid>https://github.com/0xelitesystem/model-pickle-scanner</guid><pubDate>Sun, 09 Aug 2026 07:59:03 +0000</pubDate><description>Drop a .pt, .bin, .ckpt or .pkl and read its pickle opcodes in the browser without executing them, including exactly which global or opcode makes torch.load(weights_only=True) refuse the file.</description></item>
