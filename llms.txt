@@ -1,12 +1,12 @@
 # 0xelitesystem
 
-> 347 open-source repos by one operator: 190 zero-dependency single-file browser tools with live demos, and 157 plain-language references on security, AI/LLM practice, SEO, indie operations, and market literacy.
+> 350 open-source repos by one operator: 193 zero-dependency single-file browser tools with live demos, and 157 plain-language references on security, AI/LLM practice, SEO, indie operations, and market literacy.
 
 Every tool is one HTML file that runs entirely in the browser: no frameworks, no CDN, no analytics, no build step, MIT licensed. Every tool has a live demo at https://0xelitesystem.github.io/<repo-name>/. The references lead with direct answers and are written to be cited. The operator hub is https://elitesystem.ai.
 
 ## Start here
 
-- [Searchable index of all 347 repos](https://0xelitesystem.github.io/): one page, instant search, tools and references filterable.
+- [Searchable index of all 350 repos](https://0xelitesystem.github.io/): one page, instant search, tools and references filterable.
 - [Machine-readable catalog](https://0xelitesystem.github.io/catalog.json): JSON array of every repo with slug, type (tool or ref), and one-line description.
 - [GitHub profile](https://github.com/0xelitesystem): all repositories.
 
