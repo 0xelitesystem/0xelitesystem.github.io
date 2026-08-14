@@ -595,6 +595,11 @@
     "d": "Estimate embedding costs across 11 providers before you commit to a RAG strategy."
   },
   {
+    "s": "embedding-similarity-calibrator",
+    "t": "tool",
+    "d": "Paste your own embedding vectors and get the empirical cosine distribution of unrelated pairs, drawn against the exact closed-form null for random unit vectors in the same dimension."
+  },
+  {
     "s": "embeddings-and-vector-search-basics-reference",
     "t": "ref",
     "d": "A plain-language reference on embeddings and vector search: what a vector embedding actually is, how similarity is measured, what a vector database does, how text is chunked and retrieved, and when embeddings genuinely help versus when they do not."
@@ -835,6 +840,11 @@
     "d": "Paste JSON and a JSONPath expression, see the matched values and their paths live, in your browser. No server, no tracking, no third-party scripts."
   },
   {
+    "s": "json-precision-auditor",
+    "t": "tool",
+    "d": "Paste JSON and see which number literals change value when parsed into IEEE 754 doubles, including the ones that re-print byte-for-byte identical to what you pasted."
+  },
+  {
     "s": "json-schema-to-tool-definition",
     "t": "tool",
     "d": "Paste a JSON Schema and generate a function/tool-calling definition in both the OpenAI function-calling format and the Anthropic tool format. No server, no tracking, no third-party scripts."
@@ -1043,6 +1053,11 @@
     "s": "meta-robots-tag-helper",
     "t": "tool",
     "d": "Builds a meta robots tag and the matching X-Robots-Tag header by toggling crawl and index directives."
+  },
+  {
+    "s": "metastable-failure-explorer",
+    "t": "tool",
+    "d": "Solve the retry-amplification fixed point for a service and its dependency, enumerate every equilibrium, and trace the hysteresis loop between the tipping point and the recovery point."
   },
   {
     "s": "mime-type-lookup",
