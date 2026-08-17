@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Fri, 14 Aug 2026 23:10:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 17 Aug 2026 07:18:18 +0000</lastBuildDate>
 <item><title>embedding-similarity-calibrator</title><link>https://github.com/0xelitesystem/embedding-similarity-calibrator</link><guid>https://github.com/0xelitesystem/embedding-similarity-calibrator</guid><pubDate>Fri, 14 Aug 2026 23:09:36 +0000</pubDate><description>Paste your own embedding vectors and get the empirical cosine distribution of unrelated pairs, drawn against the exact closed-form null for random unit vectors in the same dimension.</description></item>
 <item><title>metastable-failure-explorer</title><link>https://github.com/0xelitesystem/metastable-failure-explorer</link><guid>https://github.com/0xelitesystem/metastable-failure-explorer</guid><pubDate>Fri, 14 Aug 2026 23:09:27 +0000</pubDate><description>Solve the retry-amplification fixed point for a service and its dependency, enumerate every equilibrium, and trace the hysteresis loop between the tipping point and the recovery point.</description></item>
 <item><title>json-precision-auditor</title><link>https://github.com/0xelitesystem/json-precision-auditor</link><guid>https://github.com/0xelitesystem/json-precision-auditor</guid><pubDate>Fri, 14 Aug 2026 23:09:20 +0000</pubDate><description>Paste JSON and see which number literals change value when parsed into IEEE 754 doubles, including the ones that re-print byte-for-byte identical to what you pasted.</description></item>
