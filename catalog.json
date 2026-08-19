@@ -27,12 +27,12 @@
   {
     "s": "agent-blast-radius",
     "t": "ref",
-    "d": "Reconstruct every irreversible action an AI agent took in a session — from the transcript you already have. Forensics for unattended agents."
+    "d": "Reconstruct every irreversible action an AI agent took in a session ,  from the transcript you already have. Forensics for unattended agents."
   },
   {
     "s": "agent-cost",
     "t": "ref",
-    "d": "Retrospective token and cost forensics for AI agent sessions, with runaway-loop detection. No proxy, no setup — reads the transcript you already have."
+    "d": "Retrospective token and cost forensics for AI agent sessions, with runaway-loop detection. No proxy, no setup ,  reads the transcript you already have."
   },
   {
     "s": "agent-diff-reviewer",
@@ -47,12 +47,12 @@
   {
     "s": "agent-leaks",
     "t": "ref",
-    "d": "Scan and redact leaked secrets sitting in your AI agent session transcripts. Your agent ran `cat .env` once — that key is in ~/.claude/projects forever."
+    "d": "Scan and redact leaked secrets sitting in your AI agent session transcripts. Your agent ran `cat .env` once ,  that key is in ~/.claude/projects forever."
   },
   {
     "s": "agent-receipts",
     "t": "ref",
-    "d": "Audit what your coding agent claimed against what it actually did. Your agent says 'all tests pass' — prove it."
+    "d": "Audit what your coding agent claimed against what it actually did. Your agent says 'all tests pass' ,  prove it."
   },
   {
     "s": "agent-rules",
@@ -1437,7 +1437,7 @@
   {
     "s": "session-cookie-auditor",
     "t": "tool",
-    "d": "Browser-based Set-Cookie header auditor. Grades cookies A–F on hardening attributes (Secure, HttpOnly, SameSite, scoping, prefixes)"
+    "d": "Browser-based Set-Cookie header auditor. Grades cookies A-F on hardening attributes (Secure, HttpOnly, SameSite, scoping, prefixes)"
   },
   {
     "s": "short-form-video-hooks-reference",
