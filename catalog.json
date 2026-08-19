@@ -27,12 +27,12 @@
   {
     "s": "agent-blast-radius",
     "t": "ref",
-    "d": "Reconstruct every irreversible action an AI agent took in a session ,  from the transcript you already have. Forensics for unattended agents."
+    "d": "Reconstruct every irreversible action an AI agent took in a session, from the transcript you already have. Forensics for unattended agents."
   },
   {
     "s": "agent-cost",
     "t": "ref",
-    "d": "Retrospective token and cost forensics for AI agent sessions, with runaway-loop detection. No proxy, no setup ,  reads the transcript you already have."
+    "d": "Retrospective token and cost forensics for AI agent sessions, with runaway-loop detection. No proxy, no setup, it reads the transcript you already have."
   },
   {
     "s": "agent-diff-reviewer",
@@ -47,12 +47,12 @@
   {
     "s": "agent-leaks",
     "t": "ref",
-    "d": "Scan and redact leaked secrets sitting in your AI agent session transcripts. Your agent ran `cat .env` once ,  that key is in ~/.claude/projects forever."
+    "d": "Scan and redact leaked secrets sitting in your AI agent session transcripts. Your agent ran `cat .env` once, and that key is in ~/.claude/projects forever."
   },
   {
     "s": "agent-receipts",
     "t": "ref",
-    "d": "Audit what your coding agent claimed against what it actually did. Your agent says 'all tests pass' ,  prove it."
+    "d": "Audit what your coding agent claimed against what it actually did. Your agent says 'all tests pass', so prove it."
   },
   {
     "s": "agent-rules",
@@ -103,6 +103,11 @@
     "s": "ai-crawler-access-and-llms-txt-reference",
     "t": "ref",
     "d": "A plain-language reference on letting AI crawlers into your site: the robots.txt rules that control GPTBot, ClaudeBot, PerplexityBot, and Google-Extended, the emerging llms.txt standard, and why allowing AI crawlers tends to help you get cited."
+  },
+  {
+    "s": "ai-deletion-and-retention-reference",
+    "t": "ref",
+    "d": "Where user data actually lives in an AI stack, what deleted honestly means in each store, and the two places a delete request cannot reach: trained weights and immutable backups."
   },
   {
     "s": "ai-generated-code-review-rubrics",
@@ -1035,6 +1040,11 @@
     "d": "Build and validate MCP (Model Context Protocol) server configuration JSON in your browser. MCP is an open protocol for connecting tools and data sources to LLM clients; clients read a JSON config listing the servers to connect to. Getting that JSO..."
   },
   {
+    "s": "mcp-server-privilege-inventory",
+    "t": "tool",
+    "d": "Paste an MCP client config and get a privilege inventory: which servers launch a subprocess as your user, how mutable each code reference is, and which secrets you hand each one."
+  },
+  {
     "s": "mcp-server-registry",
     "t": "ref",
     "d": "A community-maintained directory of public MCP (Model Context Protocol) servers. Find one to use, or list yours."
@@ -1437,7 +1447,7 @@
   {
     "s": "session-cookie-auditor",
     "t": "tool",
-    "d": "Browser-based Set-Cookie header auditor. Grades cookies A-F on hardening attributes (Secure, HttpOnly, SameSite, scoping, prefixes)"
+    "d": "Browser-based Set-Cookie header auditor. Grades cookies A to F on hardening attributes (Secure, HttpOnly, SameSite, scoping, prefixes)"
   },
   {
     "s": "short-form-video-hooks-reference",
@@ -1468,6 +1478,11 @@
     "s": "solo-saas-launch-checklist",
     "t": "ref",
     "d": "A pre-launch checklist for solo developers shipping a SaaS. About 100 items organized by category, with notes on which items are critical, which are nice-to-have, and which only matter at certain scales."
+  },
+  {
+    "s": "span-offset-debugger",
+    "t": "tool",
+    "d": "Paste text and a span, name the system that produced the offsets and the one that reads them, and see the same numbers select four different substrings."
   },
   {
     "s": "sql-formatter",
