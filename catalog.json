@@ -575,6 +575,11 @@
     "d": "Single-file browser tool that divides income after expenses by every hour worked, billable and not, and reports your effective rate, the nominal rate, total hours and the per-hour gap between them."
   },
   {
+    "s": "electron-release-matrix-auditor",
+    "t": "tool",
+    "d": "Paste a GitHub Actions workflow. It reports which release artifacts the matrix legs will fight over, and whether two legs can create two draft releases for one tag."
+  },
+  {
     "s": "electron-security-basics-reference",
     "t": "ref",
     "d": "Plain-language notes on securing Electron desktop apps, from a team that ships many local-first Electron apps and treats every renderer like a hostile web page."
@@ -1515,6 +1520,11 @@
     "d": "Strip framework noise from stack traces. Paste a trace from Node, Python, Rust, Java, Ruby, or Go, get only the frames in your code, with the option to expand framework frames if you need them."
   },
   {
+    "s": "staged-rollout-cohort-simulator",
+    "t": "tool",
+    "d": "Runs the electron-updater staged rollout formula against freshly generated install ids and shows that a staged rollout is a fixed cohort, not a rotating sample."
+  },
+  {
     "s": "star-method-builder",
     "t": "tool",
     "d": "Guided builder for STAR interview answers (Situation, Task, Action, Result). Four guided sections with prompts and word targets, a live assembled preview, a bank of common behavioral questions, and locally saved answers. No external services, a st..."
@@ -1753,6 +1763,11 @@
     "s": "yaml-to-json",
     "t": "tool",
     "d": "Convert YAML to JSON and back, in your browser. No server, no upload, no tracking."
+  },
+  {
+    "s": "yaml-type-coercion-auditor",
+    "t": "tool",
+    "d": "Paste YAML and see every scalar that resolves to a different type, or a different value, depending on which parser reads the file."
   },
   {
     "s": "youtube-chapter-marker-builder",
