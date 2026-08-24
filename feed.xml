@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Sat, 22 Aug 2026 09:39:22 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 07:30:52 +0000</lastBuildDate>
 <item><title>yaml-type-coercion-auditor</title><link>https://github.com/0xelitesystem/yaml-type-coercion-auditor</link><guid>https://github.com/0xelitesystem/yaml-type-coercion-auditor</guid><pubDate>Sat, 22 Aug 2026 09:39:02 +0000</pubDate><description>Paste YAML and see every scalar that resolves to a different type, or a different value, depending on which parser reads the file.</description></item>
 <item><title>staged-rollout-cohort-simulator</title><link>https://github.com/0xelitesystem/staged-rollout-cohort-simulator</link><guid>https://github.com/0xelitesystem/staged-rollout-cohort-simulator</guid><pubDate>Sat, 22 Aug 2026 09:38:55 +0000</pubDate><description>Runs the electron-updater staged rollout formula against freshly generated install ids and shows that a staged rollout is a fixed cohort, not a rotating sample.</description></item>
 <item><title>electron-release-matrix-auditor</title><link>https://github.com/0xelitesystem/electron-release-matrix-auditor</link><guid>https://github.com/0xelitesystem/electron-release-matrix-auditor</guid><pubDate>Sat, 22 Aug 2026 09:38:48 +0000</pubDate><description>Paste a GitHub Actions workflow. It reports which release artifacts the matrix legs will fight over, and whether two legs can create two draft releases for one tag.</description></item>
