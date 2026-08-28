@@ -1065,6 +1065,11 @@
     "d": "A community-maintained directory of public MCP (Model Context Protocol) servers. Find one to use, or list yours."
   },
   {
+    "s": "mcp-state-token-designer",
+    "t": "tool",
+    "d": "Design the binding set that goes inside an MCP `requestState` token, mint one with real WebCrypto HMAC-SHA-256 in the browser, then read the residual table: which attack each binding stops, and the one attack that none of them stop."
+  },
+  {
     "s": "mcp-tool-poisoning-scanner",
     "t": "tool",
     "d": "Paste an MCP server's tool definitions and statically scan them for prompt injection, hidden characters, tool shadowing, and exfiltration-shaped parameters before you install it."
@@ -1475,6 +1480,11 @@
     "d": "A plain-language reference on hooks for short-form video on Shorts, Reels, and TikTok: the first one to three seconds that decide whether a viewer stays or scrolls."
   },
   {
+    "s": "silent-breaking-changes-reference",
+    "t": "ref",
+    "d": "A catalogue of five 2026 platform changes that reached working code without ever"
+  },
+  {
     "s": "single-file-saas-template",
     "t": "tool",
     "d": "A complete BYOK SaaS scaffolded into one HTML file. Free tier with daily limit, Pro tier unlocked by license code, key never leaves the user's browser."
@@ -1758,6 +1768,11 @@
     "s": "websockets-basics-reference",
     "t": "ref",
     "d": "A plain-language reference on WebSockets: the protocol that gives a web page a persistent, two-way connection to a server. It covers what a WebSocket is, how the connection starts as an HTTP request and upgrades, when to reach for it instead of po..."
+  },
+  {
+    "s": "windows-code-signing-and-smartscreen-reference",
+    "t": "ref",
+    "d": "A plain-language reference for shipping signed Windows software after the"
   },
   {
     "s": "word-and-character-counter",
