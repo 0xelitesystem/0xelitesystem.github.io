@@ -635,6 +635,11 @@
     "d": "A plain-language reference comparing exchange-traded funds (ETFs) with index mutual funds. Both can track the same index and hold the same stocks, yet they differ in how they are structured, how they trade, what they cost, how they are taxed, and what minimums they require."
   },
   {
+    "s": "eval-peeking-planner",
+    "t": "tool",
+    "d": "Measure what checking an eval mid-run does to your false-positive rate, then compute the paired sample size and the group-sequential boundaries that fix it. Monte Carlo plus recursive numerical integration, in one HTML file, with no libraries and ..."
+  },
+  {
     "s": "eval-regression-viewer",
     "t": "tool",
     "d": "Drop two eval-run files (JSONL, JSON array, or CSV) and get a case-by-case regression diff: new failures, new passes, score deltas, and flaky cases, all in your browser."
@@ -1045,6 +1050,11 @@
     "d": "Build and validate MCP (Model Context Protocol) server configuration JSON in your browser. MCP is an open protocol for connecting tools and data sources to LLM clients; clients read a JSON config listing the servers to connect to. Getting that JSO..."
   },
   {
+    "s": "mcp-header-annotation-validator",
+    "t": "tool",
+    "d": "Paste an MCP tool definition and find out, clause by clause, whether a conforming Streamable HTTP client will silently delete it from `tools/list` because of an `x-mcp-header` annotation."
+  },
+  {
     "s": "mcp-server-privilege-inventory",
     "t": "tool",
     "d": "Paste an MCP client config and get a privilege inventory: which servers launch a subprocess as your user, how mutable each code reference is, and which secrets you hand each one."
@@ -1088,6 +1098,11 @@
     "s": "model-pickle-scanner",
     "t": "tool",
     "d": "Drop a .pt, .bin, .ckpt or .pkl and read its pickle opcodes in the browser without executing them, including exactly which global or opcode makes torch.load(weights_only=True) refuse the file."
+  },
+  {
+    "s": "mojibake-inverter",
+    "t": "tool",
+    "d": "Paste text that an encoding mistake mangled, recover the original exactly, see the full set of codecs that could have caused the damage, and get the positions that cannot be recovered at all."
   },
   {
     "s": "mortgage-affordability-calculator",
