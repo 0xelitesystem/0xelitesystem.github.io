@@ -325,6 +325,11 @@
     "d": "Interactive builder for the per-project markdown file every coding agent should read first. Outputs CLAUDE.md (Claude Code) or AGENTS.md (general convention)."
   },
   {
+    "s": "claude-shipping-plugins",
+    "t": "ref",
+    "d": "A Claude Code plugin marketplace for the parts of shipping software that fail"
+  },
+  {
     "s": "claude-skills-collection",
     "t": "ref",
     "d": "Curated, working Claude Skills you can drop into any project. Each skill is in its own folder with SKILL.md plus any reference files."
