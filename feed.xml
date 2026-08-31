@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Sat, 29 Aug 2026 13:06:02 +0000</lastBuildDate>
+<lastBuildDate>Mon, 31 Aug 2026 13:59:41 +0000</lastBuildDate>
 <item><title>claude-shipping-plugins</title><link>https://github.com/0xelitesystem/claude-shipping-plugins</link><guid>https://github.com/0xelitesystem/claude-shipping-plugins</guid><pubDate>Sat, 29 Aug 2026 13:05:43 +0000</pubDate><description>A Claude Code plugin marketplace for the parts of shipping software that fail</description></item>
 <item><title>mcp-state-token-designer</title><link>https://github.com/0xelitesystem/mcp-state-token-designer</link><guid>https://github.com/0xelitesystem/mcp-state-token-designer</guid><pubDate>Fri, 28 Aug 2026 10:39:23 +0000</pubDate><description>Design the binding set that goes inside an MCP `requestState` token, mint one with real WebCrypto HMAC-SHA-256 in the browser, then read the residual table: which attack each binding stops, and the one attack that none of them stop.</description></item>
 <item><title>windows-code-signing-and-smartscreen-reference</title><link>https://github.com/0xelitesystem/windows-code-signing-and-smartscreen-reference</link><guid>https://github.com/0xelitesystem/windows-code-signing-and-smartscreen-reference</guid><pubDate>Fri, 28 Aug 2026 10:39:16 +0000</pubDate><description>A plain-language reference for shipping signed Windows software after the</description></item>
