@@ -1485,6 +1485,11 @@
     "d": "A plain-language reference on hooks for short-form video on Shorts, Reels, and TikTok: the first one to three seconds that decide whether a viewer stays or scrolls."
   },
   {
+    "s": "signing-cert-expiry-planner",
+    "t": "tool",
+    "d": "A single-file browser tool that turns a Windows code signing certificate's validity dates into the dates you actually have to act on: when each untimestamped artifact goes dark, when every future renewal falls, and the last safe day to ship a brid..."
+  },
+  {
     "s": "silent-breaking-changes-reference",
     "t": "ref",
     "d": "A catalogue of five 2026 platform changes that reached working code without ever"
