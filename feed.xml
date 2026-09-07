@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Mon, 31 Aug 2026 18:30:28 +0000</lastBuildDate>
+<lastBuildDate>Mon, 07 Sep 2026 12:41:45 +0000</lastBuildDate>
 <item><title>signing-cert-expiry-planner</title><link>https://github.com/0xelitesystem/signing-cert-expiry-planner</link><guid>https://github.com/0xelitesystem/signing-cert-expiry-planner</guid><pubDate>Mon, 31 Aug 2026 18:30:07 +0000</pubDate><description>A single-file browser tool that turns a Windows code signing certificate's validity dates into the dates you actually have to act on: when each untimestamped artifact goes dark, when every future renewal falls, and the last safe day to ship a brid...</description></item>
 <item><title>claude-shipping-plugins</title><link>https://github.com/0xelitesystem/claude-shipping-plugins</link><guid>https://github.com/0xelitesystem/claude-shipping-plugins</guid><pubDate>Sat, 29 Aug 2026 13:05:43 +0000</pubDate><description>A Claude Code plugin marketplace for the parts of shipping software that fail</description></item>
 <item><title>mcp-state-token-designer</title><link>https://github.com/0xelitesystem/mcp-state-token-designer</link><guid>https://github.com/0xelitesystem/mcp-state-token-designer</guid><pubDate>Fri, 28 Aug 2026 10:39:23 +0000</pubDate><description>Design the binding set that goes inside an MCP `requestState` token, mint one with real WebCrypto HMAC-SHA-256 in the browser, then read the residual table: which attack each binding stops, and the one attack that none of them stop.</description></item>
