@@ -580,6 +580,11 @@
     "d": "Single-file browser tool that divides income after expenses by every hour worked, billable and not, and reports your effective rate, the nominal rate, total hours and the per-hour gap between them."
   },
   {
+    "s": "electron-appid-uninstall-guid-calculator",
+    "t": "tool",
+    "d": "Compute the Windows uninstall GUID, registry keys and installer mutex that electron-builder's NSIS target derives from an appId, entirely in your browser."
+  },
+  {
     "s": "electron-release-matrix-auditor",
     "t": "tool",
     "d": "Paste a GitHub Actions workflow. It reports which release artifacts the matrix legs will fight over, and whether two legs can create two draft releases for one tag."
