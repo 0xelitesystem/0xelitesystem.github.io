@@ -665,6 +665,11 @@
     "d": "Five chapters on testing model output without a research budget: choosing criteria, building an eval set with known good answers, picking script versus model versus human judges, and catching regressions."
   },
   {
+    "s": "extension-manifest-permission-surface",
+    "t": "tool",
+    "d": "Paste a browser extension manifest and a list of URLs, and see per manifest key which URLs are granted and via exactly which match pattern, resolved entirely in your browser."
+  },
+  {
     "s": "faq-schema-reference",
     "t": "ref",
     "d": "A plain-language reference on FAQ structured data: marking up question-and-answer content so search engines and AI systems understand it as questions and answers, when it helps, how to write FAQs that get used, and the rules that keep the markup valid and honest."
@@ -1195,6 +1200,11 @@
     "d": "Estimates a password's character-set entropy in bits and a rough offline crack time, scoring it from very weak to very strong."
   },
   {
+    "s": "pdf-merge-and-split",
+    "t": "tool",
+    "d": "Merge, split, reorder and rotate PDF pages entirely in your browser. Parses the real cross reference chain, names every file it refuses, and lists per file the structures it does not carry across before you download."
+  },
+  {
     "s": "percentage-calculator",
     "t": "tool",
     "d": "Four common percentage questions with clearly labeled inputs and live answers. No server, no tracking, no third-party scripts."
@@ -1388,6 +1398,11 @@
     "s": "regular-expressions-basics-reference",
     "t": "ref",
     "d": "A plain-language reference on regular expressions: the building blocks (literals, character classes, quantifiers, anchors, groups, alternation), a brief look at lookarounds, and the common pitfalls including catastrophic backtracking."
+  },
+  {
+    "s": "repo-listing-auditor",
+    "t": "tool",
+    "d": "Paste a list of repository names and see how the collection reads at listing depth: which first hyphen tokens are concentrated, and which sorted neighbours collide as one unreadable block. A slug echo check runs alongside and finds nothing here."
   },
   {
     "s": "rest-api-design-basics-reference",
