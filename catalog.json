@@ -785,6 +785,11 @@
     "d": "Browser-based AWS IAM policy analyzer. Flags privilege-escalation paths, wildcards, missing conditions, and trust-policy issues."
   },
   {
+    "s": "ics-calendar-builder-and-validator",
+    "t": "tool",
+    "d": "Calendar .ics validator and builder. Paste an .ics file and see RFC 5545 findings grouped MUST, SHOULD and note, or build an event file folded correctly at 75 octets. Single file, offline."
+  },
+  {
     "s": "idempotency-and-safe-retries-reference",
     "t": "ref",
     "d": "A plain-language reference on idempotency in APIs. It covers what idempotent means, which HTTP methods are safe and idempotent, how idempotency keys make POST requests safe to retry the way payment APIs do, why at-least-once delivery forces you to..."
@@ -1323,6 +1328,11 @@
     "s": "prosegrain",
     "t": "ref",
     "d": "A linter for AI-generated prose patterns. Catches structural cadence and false agency, not just word lists."
+  },
+  {
+    "s": "quantile-pooling-auditor",
+    "t": "tool",
+    "d": "Paste raw latency samples from two or more shards and see how far the mean of the shard p95 values, and the traffic-weighted mean of the shard p95 values, land from the real pooled p95."
   },
   {
     "s": "rag-basics-reference",

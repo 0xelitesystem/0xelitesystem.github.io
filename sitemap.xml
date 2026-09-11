@@ -79,6 +79,7 @@
 <url><loc>https://0xelitesystem.github.io/http-header-analyzer/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/http-message-signature-base-builder/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/iam-policy-analyzer/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/ics-calendar-builder-and-validator/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/image-compressor/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/image-placeholder-generator/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/image-to-data-uri/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
@@ -149,6 +150,7 @@
 <url><loc>https://0xelitesystem.github.io/prompt-diff/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/prompt-template-linter/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/prompt-token-meter/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/quantile-pooling-auditor/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/rag-chunk-visualizer/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/rag-ingest-injection-scanner/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/rate-limit-tester/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
