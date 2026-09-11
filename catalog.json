@@ -1585,6 +1585,11 @@
     "d": "A plain-language reference on SQL joins: the operations that combine rows from two or more tables. It covers each join type (INNER, LEFT, RIGHT, FULL OUTER, CROSS, and self joins) with small example tables and the exact result rows, plus the mista..."
   },
   {
+    "s": "sqlite-column-affinity-auditor",
+    "t": "tool",
+    "d": "Paste CREATE TABLE DDL from any dialect and see the type affinity SQLite actually assigns each column, which literals silently change storage class on insert, whether a STRICT table would accept the declared type, and which columns are true rowid ..."
+  },
+  {
     "s": "srt-to-vtt-converter",
     "t": "tool",
     "d": "Convert subtitle files between SubRip (.srt) and WebVTT (.vtt) in both directions. The input format is auto-detected, multi-line cues and blank lines are handled, and everything runs in your browser with no external dependencies. Works offline."
