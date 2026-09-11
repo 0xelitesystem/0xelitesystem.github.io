@@ -1110,6 +1110,11 @@
     "d": "A fast, searchable lookup between file extensions and MIME (media) types, in both directions. Around 200 common types are built in as an inline table, so it works with no external dependencies and works offline."
   },
   {
+    "s": "minified-stack-frame-resolver",
+    "t": "tool",
+    "d": "Paste a production stack trace and its source map, get the original file, line and column for every frame, with the off by one column correction applied and every frame it changes flagged."
+  },
+  {
     "s": "mock-data-generator",
     "t": "tool",
     "d": "Generate fake test data in your browser. No server, no tracking, no third-party scripts."
@@ -1583,6 +1588,11 @@
     "s": "star-method-builder",
     "t": "tool",
     "d": "Guided builder for STAR interview answers (Situation, Task, Action, Result). Four guided sections with prompts and word targets, a live assembled preview, a bank of common behavioral questions, and locally saved answers. No external services, a st..."
+  },
+  {
+    "s": "string-literal-escape-auditor",
+    "t": "tool",
+    "d": "Paste one string literal with its quotes and see it evaluated under six escape grammars at once, per source span, with the disagreements marked."
   },
   {
     "s": "structured-data-examples",
