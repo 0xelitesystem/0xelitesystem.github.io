@@ -765,6 +765,11 @@
     "d": "Paste a raw HTTP response or request header block and get a per-header explanation plus a security posture summary. It parses text only, makes no requests, and runs entirely in your browser with no external dependencies. Works offline."
   },
   {
+    "s": "http-message-signature-base-builder",
+    "t": "tool",
+    "d": "Rebuild the RFC 9421 (HTTP Message Signatures) signature base from a raw HTTP message and its `Signature-Input` header, line by line, with the rule that produced each line. RFC 9421 only: the obsolete draft-cavage scheme, whose `Signature` header ..."
+  },
+  {
     "s": "http-status-codes-reference",
     "t": "ref",
     "d": "A plain-language reference on HTTP status codes: what the five classes mean, the specific codes that actually come up in real API and web work, and when to use each one correctly."
