@@ -185,6 +185,11 @@
     "d": "Five short chapters on building an audience before selling to it, covering attention versus a real audience, giving before asking, owned versus rented platforms, and the signals that it is time to monetize."
   },
   {
+    "s": "auditrail",
+    "t": "tool",
+    "d": "The audit trail your coding agents already wrote, priced at list, ranked by what to fix, and scanned for leaked secrets, entirely on your own machine. It reads the session logs that are already there and tells you what the work was worth, where th..."
+  },
+  {
     "s": "background-jobs-and-queues-basics-reference",
     "t": "ref",
     "d": "A plain-language technical reference for background jobs and queues. It covers why work moves out of the request path, how queues differ from cron, why idempotency matters, how retries and backoff behave, and what delivery guarantees and dead-letter queues actually give you."
@@ -1233,6 +1238,11 @@
     "s": "permission-email-vs-spam",
     "t": "ref",
     "d": "A plain-language reference on the difference between permission-based email and spam, why permission is the whole game for email that works, what legally counts as spam, and how to build and maintain a list honestly."
+  },
+  {
+    "s": "photontax",
+    "t": "tool",
+    "d": "How much of your latency is physics, and how much is your route?"
   },
   {
     "s": "pkce-generator",
