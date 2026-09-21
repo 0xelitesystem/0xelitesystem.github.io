@@ -715,6 +715,11 @@
     "d": "From 'I want to...' to the exact git command. A task-first git helper for people who know what they want but not the incantation. Search for the goal in plain words ('undo last commit', 'delete branch', 'force push'), pick the task, and get the co..."
   },
   {
+    "s": "github-actions-expression-evaluator",
+    "t": "tool",
+    "d": "Evaluate a GitHub Actions `${{ }}` expression against a context JSON and see every type cast the runner applied, including the four casts where the runner disagrees with JavaScript."
+  },
+  {
     "s": "gradient-generator",
     "t": "tool",
     "d": "Build CSS linear, radial, and conic gradients with a live preview and one-click copy."
