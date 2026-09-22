@@ -1565,6 +1565,11 @@
     "d": "A single-file browser tool that turns a title or phrase into a clean URL slug: lowercase, hyphen-separated, punctuation removed, accents optionally stripped, with optional stop-word removal and a length cap."
   },
   {
+    "s": "solebidder",
+    "t": "tool",
+    "d": "Type a federal contractor and see who actually buys from it, how concentrated that book is, and"
+  },
+  {
     "s": "solo-operator-launch-checklist",
     "t": "ref",
     "d": "A practical pre-launch checklist for a solo operator shipping a product or site: the legal, security, technical, content, and distribution items to confirm before you go live."
