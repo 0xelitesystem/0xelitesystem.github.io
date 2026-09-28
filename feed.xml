@@ -3,7 +3,7 @@
 <title>0xelitesystem new repos</title>
 <link>https://0xelitesystem.github.io/</link>
 <description>New open-source tools and references from 0xelitesystem. All MIT, all self-contained.</description>
-<lastBuildDate>Tue, 22 Sep 2026 07:13:51 +0000</lastBuildDate>
+<lastBuildDate>Mon, 28 Sep 2026 14:04:47 +0000</lastBuildDate>
 <item><title>solebidder</title><link>https://github.com/0xelitesystem/solebidder</link><guid>https://github.com/0xelitesystem/solebidder</guid><pubDate>Tue, 22 Sep 2026 07:13:23 +0000</pubDate><description>Type a federal contractor and see who actually buys from it, how concentrated that book is, and</description></item>
 <item><title>photontax</title><link>https://github.com/0xelitesystem/photontax</link><guid>https://github.com/0xelitesystem/photontax</guid><pubDate>Mon, 21 Sep 2026 22:12:50 +0000</pubDate><description>How much of your latency is physics, and how much is your route?</description></item>
 <item><title>auditrail</title><link>https://github.com/0xelitesystem/auditrail</link><guid>https://github.com/0xelitesystem/auditrail</guid><pubDate>Mon, 21 Sep 2026 22:12:33 +0000</pubDate><description>The audit trail your coding agents already wrote, priced at list, ranked by what to fix, and scanned for leaked secrets, entirely on your own machine. It reads the session logs that are already there and tells you what the work was worth, where th...</description></item>
