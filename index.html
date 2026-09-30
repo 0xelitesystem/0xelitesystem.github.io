@@ -7,6 +7,7 @@
 <meta name="description" content="381 open-source repos: 220 zero-dependency browser tools with live demos and 161 plain-language references. Search them all on one page.">
 <link rel="canonical" href="https://0xelitesystem.github.io/">
 <link rel="alternate" type="application/rss+xml" title="0xelitesystem new repos" href="https://0xelitesystem.github.io/feed.xml">
+<link rel="icon" href="data:,">
 <meta property="og:title" content="0xelitesystem - 381 tools and references">
 <meta property="og:description" content="220 single-file browser tools with live demos. 161 plain-language references. All MIT, all self-contained.">
 <meta property="og:url" content="https://0xelitesystem.github.io/">
@@ -47,16 +48,20 @@ header a:hover{text-decoration:underline}
 .card a{color:var(--accent);text-decoration:none}
 .card a:hover{text-decoration:underline}
 .badge{font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;border-radius:5px;padding:2px 7px}
-.badge.tool{background:#0b5fff1a;color:var(--accent)}
+.badge.tool{background:#0b5fff12;color:var(--accent)}
 .badge.ref{background:#7a828e22;color:var(--muted)}
 .card .desc{margin:6px 0 0;color:var(--muted);font-size:.92rem}
 .card .links{margin-top:8px;font-size:.85rem;display:flex;gap:16px}
 .suite{margin:26px 0 8px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
 .suite h2{margin:0 0 6px;font-size:1rem}
 .suite p{margin:0;color:var(--muted);font-size:.92rem}
+.suite a{color:var(--accent)}
 footer{margin-top:46px;color:var(--muted);font-size:.85rem}
 footer a{color:var(--accent);text-decoration:none}
 kbd{border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 5px;font-size:.8em}
+
+/* Footer links are underlined so they never rely on colour alone (WCAG 1.4.1). */
+footer a { text-decoration: underline; text-underline-offset: 0.15em; }
 </style>
 </head>
 <body>
