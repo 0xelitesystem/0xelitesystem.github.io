@@ -420,6 +420,11 @@
     "d": "A plain-language reference for CORS (Cross-Origin Resource Sharing), the browser mechanism that controls when JavaScript on one origin may read responses from another origin. It covers what an origin is, how requests are categorized, the exact HTT..."
   },
   {
+    "s": "cors-preflight-checker",
+    "t": "tool",
+    "d": "Enter a cross-origin request's method, headers and credentials mode plus the server's preflight and response headers, and see whether the Fetch Standard sends a preflight, which step fails, the header change that fixes it, and where shipping brows..."
+  },
+  {
     "s": "cron-builder",
     "t": "tool",
     "d": "Visual cron expression builder with human-readable description and the next 5 firing times. Single HTML file."
@@ -428,6 +433,11 @@
     "s": "cron-expression-explainer",
     "t": "tool",
     "d": "Reads a standard five-field cron expression, minute, hour, day of month, month, and day of week, and explains it in plain English, field by field and as one sentence."
+  },
+  {
+    "s": "crontab-dialects-reference",
+    "t": "ref",
+    "d": "The same cron string fires on different days in Linux cron, Quartz, Spring, AWS EventBridge, GitHub Actions and Kubernetes. A side by side reference to field counts, day-of-week numbers, the day-of-month OR day-of-week rule, time zones, daylight s..."
   },
   {
     "s": "csp-builder",
@@ -505,6 +515,11 @@
     "d": "A plain-language reference on database indexes: what they are, how they make reads fast, what they cost on writes and storage, and how to decide which columns to index. It covers B-tree indexes, single versus composite indexes, covering indexes, w..."
   },
   {
+    "s": "date-format-pattern-translator",
+    "t": "tool",
+    "d": "Paste a date format pattern and see what it prints under UTS 35, date-fns, moment, POSIX strftime and .NET for a date and region you pick, then get the equivalent pattern in each, including the late-December week-year trap where `YYYY` prints next..."
+  },
+  {
     "s": "dca-visualizer",
     "t": "tool",
     "d": "Compare deploying a fixed amount of capital all at once against spreading it across several months, on a price path you control."
@@ -563,6 +578,11 @@
     "s": "dredge",
     "t": "ref",
     "d": "Surface what search engines bury. OSINT toolkit for suppressed records, deleted content, and adversarially-buried search results."
+  },
+  {
+    "s": "dst-ambiguous-time-converter",
+    "t": "tool",
+    "d": "Paste a column of naive local timestamps and an IANA time zone to find every row that falls in a DST gap (never existed) or fold (happened twice), with its UTC value under the Temporal, Python and PostgreSQL rules, before you migrate the data."
   },
   {
     "s": "duration-calculator",
@@ -670,6 +690,11 @@
     "d": "Five chapters on testing model output without a research budget: choosing criteria, building an eval set with known good answers, picking script versus model versus human judges, and catching regressions."
   },
   {
+    "s": "exit-codes-and-signals-reference",
+    "t": "ref",
+    "d": "What Linux exit codes 126, 127, 137, 139 and 143 mean, which signal each 128+N code encodes, and why the number alone cannot tell an OOM kill from a stop timeout, a kill -9, or a code the kubelet wrote itself."
+  },
+  {
     "s": "extension-manifest-permission-surface",
     "t": "tool",
     "d": "Paste a browser extension manifest and a list of URLs, and see per manifest key which URLs are granted and via exactly which match pattern, resolved entirely in your browser."
@@ -695,9 +720,19 @@
     "d": "Task-first ffmpeg helper. Instead of digging through documentation, pick what you want to do (compress a video, make a GIF, trim a clip, extract the audio) and get the exact command, with every flag explained in plain language and honest warnings ..."
   },
   {
+    "s": "filename-and-path-limits-reference",
+    "t": "ref",
+    "d": "Which characters, names and lengths Windows, macOS and Linux each refuse, what MAX_PATH 260 really limits, and why a name legal on one system fails in the zip, the build or the git clone on another."
+  },
+  {
     "s": "fine-tuning-vs-rag-vs-prompting-reference",
     "t": "ref",
     "d": "Five chapters comparing prompting, RAG and fine-tuning as ways to shape model output, what each one changes, what each costs, and how to choose between them or combine them."
+  },
+  {
+    "s": "form-vs-smtp-email-validator",
+    "t": "tool",
+    "d": "Paste email addresses and see whether the browser's type=email rule, RFC 5322 and RFC 5321 each accept them, which rule decided each verdict, and the quoted form SMTP needs when they disagree."
   },
   {
     "s": "founder-customer-research-templates",
@@ -968,6 +1003,11 @@
     "s": "legal-pages-starter",
     "t": "ref",
     "d": "Terms of Service, Privacy Policy, and a list of common disclaimers as fill-in-the-blanks templates. For solo developers and small SaaS launches who need something better than nothing while they wait to afford a lawyer."
+  },
+  {
+    "s": "line-endings-and-gitattributes-reference",
+    "t": "ref",
+    "d": "A plain-language reference for the three line ending problems every mixed Windows and Linux team hits: Git warning that LF will be replaced by CRLF, a script failing with `/bin/bash^M: bad interpreter`, and a diff where one edit marks every line c..."
   },
   {
     "s": "llm-eval-datasets-starter",
@@ -1345,6 +1385,11 @@
     "d": "A linter for AI-generated prose patterns. Catches structural cadence and false agency, not just word lists."
   },
   {
+    "s": "punycode-idna-converter",
+    "t": "tool",
+    "d": "Convert internationalized domain names to and from Punycode and see where one typed name becomes two DNS names: Python's built-in idna codec turns faß.de into fass.de, while the WHATWG URL Standard that browsers follow turns it into xn--fa-hia.de."
+  },
+  {
     "s": "quantile-pooling-auditor",
     "t": "tool",
     "d": "Paste raw latency samples from two or more shards and see how far the mean of the shard p95 values, and the traffic-weighted mean of the shard p95 values, land from the real pooled p95."
@@ -1493,6 +1538,11 @@
     "s": "schema-types-overview-reference",
     "t": "ref",
     "d": "A reference on choosing and applying structured data types, covering the types most sites need, required and recommended properties, validation, and marking up only what is on the page."
+  },
+  {
+    "s": "scim-patch-evaluator",
+    "t": "tool",
+    "d": "Paste a SCIM User or Group and a PATCH request and see the resource after every operation under a literal reading of RFC 7644, beside what Microsoft Entra's documented request shapes intend."
   },
   {
     "s": "secrets-leak-response-runbook",
@@ -1785,6 +1835,11 @@
     "d": "A plain-language reference on valuation multiples: shorthand ratios that compare a company's price to a measure of its business, used to gauge whether a stock looks cheap or expensive relative to peers."
   },
   {
+    "s": "version-range-translator",
+    "t": "tool",
+    "d": "Paste one version range and see how npm, Cargo, Composer, PEP 440 and RubyGems each read it, as plain comparators tested against versions you list."
+  },
+  {
     "s": "vibe-coding-anti-patterns",
     "t": "ref",
     "d": "Things AI coding agents do badly, with detection strategies and fixes. Field-observed, not speculative."
@@ -1848,6 +1903,11 @@
     "s": "websockets-basics-reference",
     "t": "ref",
     "d": "A plain-language reference on WebSockets: the protocol that gives a web page a persistent, two-way connection to a server. It covers what a WebSocket is, how the connection starts as an HTTP request and upgrades, when to reach for it instead of po..."
+  },
+  {
+    "s": "whatwg-rfc3986-url-parser-differential",
+    "t": "tool",
+    "d": "Paste URLs and see, field by field, where your browser's WHATWG URL parser and a strict RFC 3986 grammar disagree on host, userinfo, port and path, including strings one accepts and the other rejects."
   },
   {
     "s": "windows-code-signing-and-smartscreen-reference",
