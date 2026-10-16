@@ -375,6 +375,11 @@
     "d": "Shows how a starting amount and monthly contributions grow over time with monthly compounding. It returns the ending balance, the total you put in, and the growth on top, and plots the balance year by year with contributions and growth shaded separately."
   },
   {
+    "s": "content-disposition-filename-encoder",
+    "t": "tool",
+    "d": "Type any download filename and get a Content-Disposition header that survives every receiver: an ASCII filename fallback placed first, plus an RFC 8187 filename*=UTF-8''... value, with each step explained. A second mode parses a pasted header the ..."
+  },
+  {
     "s": "content-repurposing-reference",
     "t": "ref",
     "d": "Five chapters on turning one pillar piece into clips, threads, posts and an email, covering the hub-and-spoke structure, per-platform adaptation, a repeatable workflow, and what not to repurpose."
@@ -563,6 +568,11 @@
     "s": "dockerfile-linter",
     "t": "tool",
     "d": "Paste a Dockerfile and get a list of best-practice warnings, each with a severity and a suggested fix. It is a static heuristic linter that reads your file line by line in the browser. No server, no tracking, no external dependencies."
+  },
+  {
+    "s": "dockerignore-vs-gitignore-pattern-tester",
+    "t": "tool",
+    "d": "Paste one ignore file and a list of paths and see, path by path, whether git's .gitignore rules and Docker's .dockerignore rules each exclude it and which line decided, with the anchoring, trailing slash and re-include differences named."
   },
   {
     "s": "domain-and-dns-basics-reference",
@@ -805,6 +815,11 @@
     "d": "Paste HTML and get valid JSX you can drop into a React component. It renames the attributes React expects, converts inline styles to objects, self-closes void elements, and rewrites comments. The HTML is parsed with the browser's built-in parser a..."
   },
   {
+    "s": "http-cache-freshness-calculator",
+    "t": "tool",
+    "d": "Paste a raw HTTP response header block and see, for a browser cache, a shared cache and a CDN cache side by side, whether it may be stored, its RFC 9111 freshness lifetime and which rule produced it, its current age, and whether it is fresh or stale."
+  },
+  {
     "s": "http-header-analyzer",
     "t": "tool",
     "d": "Paste a raw HTTP response or request header block and get a per-header explanation plus a security posture summary. It parses text only, makes no requests, and runs entirely in your browser with no external dependencies. Works offline."
@@ -1040,6 +1055,11 @@
     "d": "Machine-readable pricing for major LLM providers. JSON files, community-maintained, structured for programmatic use."
   },
   {
+    "s": "llm-stop-reasons-reference",
+    "t": "ref",
+    "d": "A plain-language reference that maps every documented reason the Anthropic, OpenAI and Gemini APIs give for ending a response to what the calling code should do next: use the output, continue, retry with more room, fall back, or show the user. It ..."
+  },
+  {
     "s": "llm-stream-inspector",
     "t": "tool",
     "d": "Paste a raw Server-Sent Events dump from a streaming LLM response and get it parsed, reassembled, and diagnosed in your browser."
@@ -1048,6 +1068,11 @@
     "s": "llm-timeout-budget",
     "t": "tool",
     "d": "Model your worst-case LLM request end to end, check it against every timeout between your code and the API, and find out whether streaming saves you or does nothing at all."
+  },
+  {
+    "s": "llm-usage-normalizer",
+    "t": "tool",
+    "d": "Paste a raw usage object from Anthropic Messages, OpenAI Responses or Chat Completions, or Gemini generateContent. It names each field under that provider's own definition, rebuilds total input, cache read, cache write, uncached input, reasoning a..."
   },
   {
     "s": "llm-vram-calculator",
@@ -1143,6 +1168,11 @@
     "s": "mcp-state-token-designer",
     "t": "tool",
     "d": "Design the binding set that goes inside an MCP `requestState` token, mint one with real WebCrypto HMAC-SHA-256 in the browser, then read the residual table: which attack each binding stops, and the one attack that none of them stop."
+  },
+  {
+    "s": "mcp-tool-name-portability-checker",
+    "t": "tool",
+    "d": "Paste an MCP server's tools/list result (or a plain list of tool names) and see, name by name, which documented consumer rule accepts it as is: the MCP spec, the Anthropic Messages API, OpenAI Chat Completions and the Gemini API. It also flags nam..."
   },
   {
     "s": "mcp-tool-poisoning-scanner",
@@ -1595,6 +1625,11 @@
     "d": "A single-file browser tool that turns a Windows code signing certificate's validity dates into the dates you actually have to act on: when each untimestamped artifact goes dark, when every future renewal falls, and the last safe day to ship a brid..."
   },
   {
+    "s": "sigv4-canonical-request-differ",
+    "t": "tool",
+    "d": "Paste the canonical request and string to sign from an AWS SignatureDoesNotMatch error next to the ones your code built; the page aligns them line by line and names the documented SigV4 rule each mismatched line breaks. Offline, and it never asks ..."
+  },
+  {
     "s": "silent-breaking-changes-reference",
     "t": "ref",
     "d": "A catalogue of five 2026 platform changes that reached working code without ever"
@@ -1753,6 +1788,11 @@
     "s": "threat-modeling-worksheets",
     "t": "ref",
     "d": "Seven threat-modeling worksheets (STRIDE, LINDDUN, PASTA, attack tree, DFD, trust boundary, abuse case) plus five worked examples (web, mobile, ML, IaC, IoT)."
+  },
+  {
+    "s": "timestamp-format-parser-differential",
+    "t": "tool",
+    "d": "Paste timestamp strings and see, row by row, whether RFC 3339 (as updated by RFC 9557), the ECMAScript Date Time String Format, your browser's own Date.parse (run live), Python 3.14 datetime.fromisoformat and Go time.Parse(time.RFC3339) accept eac..."
   },
   {
     "s": "timezone-and-utc-basics-reference",
