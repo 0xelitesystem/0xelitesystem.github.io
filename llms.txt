@@ -14,10 +14,10 @@ Every tool is one HTML file that runs entirely in the browser: no frameworks, no
 
 Five zero-dependency Python CLIs that audit a finished AI coding-agent session by mining its transcript:
 
-- [agent-receipts](https://github.com/0xelitesystem/agent-receipts): verifies the agent's claims ("tests pass", "committed") against tool-call exit codes, filesystem, and git state.
+- [donediff](https://github.com/0xelitesystem/donediff): verifies the agent's claims ("tests pass", "committed") against tool-call exit codes, filesystem, and git state.
 - [agent-leaks](https://github.com/0xelitesystem/agent-leaks): scans and redacts API keys and secrets leaked into agent session transcripts.
-- [agent-blast-radius](https://github.com/0xelitesystem/agent-blast-radius): reconstructs every irreversible action an agent took (pushes, deletions, network egress) from the transcript.
-- [agent-rules](https://github.com/0xelitesystem/agent-rules): checks whether the agent actually obeyed the CLAUDE.md / AGENTS.md rules it ran under.
+- [cantundo](https://github.com/0xelitesystem/cantundo): reconstructs every irreversible action an agent took (pushes, deletions, network egress) from the transcript.
+- [rulediff](https://github.com/0xelitesystem/rulediff): checks whether the agent actually obeyed the CLAUDE.md / AGENTS.md rules it ran under.
 - [agent-cost](https://github.com/0xelitesystem/agent-cost): token and dollar forensics per session, with runaway-loop detection.
 
 ## Representative tools

@@ -140,7 +140,7 @@
     "d": "A reference on writing web pages that AI answer engines can quote and cite. Search increasingly happens inside AI systems that read pages, extract a direct answer, and cite a few sources."
   },
   {
-    "s": "api-changelog-rss",
+    "s": "openapi-changelog-diff",
     "t": "tool",
     "d": "Paste two OpenAPI specs, get a structured changelog: added, removed, changed, breaking. Export as Markdown."
   },
@@ -220,7 +220,7 @@
     "d": "Visual CSS box-shadow builder with live preview, stacked layers, inset support, and copy-ready output."
   },
   {
-    "s": "brand-mention-tracker",
+    "s": "brand-mention-playbook",
     "t": "ref",
     "d": "Templates and procedures for tracking brand mentions across the web. The \"3x signal\" from the GEO baseline: brand mentions correlate roughly 3x stronger with AI engine citation than backlinks."
   },
@@ -295,7 +295,7 @@
     "d": "A plain-language reference on character encoding: how text, which humans read as characters, is stored and transmitted as bytes, which machines actually handle. It covers the difference between bytes and characters, ASCII, Unicode code points, the..."
   },
   {
-    "s": "chatml-message-builder",
+    "s": "chat-messages-json-builder",
     "t": "tool",
     "d": "Visually build a chat messages array and export it in OpenAI-style and Anthropic-style JSON. No server, no tracking, no third-party scripts."
   },
@@ -500,7 +500,7 @@
     "d": "Paste a curl command and get JavaScript fetch and Python requests code, generated entirely in your browser."
   },
   {
-    "s": "cursor-rules-collection",
+    "s": "stack-rules-for-coding-agents",
     "t": "ref",
     "d": "Curated .cursorrules and CLAUDE.md files for popular stacks. Drop one into your project and your AI coding assistant stops fighting the conventions."
   },
@@ -1490,7 +1490,7 @@
     "d": "Browser-based ReDoS checker. Detects catastrophic-backtracking patterns and synthesizes evil inputs to demonstrate the worst case."
   },
   {
-    "s": "regex-studio",
+    "s": "regex-diagram-playground",
     "t": "tool",
     "d": "An open-source regex playground: live match highlighting, plain-English explanation, structure diagram, and ReDoS warnings. All client-side."
   },
@@ -1755,7 +1755,7 @@
     "d": "A BYOK browser tool that runs 24 extraction attacks against your system prompt and reports what leaked."
   },
   {
-    "s": "tailwind-to-css",
+    "s": "utility-classes-to-css",
     "t": "tool",
     "d": "Paste a string of Tailwind utility classes and get the equivalent plain CSS, grouped into a single rule. It covers a solid set of common utilities using the default theme values. It is honest about scope: this maps common utilities with the defaul..."
   },
@@ -1770,7 +1770,7 @@
     "d": "A single-file personal portfolio styled as an interactive terminal. Visitors type commands (help, about, projects, contact) and get formatted output."
   },
   {
-    "s": "terraform-security-linter",
+    "s": "hcl-aws-misconfig-linter",
     "t": "tool",
     "d": "Browser-based Terraform/HCL security linter. Flags AWS misconfigurations across S3, IAM, RDS, security groups, and more, plus embedded secrets."
   },
@@ -1995,7 +1995,7 @@
     "d": "A plain-language reference on writing YouTube video descriptions and companion content that get found, by YouTube search, by Google, and by AI answer engines."
   },
   {
-    "s": "youtube-thumbnail-tester",
+    "s": "thumbnail-placement-preview",
     "t": "tool",
     "d": "Preview a thumbnail and title across the YouTube placements that actually matter: search results, home feed, mobile feed, sidebar, notifications, channel page."
   },
