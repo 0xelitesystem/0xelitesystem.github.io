@@ -25,11 +25,6 @@
     "d": "Plain-English, FTC-compliant disclosure language for video, blog, social, podcast, and email. Copy what you need."
   },
   {
-    "s": "agent-blast-radius",
-    "t": "ref",
-    "d": "Reconstruct every irreversible action an AI agent took in a session, from the transcript you already have. Forensics for unattended agents."
-  },
-  {
     "s": "agent-cost",
     "t": "ref",
     "d": "Retrospective token and cost forensics for AI agent sessions, with runaway-loop detection. No proxy, no setup, it reads the transcript you already have."
@@ -45,24 +40,34 @@
     "d": "The recurring ways LLM agents fail in production, with detection signals and mitigations for each."
   },
   {
+    "s": "agent-instructions-file-builder",
+    "t": "tool",
+    "d": "Interactive builder for the per-project markdown file every coding agent should read first. Outputs CLAUDE.md (Claude Code) or AGENTS.md (general convention)."
+  },
+  {
     "s": "agent-leaks",
     "t": "ref",
     "d": "Scan and redact leaked secrets sitting in your AI agent session transcripts. Your agent ran `cat .env` once, and that key is in ~/.claude/projects forever."
   },
   {
-    "s": "agent-receipts",
-    "t": "ref",
-    "d": "Audit what your coding agent claimed against what it actually did. Your agent says 'all tests pass', so prove it."
-  },
-  {
-    "s": "agent-rules",
-    "t": "ref",
-    "d": "Check whether your coding agent actually followed its CLAUDE.md / AGENTS.md / .cursorrules. Linters check the file; this checks the behavior."
-  },
-  {
     "s": "agent-sandbox-linter",
     "t": "tool",
     "d": "Paste an AI agent's command allowlist and host allowlist and see which permitted programs are documented to run code from their own argv, and which host wildcards anyone can provision a name under."
+  },
+  {
+    "s": "agent-shipping-plugins",
+    "t": "ref",
+    "d": "A Claude Code plugin marketplace for the parts of shipping software that fail"
+  },
+  {
+    "s": "agent-skill-blueprints",
+    "t": "ref",
+    "d": "Five production-ready Claude Skill templates: one-pager writer, code reviewer, brand voice keeper, CSV cleaner, decision-doc generator. Each demonstrates a different SKILL.md pattern. Drop into Claude Code or Claude.ai. MIT licensed."
+  },
+  {
+    "s": "agent-skills-working-set",
+    "t": "ref",
+    "d": "Curated, working Claude Skills you can drop into any project. Each skill is in its own folder with SKILL.md plus any reference files."
   },
   {
     "s": "agent-trace-viewer",
@@ -140,11 +145,6 @@
     "d": "A reference on writing web pages that AI answer engines can quote and cite. Search increasingly happens inside AI systems that read pages, extract a direct answer, and cite a few sources."
   },
   {
-    "s": "openapi-changelog-diff",
-    "t": "tool",
-    "d": "Paste two OpenAPI specs, get a structured changelog: added, removed, changed, breaking. Export as Markdown."
-  },
-  {
     "s": "api-key-redactor",
     "t": "tool",
     "d": "Paste logs, code, config, or chat transcripts and get back a redacted copy with likely secrets replaced by labeled placeholders like `[REDACTED:aws-access-key]`. Built for the moment before you paste something into a bug report, a support ticket, ..."
@@ -183,11 +183,6 @@
     "s": "audience-before-monetization-reference",
     "t": "ref",
     "d": "Five short chapters on building an audience before selling to it, covering attention versus a real audience, giving before asking, owned versus rented platforms, and the signals that it is time to monetize."
-  },
-  {
-    "s": "spentdiff",
-    "t": "tool",
-    "d": "The audit trail your coding agents already wrote, priced at list, ranked by what to fix, and scanned for leaked secrets, entirely on your own machine. It reads the session logs that are already there and tells you what the work was worth, where th..."
   },
   {
     "s": "background-jobs-and-queues-basics-reference",
@@ -280,6 +275,11 @@
     "d": "Builds a canonical link tag and a set of hreflang alternate tags for the language and region versions of a page, plus an optional x-default."
   },
   {
+    "s": "cantundo",
+    "t": "ref",
+    "d": "Reconstruct every irreversible action an AI agent took in a session, from the transcript you already have. Forensics for unattended agents."
+  },
+  {
     "s": "case-converter",
     "t": "tool",
     "d": "Convert text between camelCase, snake_case, kebab-case, CONSTANT_CASE, and more."
@@ -313,41 +313,6 @@
     "s": "cidr-subnet-calculator",
     "t": "tool",
     "d": "Enter an IPv4 address with a CIDR prefix (for example `192.168.1.0/24`) and get the full breakdown: network address, broadcast address, netmask, wildcard mask, first and last usable host, total and usable host counts, and a binary view of the addr..."
-  },
-  {
-    "s": "prompt-model-side-by-side",
-    "t": "tool",
-    "d": "Run the same prompt against multiple Claude models side-by-side. Compare outputs, latency, and cost in one click. BYOK, single HTML file, deploy free via GitHub Pages. MIT licensed."
-  },
-  {
-    "s": "mcp-server-minimal-templates",
-    "t": "ref",
-    "d": "Bare-minimum Model Context Protocol server templates. Two equivalent implementations: Node/TypeScript and Python. Pick one, copy the folder, edit the tools, ship."
-  },
-  {
-    "s": "agent-instructions-file-builder",
-    "t": "tool",
-    "d": "Interactive builder for the per-project markdown file every coding agent should read first. Outputs CLAUDE.md (Claude Code) or AGENTS.md (general convention)."
-  },
-  {
-    "s": "agent-shipping-plugins",
-    "t": "ref",
-    "d": "A Claude Code plugin marketplace for the parts of shipping software that fail"
-  },
-  {
-    "s": "agent-skills-working-set",
-    "t": "ref",
-    "d": "Curated, working Claude Skills you can drop into any project. Each skill is in its own folder with SKILL.md plus any reference files."
-  },
-  {
-    "s": "agent-skill-blueprints",
-    "t": "ref",
-    "d": "Five production-ready Claude Skill templates: one-pager writer, code reviewer, brand voice keeper, CSV cleaner, decision-doc generator. Each demonstrates a different SKILL.md pattern. Drop into Claude Code or Claude.ai. MIT licensed."
-  },
-  {
-    "s": "skill-file-linter",
-    "t": "tool",
-    "d": "Lint a Claude Skill SKILL.md file for spec compliance and triggering quality. Browser-only, single HTML file."
   },
   {
     "s": "color-blindness-simulator",
@@ -500,11 +465,6 @@
     "d": "Paste a curl command and get JavaScript fetch and Python requests code, generated entirely in your browser."
   },
   {
-    "s": "stack-rules-for-coding-agents",
-    "t": "ref",
-    "d": "Curated .cursorrules and CLAUDE.md files for popular stacks. Drop one into your project and your AI coding assistant stops fighting the conventions."
-  },
-  {
     "s": "dark-mode-tester",
     "t": "tool",
     "d": "Test your light and dark color tokens side by side. See a full UI mockup in both modes and get WCAG contrast scores for every text/background pair."
@@ -580,14 +540,14 @@
     "d": "A plain-language DNS reference in five chapters for an indie operator: A, AAAA, CNAME, MX, TXT and NS records, registrar versus nameservers, propagation delay, pointing a domain at a host, and the mail and security records."
   },
   {
+    "s": "donediff",
+    "t": "ref",
+    "d": "Audit what your coding agent claimed against what it actually did. Your agent says 'all tests pass', so prove it."
+  },
+  {
     "s": "dotenv-example-generator",
     "t": "tool",
     "d": "Paste a real .env file and get a sanitized .env.example with secret values stripped and comments kept, ready to commit, all in your browser."
-  },
-  {
-    "s": "dredge",
-    "t": "ref",
-    "d": "Surface what search engines bury. OSINT toolkit for suppressed records, deleted content, and adversarially-buried search results."
   },
   {
     "s": "dst-ambiguous-time-converter",
@@ -793,6 +753,11 @@
     "s": "hash-identifier",
     "t": "tool",
     "d": "Paste a hash string and get a ranked list of the algorithms that could have produced it, based on length and format. It recognizes MD5, SHA-1, SHA-256, SHA-512, CRC32, bcrypt, argon2, NTLM, MySQL, base64-looking values, and several Unix crypt form..."
+  },
+  {
+    "s": "hcl-aws-misconfig-linter",
+    "t": "tool",
+    "d": "Browser-based Terraform/HCL security linter. Flags AWS misconfigurations across S3, IAM, RDS, security groups, and more, plus embedded secrets."
   },
   {
     "s": "heading-outline-checker",
@@ -1155,6 +1120,11 @@
     "d": "Paste an MCP tool definition and find out, clause by clause, whether a conforming Streamable HTTP client will silently delete it from `tools/list` because of an `x-mcp-header` annotation."
   },
   {
+    "s": "mcp-server-minimal-templates",
+    "t": "ref",
+    "d": "Bare-minimum Model Context Protocol server templates. Two equivalent implementations: Node/TypeScript and Python. Pick one, copy the folder, edit the tools, ship."
+  },
+  {
     "s": "mcp-server-privilege-inventory",
     "t": "tool",
     "d": "Paste an MCP client config and get a privilege inventory: which servers launch a subprocess as your user, how mutable each code reference is, and which secrets you hand each one."
@@ -1263,6 +1233,11 @@
     "s": "open-graph-preview-tester",
     "t": "tool",
     "d": "A single-file browser tool that previews how a link's Open Graph card will look when shared, from an og:title, og:description, og:image URL, and canonical URL, with length hints and a ready-to-paste set of og and twitter meta tags."
+  },
+  {
+    "s": "openapi-changelog-diff",
+    "t": "tool",
+    "d": "Paste two OpenAPI specs, get a structured changelog: added, removed, changed, breaking. Export as Markdown."
   },
   {
     "s": "options-literacy-glossary",
@@ -1395,6 +1370,11 @@
     "d": "A categorized corpus of prompt injection attempts. Use to test your LLM product's defenses before attackers do."
   },
   {
+    "s": "prompt-model-side-by-side",
+    "t": "tool",
+    "d": "Run the same prompt against multiple Claude models side-by-side. Compare outputs, latency, and cost in one click. BYOK, single HTML file, deploy free via GitHub Pages. MIT licensed."
+  },
+  {
     "s": "prompt-template-linter",
     "t": "tool",
     "d": "Paste a prompt template and get a local report: unfilled variables, an approximate token and length estimate, flagged prompt-injection patterns, and simple quality checks. No server, no tracking, no third-party scripts."
@@ -1485,14 +1465,14 @@
     "d": "A regex cheatsheet, a live tester with match highlighting, and a library of common tested patterns, in one page. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "regex-redos-checker",
-    "t": "tool",
-    "d": "Browser-based ReDoS checker. Detects catastrophic-backtracking patterns and synthesizes evil inputs to demonstrate the worst case."
-  },
-  {
     "s": "regex-diagram-playground",
     "t": "tool",
     "d": "An open-source regex playground: live match highlighting, plain-English explanation, structure diagram, and ReDoS warnings. All client-side."
+  },
+  {
+    "s": "regex-redos-checker",
+    "t": "tool",
+    "d": "Browser-based ReDoS checker. Detects catastrophic-backtracking patterns and synthesizes evil inputs to demonstrate the worst case."
   },
   {
     "s": "regex-tester",
@@ -1543,6 +1523,11 @@
     "s": "robots-txt-ai-builder",
     "t": "tool",
     "d": "Build a robots.txt with named AI crawler allow/block rules for 17 cataloged bots. Browser-only, no signup."
+  },
+  {
+    "s": "rulediff",
+    "t": "ref",
+    "d": "Check whether your coding agent actually followed its CLAUDE.md / AGENTS.md / .cursorrules. Linters check the file; this checks the behavior."
   },
   {
     "s": "runway-and-burn-calculator",
@@ -1635,6 +1620,11 @@
     "d": "A catalogue of five 2026 platform changes that reached working code without ever"
   },
   {
+    "s": "siltscan",
+    "t": "ref",
+    "d": "Surface what search engines bury. OSINT toolkit for suppressed records, deleted content, and adversarially-buried search results."
+  },
+  {
     "s": "single-file-saas-template",
     "t": "tool",
     "d": "A complete BYOK SaaS scaffolded into one HTML file. Free tier with daily limit, Pro tier unlocked by license code, key never leaves the user's browser."
@@ -1643,6 +1633,11 @@
     "s": "sitemap-xml-generator",
     "t": "tool",
     "d": "Turns a list of page URLs into a valid sitemap.xml, with lastmod, changefreq, and priority on every entry."
+  },
+  {
+    "s": "skill-file-linter",
+    "t": "tool",
+    "d": "Lint a Claude Skill SKILL.md file for spec compliance and triggering quality. Browser-only, single HTML file."
   },
   {
     "s": "slug-generator",
@@ -1668,6 +1663,11 @@
     "s": "span-offset-debugger",
     "t": "tool",
     "d": "Paste text and a span, name the system that produced the offsets and the one that reads them, and see the same numbers select four different substrings."
+  },
+  {
+    "s": "spentdiff",
+    "t": "tool",
+    "d": "Prices your coding-agent sessions at list, ranks what to fix, and scans them for leaked secrets, entirely on your own machine. Formerly auditrail."
   },
   {
     "s": "sql-formatter",
@@ -1698,6 +1698,11 @@
     "s": "srt-to-vtt-converter",
     "t": "tool",
     "d": "Convert subtitle files between SubRip (.srt) and WebVTT (.vtt) in both directions. The input format is auto-detected, multi-line cues and blank lines are handled, and everything runs in your browser with no external dependencies. Works offline."
+  },
+  {
+    "s": "stack-rules-for-coding-agents",
+    "t": "ref",
+    "d": "Curated .cursorrules and CLAUDE.md files for popular stacks. Drop one into your project and your AI coding assistant stops fighting the conventions."
   },
   {
     "s": "stack-trace-cleaner",
@@ -1755,11 +1760,6 @@
     "d": "A BYOK browser tool that runs 24 extraction attacks against your system prompt and reports what leaked."
   },
   {
-    "s": "utility-classes-to-css",
-    "t": "tool",
-    "d": "Paste a string of Tailwind utility classes and get the equivalent plain CSS, grouped into a single rule. It covers a solid set of common utilities using the default theme values. It is honest about scope: this maps common utilities with the defaul..."
-  },
-  {
     "s": "temperature-top-p-playground",
     "t": "tool",
     "d": "Drag temperature, top_k and top_p and watch a real softmax distribution reshape live, with every stage of the truncation pipeline shown and the edge cases explained."
@@ -1768,11 +1768,6 @@
     "s": "terminal-portfolio",
     "t": "tool",
     "d": "A single-file personal portfolio styled as an interactive terminal. Visitors type commands (help, about, projects, contact) and get formatted output."
-  },
-  {
-    "s": "hcl-aws-misconfig-linter",
-    "t": "tool",
-    "d": "Browser-based Terraform/HCL security linter. Flags AWS misconfigurations across S3, IAM, RDS, security groups, and more, plus embedded secrets."
   },
   {
     "s": "text-diff-viewer",
@@ -1788,6 +1783,11 @@
     "s": "threat-modeling-worksheets",
     "t": "ref",
     "d": "Seven threat-modeling worksheets (STRIDE, LINDDUN, PASTA, attack tree, DFD, trust boundary, abuse case) plus five worked examples (web, mobile, ML, IaC, IoT)."
+  },
+  {
+    "s": "thumbnail-placement-preview",
+    "t": "tool",
+    "d": "Preview a thumbnail and title across the YouTube placements that actually matter: search results, home feed, mobile feed, sidebar, notifications, channel page."
   },
   {
     "s": "timestamp-format-parser-differential",
@@ -1858,6 +1858,11 @@
     "s": "user-agent-parser",
     "t": "tool",
     "d": "Break a User-Agent string into browser, engine, operating system, and device type. No server, no tracking, no third-party scripts."
+  },
+  {
+    "s": "utility-classes-to-css",
+    "t": "tool",
+    "d": "Paste a string of Tailwind utility classes and get the equivalent plain CSS, grouped into a single rule. It covers a solid set of common utilities using the default theme values. It is honest about scope: this maps common utilities with the defaul..."
   },
   {
     "s": "utm-campaign-builder",
@@ -1993,11 +1998,6 @@
     "s": "youtube-description-seo-reference",
     "t": "ref",
     "d": "A plain-language reference on writing YouTube video descriptions and companion content that get found, by YouTube search, by Google, and by AI answer engines."
-  },
-  {
-    "s": "thumbnail-placement-preview",
-    "t": "tool",
-    "d": "Preview a thumbnail and title across the YouTube placements that actually matter: search results, home feed, mobile feed, sidebar, notifications, channel page."
   },
   {
     "s": "youtube-title-ab-tester",
