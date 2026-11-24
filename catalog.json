@@ -25,7 +25,7 @@
     "d": "Plain-English, FTC-compliant disclosure language for video, blog, social, podcast, and email. Copy what you need."
   },
   {
-    "s": "agent-cost",
+    "s": "agent-spend-retrospective",
     "t": "ref",
     "d": "Retrospective token and cost forensics for AI agent sessions, with runaway-loop detection. No proxy, no setup, it reads the transcript you already have."
   },
@@ -35,7 +35,7 @@
     "d": "Paste a unified diff (from Claude Code, Cursor, Aider, or git diff), get a structured review with scary-changes detection."
   },
   {
-    "s": "agent-failure-modes",
+    "s": "agent-failure-signals",
     "t": "ref",
     "d": "The recurring ways LLM agents fail in production, with detection signals and mitigations for each."
   },
@@ -45,7 +45,7 @@
     "d": "Interactive builder for the per-project markdown file every coding agent should read first. Outputs CLAUDE.md (Claude Code) or AGENTS.md (general convention)."
   },
   {
-    "s": "agent-leaks",
+    "s": "agent-transcript-redactor",
     "t": "ref",
     "d": "Scan and redact leaked secrets sitting in your AI agent session transcripts. Your agent ran `cat .env` once, and that key is in ~/.claude/projects forever."
   },
@@ -70,12 +70,12 @@
     "d": "Curated, working Claude Skills you can drop into any project. Each skill is in its own folder with SKILL.md plus any reference files."
   },
   {
-    "s": "agent-trace-viewer",
+    "s": "agent-trace-flamegraph",
     "t": "tool",
     "d": "Visualize agent tool-call traces as a flame graph. Drop in JSON from an Anthropic or OpenAI trace and see what your agent actually did."
   },
   {
-    "s": "agentic-workflow-patterns",
+    "s": "coding-agent-work-patterns",
     "t": "ref",
     "d": "Patterns for working with coding agents productively. How to scope work, validate output, recover from stuck agents, and know when to take over."
   },
@@ -995,12 +995,12 @@
     "d": "Small, public-domain evaluation datasets for LLM applications. Plus the scoring scripts and format spec so you can actually use them."
   },
   {
-    "s": "llm-json-repair",
+    "s": "broken-llm-json-diagnoser",
     "t": "tool",
     "d": "Paste the broken JSON an LLM just handed you, get valid JSON back, plus a named diagnosis for every repair and the prompt change that prevents it next time."
   },
   {
-    "s": "llm-judge-calibrator",
+    "s": "llm-judge-bias-correction",
     "t": "tool",
     "d": "Paste an LLM judge's confusion matrix from a human-labeled calibration set and get a prediction-powered corrected pass rate with a confidence interval, beside Rogan-Gladen and its refusal states."
   },
@@ -1015,7 +1015,7 @@
     "d": "Paste a model response and see every URL your renderer would silently GET, every cell a spreadsheet would run as a formula, and every terminal escape that overwrites what you read."
   },
   {
-    "s": "llm-pricing-data",
+    "s": "llm-provider-price-json",
     "t": "ref",
     "d": "Machine-readable pricing for major LLM providers. JSON files, community-maintained, structured for programmatic use."
   },
@@ -1025,7 +1025,7 @@
     "d": "A plain-language reference that maps every documented reason the Anthropic, OpenAI and Gemini APIs give for ending a response to what the calling code should do next: use the output, continue, retry with more room, fall back, or show the user. It ..."
   },
   {
-    "s": "llm-stream-inspector",
+    "s": "llm-sse-dump-reassembler",
     "t": "tool",
     "d": "Paste a raw Server-Sent Events dump from a streaming LLM response and get it parsed, reassembled, and diagnosed in your browser."
   },
@@ -1040,12 +1040,12 @@
     "d": "Paste a raw usage object from Anthropic Messages, OpenAI Responses or Chat Completions, or Gemini generateContent. It names each field under that provider's own definition, rebuilds total input, cache read, cache write, uncached input, reasoning a..."
   },
   {
-    "s": "llm-vram-calculator",
+    "s": "local-llm-vram-arithmetic",
     "t": "tool",
     "d": "Estimate the GPU memory a local LLM needs, with the arithmetic shown, an honest range instead of a fake-precise number, and a fits-or-not verdict for common GPUs."
   },
   {
-    "s": "llms-txt-generator",
+    "s": "llms-txt-file-builder",
     "t": "tool",
     "d": "Generate a spec-compliant llms.txt for your site. Browser-only, no signup, no API calls."
   },
@@ -1110,7 +1110,7 @@
     "d": "A plain-language reference on the Model Context Protocol (MCP): what it is, why it exists, the primitives it defines (tools, resources, and prompts), how clients and servers relate, how they talk to each other, and a minimal mental model you can build from."
   },
   {
-    "s": "mcp-config-generator",
+    "s": "mcp-server-config-builder",
     "t": "tool",
     "d": "Build and validate MCP (Model Context Protocol) server configuration JSON in your browser. MCP is an open protocol for connecting tools and data sources to LLM clients; clients read a JSON config listing the servers to connect to. Getting that JSO..."
   },
@@ -1130,7 +1130,7 @@
     "d": "Paste an MCP client config and get a privilege inventory: which servers launch a subprocess as your user, how mutable each code reference is, and which secrets you hand each one."
   },
   {
-    "s": "mcp-server-registry",
+    "s": "mcp-public-servers-directory",
     "t": "ref",
     "d": "A community-maintained directory of public MCP (Model Context Protocol) servers. Find one to use, or list yours."
   },
@@ -1145,7 +1145,7 @@
     "d": "Paste an MCP server's tools/list result (or a plain list of tool names) and see, name by name, which documented consumer rule accepts it as is: the MCP spec, the Anthropic Messages API, OpenAI Chat Completions and the Gemini API. It also flags nam..."
   },
   {
-    "s": "mcp-tool-poisoning-scanner",
+    "s": "mcp-tool-description-scanner",
     "t": "tool",
     "d": "Paste an MCP server's tool definitions and statically scan them for prompt injection, hidden characters, tool shadowing, and exfiltration-shaped parameters before you install it."
   },
@@ -1350,7 +1350,7 @@
     "d": "Paste two consecutive Anthropic request bodies and find the exact byte where your cached prefix broke, whether your breakpoints are legal, and whether caching pays for itself at your request rate."
   },
   {
-    "s": "prompt-cost-calculator",
+    "s": "prompt-cost-across-models",
     "t": "tool",
     "d": "Estimate token count and API cost for a prompt across Anthropic, OpenAI, and Google models. Browser-only, no API calls, no tracking. Single HTML file, MIT licensed."
   },
@@ -1375,17 +1375,17 @@
     "d": "Run the same prompt against multiple Claude models side-by-side. Compare outputs, latency, and cost in one click. BYOK, single HTML file, deploy free via GitHub Pages. MIT licensed."
   },
   {
-    "s": "prompt-template-linter",
+    "s": "prompt-template-preflight",
     "t": "tool",
     "d": "Paste a prompt template and get a local report: unfilled variables, an approximate token and length estimate, flagged prompt-injection patterns, and simple quality checks. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "prompt-templates",
+    "s": "failure-mode-prompts",
     "t": "ref",
     "d": "Production prompts that target specific failure modes of LLM behavior: AI slop, sycophantic recommendations, shallow code review, unstructured output. MIT licensed. Tested with Claude and GPT-4o."
   },
   {
-    "s": "prompt-token-meter",
+    "s": "context-window-gauges",
     "t": "tool",
     "d": "Visual context-window meter. Paste a prompt, see estimated token usage as gauges across major LLMs (Claude, GPT, Gemini, Llama, DeepSeek, Mistral)."
   },

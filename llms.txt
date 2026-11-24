@@ -15,10 +15,10 @@ Every tool is one HTML file that runs entirely in the browser: no frameworks, no
 Five zero-dependency Python CLIs that audit a finished AI coding-agent session by mining its transcript:
 
 - [donediff](https://github.com/0xelitesystem/donediff): verifies the agent's claims ("tests pass", "committed") against tool-call exit codes, filesystem, and git state.
-- [agent-leaks](https://github.com/0xelitesystem/agent-leaks): scans and redacts API keys and secrets leaked into agent session transcripts.
+- [agent-transcript-redactor](https://github.com/0xelitesystem/agent-transcript-redactor): scans and redacts API keys and secrets leaked into agent session transcripts.
 - [cantundo](https://github.com/0xelitesystem/cantundo): reconstructs every irreversible action an agent took (pushes, deletions, network egress) from the transcript.
 - [rulediff](https://github.com/0xelitesystem/rulediff): checks whether the agent actually obeyed the CLAUDE.md / AGENTS.md rules it ran under.
-- [agent-cost](https://github.com/0xelitesystem/agent-cost): token and dollar forensics per session, with runaway-loop detection.
+- [agent-spend-retrospective](https://github.com/0xelitesystem/agent-spend-retrospective): token and dollar forensics per session, with runaway-loop detection.
 
 ## Representative tools
 
@@ -26,11 +26,11 @@ Five zero-dependency Python CLIs that audit a finished AI coding-agent session b
 - [csv-to-anything](https://0xelitesystem.github.io/csv-to-anything/): convert CSV/TSV to JSON, SQL, Markdown, or TypeScript interfaces in the browser.
 - [og-image-generator](https://0xelitesystem.github.io/og-image-generator/): generate Open Graph images and ready-to-paste meta tags.
 - [color-contrast-checker](https://0xelitesystem.github.io/color-contrast-checker/): WCAG AA/AAA contrast ratios for any color pair.
-- [llms-txt-generator](https://0xelitesystem.github.io/llms-txt-generator/): build a spec-compliant llms.txt for any site.
+- [llms-txt-file-builder](https://0xelitesystem.github.io/llms-txt-file-builder/): build a spec-compliant llms.txt for any site.
 
 ## Representative references
 
-- [agent-failure-modes](https://github.com/0xelitesystem/agent-failure-modes): how AI coding agents fail in practice, with trace-level examples.
+- [agent-failure-signals](https://github.com/0xelitesystem/agent-failure-signals): how AI coding agents fail in practice, with trace-level examples.
 - [prompt-injection-defense-reference](https://github.com/0xelitesystem/prompt-injection-defense-reference): architecture-first prompt injection defense, including defenses that do not work.
 - [security-headers-reference](https://github.com/0xelitesystem/security-headers-reference): the essential HTTP security headers with literal copy-paste values and a baseline CSP.
 - [dns-email-authentication-reference](https://github.com/0xelitesystem/dns-email-authentication-reference): SPF, DKIM, DMARC explained with example records.
