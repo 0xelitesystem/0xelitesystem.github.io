@@ -175,7 +175,7 @@
     "d": "A plain-language reference on ARIA, the set of roles, states, and properties that make web interfaces understandable to assistive technology like screen readers. It covers what ARIA is, the first rule of ARIA (use native HTML first), the differenc..."
   },
   {
-    "s": "aspect-ratio-calculator",
+    "s": "aspect-ratio-dimension-solver",
     "t": "tool",
     "d": "Turn pixel dimensions into a simplified ratio, or solve for a missing dimension from a ratio. No server, no tracking, no third-party scripts."
   },
@@ -330,7 +330,7 @@
     "d": "Convert a color between HEX, RGB, HSL, and HSV with a live swatch. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "color-palette-from-image",
+    "s": "image-dominant-palette",
     "t": "tool",
     "d": "Extract a dominant color palette from any image, right in your browser. No server, no tracking, no third-party scripts."
   },
@@ -435,12 +435,12 @@
     "d": "An interactive CSS flexbox visualizer. Adjust the container and per-item flex properties, watch a live preview update, and copy the generated CSS. Everything runs in your browser with no external dependencies and works offline."
   },
   {
-    "s": "css-grid-generator",
+    "s": "css-grid-areas-builder",
     "t": "tool",
     "d": "A visual CSS Grid builder. Set columns, rows, track sizes, and gaps, preview the grid live, name a few areas, and copy the generated CSS. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "css-specificity-calculator",
+    "s": "selector-specificity-breakdown",
     "t": "tool",
     "d": "Type any CSS selector and get its specificity as (a, b, c), with a plain-English breakdown of exactly what contributed. Switch to compare mode and it tells you which of two selectors wins a conflict and why. Runs entirely in your browser, no serve..."
   },
@@ -775,7 +775,7 @@
     "d": "Encode text to HTML entities and decode entities back to text, in your browser. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "html-to-jsx-converter",
+    "s": "html-paste-to-jsx",
     "t": "tool",
     "d": "Paste HTML and get valid JSX you can drop into a React component. It renames the attributes React expects, converts inline styles to objects, self-closes void elements, and rewrites comments. The HTML is parsed with the browser's built-in parser a..."
   },
@@ -890,7 +890,7 @@
     "d": "Builds an invoice from line items, applies a discount and a tax rate, and totals it. Discount applies to the subtotal first, then tax applies to the discounted amount."
   },
   {
-    "s": "json-formatter-and-validator",
+    "s": "json-format-minify-validate",
     "t": "tool",
     "d": "Formats, minifies, and validates JSON in the browser. It uses the browser's own JSON parser, so what it accepts matches what your code will accept, and on an error it reports the parser's message, which usually names where the problem is."
   },
@@ -930,12 +930,12 @@
     "d": "Paste any JSON value, get TypeScript interface declarations. Single HTML file."
   },
   {
-    "s": "json-workbench",
+    "s": "json-query-diff-convert",
     "t": "tool",
     "d": "Format, validate, query (JSONPath), diff, and convert JSON entirely in your browser. No upload, no ads, no tracking."
   },
   {
-    "s": "jwt-decoder",
+    "s": "jwt-claims-reader",
     "t": "tool",
     "d": "Decodes the header and payload of a JSON Web Token so you can read its claims. It decodes only and never verifies the signature, because a JWT's first two parts are base64url-encoded, not encrypted, and verification needs a key that belongs on a server, not in a browser tool."
   },
@@ -955,7 +955,7 @@
     "d": "A todo list with vim-style keyboard shortcuts. Single HTML file."
   },
   {
-    "s": "keycode-inspector",
+    "s": "keyboard-event-fields-viewer",
     "t": "tool",
     "d": "Press any key and instantly see the JavaScript keyboard event fields for it: `event.key`, `event.code`, the deprecated `keyCode` and `which`, `event.location`, and which modifier keys are held. Like keycode.info, but a single self-contained file w..."
   },
@@ -1200,7 +1200,7 @@
     "d": "Assets minus what you owe, on one clean sheet."
   },
   {
-    "s": "number-base-converter",
+    "s": "base-2-to-36-converter",
     "t": "tool",
     "d": "Convert an integer between binary, octal, decimal, hexadecimal, and any base from 2 to 36, in your browser. No server, no tracking, no third-party scripts."
   },
@@ -1475,7 +1475,7 @@
     "d": "Browser-based ReDoS checker. Detects catastrophic-backtracking patterns and synthesizes evil inputs to demonstrate the worst case."
   },
   {
-    "s": "regex-tester",
+    "s": "js-regex-capture-tester",
     "t": "tool",
     "d": "A single-file browser tool that tests a JavaScript regular expression against sample text with live match highlighting, capture groups, match positions, and a common-pattern reference."
   },
@@ -1545,7 +1545,7 @@
     "d": "Solve for the monthly amount, or for how long the goal takes."
   },
   {
-    "s": "schema-markup-generator",
+    "s": "json-ld-markup-builder",
     "t": "tool",
     "d": "Generate JSON-LD schema markup for 12 schema types. Browser-only, no signup, no API calls."
   },
@@ -1725,7 +1725,7 @@
     "d": "Paste one string literal with its quotes and see it evaluated under six escape grammars at once, per source span, with the disagreements marked."
   },
   {
-    "s": "structured-data-examples",
+    "s": "json-ld-business-examples",
     "t": "ref",
     "d": "Real-world JSON-LD schema examples for every business type. Production-grade, ready to study and adapt."
   },
@@ -1745,12 +1745,12 @@
     "d": "Totals your recurring subscriptions into a yearly figure, a monthly figure, and the annual cost of the ones you marked idle."
   },
   {
-    "s": "svg-badge-generator",
+    "s": "offline-readme-badges",
     "t": "tool",
     "d": "Generate README status badges as pure inline SVG with copy-ready markdown and HTML embeds - no badge service, no rate limits, works offline."
   },
   {
-    "s": "svg-optimizer",
+    "s": "local-svg-minifier",
     "t": "tool",
     "d": "Strip and minify SVG markup in your browser: no upload, no network, nothing leaves your machine."
   },
@@ -1820,7 +1820,7 @@
     "d": "Estimates the token count of a prompt and the API cost of running it at any provider's rates, with no API key and no calls."
   },
   {
-    "s": "tokenizer-visualizer",
+    "s": "token-boundary-viewer",
     "t": "tool",
     "d": "See approximate token boundaries in any text, color-coded, with a live token and character count. No server, no tracking, no third-party scripts."
   },
@@ -1845,7 +1845,7 @@
     "d": "A plain-language reference on unit economics: the profit and cost of a single unit of a business, whether that unit is one customer, one order, or one subscription."
   },
   {
-    "s": "unix-timestamp-converter",
+    "s": "epoch-seconds-ms-converter",
     "t": "tool",
     "d": "A single-file browser tool that converts a unix timestamp to UTC, local, and ISO 8601 time and back, detecting seconds versus milliseconds automatically and showing a relative time readout."
   },
@@ -1865,7 +1865,7 @@
     "d": "Paste a string of Tailwind utility classes and get the equivalent plain CSS, grouped into a single rule. It covers a solid set of common utilities using the default theme values. It is honest about scope: this maps common utilities with the defaul..."
   },
   {
-    "s": "utm-campaign-builder",
+    "s": "utm-url-tagger",
     "t": "tool",
     "d": "A single-file browser tool that builds clean, consistent UTM-tagged campaign URLs for email, social, and ads, so your analytics stay readable."
   },
@@ -1935,7 +1935,7 @@
     "d": "Five chapters of plain-language reference on webhooks for someone wiring services together, covering endpoints and fast responses, signature verification, retries and duplicates, and common mistakes."
   },
   {
-    "s": "webhook-inspector",
+    "s": "service-worker-webhook-inspector",
     "t": "tool",
     "d": "Local webhook inspector. Registers a Service Worker that intercepts requests to a configured path on the same origin and displays them in real time."
   },
@@ -1960,22 +1960,22 @@
     "d": "A plain-language reference for shipping signed Windows software after the"
   },
   {
-    "s": "word-and-character-counter",
+    "s": "word-count-reading-time",
     "t": "tool",
     "d": "Paste text and get a live count of words, characters, sentences, paragraphs, and reading time. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "wordpress-hardening-checklist",
+    "s": "wp-hardening-and-recovery",
     "t": "ref",
     "d": "A practical reference for making a WordPress site harder to break into and easier to recover. It covers accounts and logins, updates and plugins, file and server settings, database and backups, and transport and headers, ending in a single checklist you can run on any site."
   },
   {
-    "s": "xml-formatter",
+    "s": "xml-tidy-validate",
     "t": "tool",
     "d": "Format, minify, and validate XML in your browser. One HTML file, no network, nothing leaves your machine."
   },
   {
-    "s": "yaml-to-json",
+    "s": "yaml-json-two-way",
     "t": "tool",
     "d": "Convert YAML to JSON and back, in your browser. No server, no upload, no tracking."
   },
