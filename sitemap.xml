@@ -11,7 +11,7 @@
 <url><loc>https://0xelitesystem.github.io/api-key-redactor/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/aspect-ratio-dimension-solver/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/base64-url-encoder-decoder/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-<url><loc>https://0xelitesystem.github.io/bcrypt-playground/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/bcrypt-hash-anatomy-lab/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/css-box-model-explorer/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/layered-box-shadow-builder/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/break-even-units-calculator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
@@ -53,8 +53,8 @@
 <url><loc>https://0xelitesystem.github.io/dotenv-example-generator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/dst-ambiguous-time-converter/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/date-span-business-days/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-<url><loc>https://0xelitesystem.github.io/e-e-a-t-auditor/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-<url><loc>https://0xelitesystem.github.io/effective-hourly-rate-calculator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/page-trust-signals-auditor/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/true-hourly-rate-after-costs/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/electron-appid-uninstall-guid-calculator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/electron-release-matrix-auditor/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/email-delivery-path-reader/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
@@ -70,7 +70,7 @@
 <url><loc>https://0xelitesystem.github.io/emoji-text-favicon-maker/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/media-command-by-task/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/form-vs-smtp-email-validator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-<url><loc>https://0xelitesystem.github.io/git-command-builder/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/version-control-command-by-task/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/github-actions-expression-evaluator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/css-gradient-composer/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/gzip-size-estimator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
@@ -78,7 +78,7 @@
 <url><loc>https://0xelitesystem.github.io/hash-type-ranker/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/hcl-aws-misconfig-linter/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/heading-outline-checker/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-<url><loc>https://0xelitesystem.github.io/htaccess-redirect-generator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/htaccess-rewrite-rule-builder/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/html-entity-roundtrip/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/html-paste-to-jsx/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/http-cache-freshness-calculator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
@@ -129,7 +129,7 @@
 <url><loc>https://0xelitesystem.github.io/meta-og-tag-generator/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/meta-robots-tag-helper/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/metastable-failure-explorer/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-<url><loc>https://0xelitesystem.github.io/mime-type-lookup/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/extension-media-type-lookup/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/minified-stack-frame-resolver/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/browser-fake-test-data/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/model-pickle-scanner/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
@@ -150,7 +150,7 @@
 <url><loc>https://0xelitesystem.github.io/four-percentage-questions/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/photontax/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/pkce-s256-pair-maker/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-<url><loc>https://0xelitesystem.github.io/portfolio-rebalance-tool/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/allocation-drift-rebalancer/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/position-size-risk-math/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/pricing-page-patterns/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/pricing-tier-comparison-builder/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
@@ -195,7 +195,7 @@
 <url><loc>https://0xelitesystem.github.io/span-offset-debugger/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/spentdiff/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/sql-pretty-minify/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-<url><loc>https://0xelitesystem.github.io/sql-join-visualizer/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
+<url><loc>https://0xelitesystem.github.io/sql-join-venn-explorer/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/sqlite-column-affinity-auditor/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/srt-vtt-two-way/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
 <url><loc>https://0xelitesystem.github.io/stack-trace-cleaner/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>

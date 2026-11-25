@@ -200,7 +200,7 @@
     "d": "Encodes and decodes text two ways: Base64, in the standard or URL-safe alphabet, and percent-encoding for URLs."
   },
   {
-    "s": "bcrypt-playground",
+    "s": "bcrypt-hash-anatomy-lab",
     "t": "tool",
     "d": "An educational, fully client-side bcrypt playground. Generate and verify bcrypt hashes, inspect the anatomy of a hash string, and learn why bcrypt is the right tool for password storage. Everything runs in your browser with no external dependencies."
   },
@@ -560,7 +560,7 @@
     "d": "Exact time between two dates, business day counts with holiday exclusions, and add or subtract durations from any date, all in a single HTML file."
   },
   {
-    "s": "e-e-a-t-auditor",
+    "s": "page-trust-signals-auditor",
     "t": "tool",
     "d": "Audit any web page's HTML for E-E-A-T signals: Experience, Expertise, Authoritativeness, Trust. Browser-only."
   },
@@ -570,7 +570,7 @@
     "d": "A plain-language reference on E-E-A-T: experience, expertise, authoritativeness, and trustworthiness, the qualities search and AI systems use to judge whether content deserves to rank and be cited."
   },
   {
-    "s": "effective-hourly-rate-calculator",
+    "s": "true-hourly-rate-after-costs",
     "t": "tool",
     "d": "Single-file browser tool that divides income after expenses by every hour worked, billable and not, and reports your effective rate, the nominal rate, total hours and the per-hour gap between them."
   },
@@ -720,7 +720,7 @@
     "d": "A plain-language reference on the fundamentals of Git: the three areas your work moves through, the core commands you use every day, how branches and merging work, the difference between rebase and merge, how to undo changes safely, and what .gitignore is for."
   },
   {
-    "s": "git-command-builder",
+    "s": "version-control-command-by-task",
     "t": "tool",
     "d": "From 'I want to...' to the exact git command. A task-first git helper for people who know what they want but not the incantation. Search for the goal in plain words ('undo last commit', 'delete branch', 'force push'), pick the task, and get the co..."
   },
@@ -765,7 +765,7 @@
     "d": "A clean heading tree, and the structure problems search engines and screen readers trip on."
   },
   {
-    "s": "htaccess-redirect-generator",
+    "s": "htaccess-rewrite-rule-builder",
     "t": "tool",
     "d": "Build Apache `.htaccess` redirect and rewrite rules in your browser. No server, no tracking, no third-party scripts."
   },
@@ -1085,7 +1085,7 @@
     "d": "Live markdown to HTML preview with one-click copy, in a single HTML file."
   },
   {
-    "s": "markdown-syntax-reference",
+    "s": "markdown-everyday-syntax-reference",
     "t": "ref",
     "d": "A plain-language reference for practical Markdown: the syntax you actually look up when writing a README, an issue, or docs. It covers headings, emphasis, lists, links, images, code, blockquotes, tables, task lists, and the escaping and line-break..."
   },
@@ -1165,7 +1165,7 @@
     "d": "Solve the retry-amplification fixed point for a service and its dependency, enumerate every equilibrium, and trace the hysteresis loop between the tipping point and the recovery point."
   },
   {
-    "s": "mime-type-lookup",
+    "s": "extension-media-type-lookup",
     "t": "tool",
     "d": "A fast, searchable lookup between file extensions and MIME (media) types, in both directions. Around 200 common types are built in as an inline table, so it works with no external dependencies and works offline."
   },
@@ -1300,7 +1300,7 @@
     "d": "A practical runbook for creators and small operators who depend on platforms they do not control. It covers how to prepare before anything goes wrong, how to recognize a reach collapse or suspension, what to do in the first hours, how to appeal, and how to rebuild."
   },
   {
-    "s": "portfolio-rebalance-tool",
+    "s": "allocation-drift-rebalancer",
     "t": "tool",
     "d": "Set target allocations across buckets, enter what you currently hold in each, and get the exact dollar amount to buy or trim in every bucket to return to target."
   },
@@ -1365,7 +1365,7 @@
     "d": "Defensive reference for people building on language models, covering direct versus indirect injection, the controls that reduce risk, the ones that only feel safe, and least-privilege design."
   },
   {
-    "s": "prompt-injection-test-suite",
+    "s": "prompt-injection-attack-corpus",
     "t": "ref",
     "d": "A categorized corpus of prompt injection attempts. Use to test your LLM product's defenses before attackers do."
   },
@@ -1680,7 +1680,7 @@
     "d": "A plain-language reference on SQL injection: the vulnerability that lets an attacker change the meaning of a database query by feeding it crafted input. It covers what the attack is, how string-concatenated queries get exploited, why parameterized..."
   },
   {
-    "s": "sql-join-visualizer",
+    "s": "sql-join-venn-explorer",
     "t": "tool",
     "d": "An interactive teaching tool for SQL joins. Pick INNER, LEFT, RIGHT, FULL OUTER, or CROSS JOIN and see three things update together: a Venn diagram of what the join keeps, the generated SQL statement, and the actual result table computed live from..."
   },
