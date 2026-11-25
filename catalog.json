@@ -375,7 +375,7 @@
     "d": "In the United States, an independent contractor is paid without tax withheld, reports that income themselves, and owes both income tax and self-employment tax on the profit."
   },
   {
-    "s": "conventional-commits-reference",
+    "s": "conventional-commits-plain-reference",
     "t": "ref",
     "d": "Conventional Commits is a lightweight convention for writing commit messages in a structured, machine-readable way. It defines a small set of rules for the first line of a commit so that both people and tooling can understand what changed. This re..."
   },
@@ -400,7 +400,7 @@
     "d": "Visual cron expression builder with human-readable description and the next 5 firing times. Single HTML file."
   },
   {
-    "s": "cron-expression-explainer",
+    "s": "cron-plain-english-reader",
     "t": "tool",
     "d": "Reads a standard five-field cron expression, minute, hour, day of month, month, and day of week, and explains it in plain English, field by field and as one sentence."
   },
@@ -410,7 +410,7 @@
     "d": "The same cron string fires on different days in Linux cron, Quartz, Spring, AWS EventBridge, GitHub Actions and Kubernetes. A side by side reference to field counts, day-of-week numbers, the day-of-month OR day-of-week rule, time zones, daylight s..."
   },
   {
-    "s": "csp-builder",
+    "s": "csp-header-visual-builder",
     "t": "tool",
     "d": "Build Content-Security-Policy headers visually. Pick directives, toggle keywords, add custom hosts, copy as a header / meta tag / Express snippet."
   },
@@ -425,7 +425,7 @@
     "d": "Build CSS @keyframes animations visually. Set the name, duration, delay, timing function, iteration count, direction, and fill mode, edit keyframe stops with per-stop transform and opacity, preview the animation live, and copy the finished CSS wit..."
   },
   {
-    "s": "css-clamp-calculator",
+    "s": "fluid-type-clamp-builder",
     "t": "tool",
     "d": "Compute a CSS `clamp()` for fluid typography and spacing from a min and max viewport and size, with correct `vw`-based linear interpolation and the math explained. No server, no tracking, no third-party scripts."
   },
@@ -450,7 +450,7 @@
     "d": "Convert CSV or TSV input to JSON, SQL inserts, Markdown table, or TypeScript types. Single HTML file."
   },
   {
-    "s": "cubic-bezier-editor",
+    "s": "css-easing-curve-editor",
     "t": "tool",
     "d": "A visual CSS `cubic-bezier()` easing editor with draggable control points, a live animation preview, and a copy button. No server, no tracking, no third-party scripts."
   },
@@ -460,7 +460,7 @@
     "d": "Fill in a form and get a properly quoted `curl` command in real time. Method, URL, query params, headers, body and auth, plus the common toggles. It only builds the string, it never sends your request. No server, no tracking, no external dependenc..."
   },
   {
-    "s": "curl-to-fetch",
+    "s": "cli-request-to-fetch-code",
     "t": "tool",
     "d": "Paste a curl command and get JavaScript fetch and Python requests code, generated entirely in your browser."
   },
@@ -495,7 +495,7 @@
     "d": "A plain-language reference on dollar-cost averaging versus investing a lump sum: what each one is, what the evidence actually says about returns, why the lower-regret choice is often not the higher-return one, and how to decide based on your own situation rather than a headline."
   },
   {
-    "s": "debt-payoff-planner",
+    "s": "snowball-vs-avalanche-planner",
     "t": "tool",
     "d": "A single-file browser tool that compares the two common debt payoff methods, snowball and avalanche, and shows your debt-free date, total interest, and how much interest the plan saves against paying only minimums."
   },
@@ -525,7 +525,7 @@
     "d": "A plain-language reference on Docker: what images and containers are, how the Dockerfile builds layered images, the handful of commands you use daily, how volumes and ports connect a container to the outside world, and how containers differ from v..."
   },
   {
-    "s": "dockerfile-linter",
+    "s": "containerfile-practice-checker",
     "t": "tool",
     "d": "Paste a Dockerfile and get a list of best-practice warnings, each with a severity and a suggested fix. It is a static heuristic linter that reads your file line by line in the browser. No server, no tracking, no external dependencies."
   },
@@ -555,7 +555,7 @@
     "d": "Paste a column of naive local timestamps and an IANA time zone to find every row that falls in a DST gap (never existed) or fold (happened twice), with its UTC value under the Temporal, Python and PostgreSQL rules, before you migrate the data."
   },
   {
-    "s": "duration-calculator",
+    "s": "date-span-business-days",
     "t": "tool",
     "d": "Exact time between two dates, business day counts with holiday exclusions, and add or subtract durations from any date, all in a single HTML file."
   },
@@ -595,7 +595,7 @@
     "d": "A plain-language reference on reaching the inbox, in five chapters: why mail lands in spam, SPF, DKIM and DMARC, sender reputation and warmup, list hygiene, and content that helps."
   },
   {
-    "s": "email-header-analyzer",
+    "s": "email-delivery-path-reader",
     "t": "tool",
     "d": "Paste the raw headers of an email and this tool reconstructs the delivery path, surfaces the SPF, DKIM and DMARC results, and flags mismatches that can indicate spoofing. It is a defensive, educational tool that reads text only. No server, no trac..."
   },
@@ -605,7 +605,7 @@
     "d": "A browser tool that scores your email content against 40 SpamAssassin-style rules locally. No upload, no API, no tracking."
   },
   {
-    "s": "embedding-cost-estimator",
+    "s": "embedding-cost-compare",
     "t": "tool",
     "d": "Estimate embedding costs across 11 providers before you commit to a RAG strategy."
   },
@@ -630,7 +630,7 @@
     "d": "A searchable table mapping common emoji to their unicode code points and shortcodes (like :smile:). Search by name or shortcode, or paste an emoji to reverse-look-up its code points and shortcode. All data is embedded in the page."
   },
   {
-    "s": "env-var-checker",
+    "s": "env-example-drift-check",
     "t": "tool",
     "d": "Compare your .env.example (the committed reference) against your actual .env. Find missing variables, undocumented additions, and possible leaked secrets in either file."
   },
@@ -675,7 +675,7 @@
     "d": "A plain-language reference on FAQ structured data: marking up question-and-answer content so search engines and AI systems understand it as questions and answers, when it helps, how to write FAQs that get used, and the rules that keep the markup valid and honest."
   },
   {
-    "s": "favicon-generator",
+    "s": "emoji-text-favicon-maker",
     "t": "tool",
     "d": "Make a favicon from text, an emoji, or an uploaded image, right in your browser."
   },
@@ -745,7 +745,7 @@
     "d": "Paste text or code and see its raw byte size versus gzip and deflate compressed size, right in your browser. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "hash-generator",
+    "s": "md5-sha-hash-calculator",
     "t": "tool",
     "d": "Compute MD5, SHA-1, SHA-256, and SHA-512 hashes locally in your browser."
   },
@@ -785,7 +785,7 @@
     "d": "Paste a raw HTTP response header block and see, for a browser cache, a shared cache and a CDN cache side by side, whether it may be stored, its RFC 9111 freshness lifetime and which rule produced it, its current age, and whether it is fresh or stale."
   },
   {
-    "s": "http-header-analyzer",
+    "s": "http-header-explainer",
     "t": "tool",
     "d": "Paste a raw HTTP response or request header block and get a per-header explanation plus a security posture summary. It parses text only, makes no requests, and runs entirely in your browser with no external dependencies. Works offline."
   },
@@ -795,7 +795,7 @@
     "d": "Rebuild the RFC 9421 (HTTP Message Signatures) signature base from a raw HTTP message and its `Signature-Input` header, line by line, with the rule that produced each line. RFC 9421 only: the obsolete draft-cavage scheme, whose `Signature` header ..."
   },
   {
-    "s": "http-status-codes-reference",
+    "s": "http-status-classes-reference",
     "t": "ref",
     "d": "A plain-language reference on HTTP status codes: what the five classes mean, the specific codes that actually come up in real API and web work, and when to use each one correctly."
   },
@@ -820,7 +820,7 @@
     "d": "A plain-language reference on idempotency in APIs. It covers what idempotent means, which HTTP methods are safe and idempotent, how idempotency keys make POST requests safe to retry the way payment APIs do, why at-least-once delivery forces you to..."
   },
   {
-    "s": "image-compressor",
+    "s": "local-image-shrinker",
     "t": "tool",
     "d": "Compress and resize images in your browser. Fully local, no upload, no account."
   },
@@ -830,7 +830,7 @@
     "d": "A plain-language reference on the image formats used on the web: JPEG, PNG, GIF, WebP, AVIF, and SVG. It covers the concepts that separate them (lossy versus lossless, transparency, animation, raster versus vector), what each format is good at, a ..."
   },
   {
-    "s": "image-placeholder-generator",
+    "s": "svg-placeholder-data-uri",
     "t": "tool",
     "d": "Generate lightweight placeholder images as inline SVG data URIs. No raster encoding, no network request. Set the size, colors, label, and style, then copy the output in the format you need."
   },
@@ -880,7 +880,7 @@
     "d": "A plain-language reference on the hub-and-spoke model of internal linking: organizing your site so a central hub page on a topic links to detailed spoke pages and they link back, building topic authority and helping both readers and search engines understand your site."
   },
   {
-    "s": "invoice-late-fee-calculator",
+    "s": "overdue-invoice-fee-calculator",
     "t": "tool",
     "d": "Takes an invoice amount, due date, flat fee, annual rate and grace period, then returns days overdue, interest accrued and the total owed, stamped current or past due; one HTML file, nothing leaves the browser."
   },
@@ -895,12 +895,12 @@
     "d": "Formats, minifies, and validates JSON in the browser. It uses the browser's own JSON parser, so what it accepts matches what your code will accept, and on an error it reports the parser's message, which usually names where the problem is."
   },
   {
-    "s": "json-ld-schema-builder",
+    "s": "json-ld-form-builder",
     "t": "tool",
     "d": "Builds valid JSON-LD structured data for a local business, organization, software application, or article."
   },
   {
-    "s": "json-path-tester",
+    "s": "jsonpath-live-matcher",
     "t": "tool",
     "d": "Paste JSON and a JSONPath expression, see the matched values and their paths live, in your browser. No server, no tracking, no third-party scripts."
   },
@@ -915,7 +915,7 @@
     "d": "Paste a JSON Schema and generate a function/tool-calling definition in both the OpenAI function-calling format and the Anthropic tool format. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "json-to-go-struct",
+    "s": "json-sample-to-go-structs",
     "t": "tool",
     "d": "Paste JSON and generate Go structs with exported CamelCase field names, correct types, and json struct tags that preserve the original keys. Handles nested and anonymous structs and arrays of objects. Everything runs in your browser with no extern..."
   },
@@ -925,7 +925,7 @@
     "d": "Paste a JSON sample and generate a JSON Schema (draft 2020-12) that describes its shape. The tool infers types, marks present keys as required, builds item schemas for arrays, recurses into nested objects, detects common string formats, and turns ..."
   },
   {
-    "s": "json-to-typescript",
+    "s": "json-value-to-ts-interfaces",
     "t": "tool",
     "d": "Paste any JSON value, get TypeScript interface declarations. Single HTML file."
   },
@@ -940,7 +940,7 @@
     "d": "Decodes the header and payload of a JSON Web Token so you can read its claims. It decodes only and never verifies the signature, because a JWT's first two parts are base64url-encoded, not encrypted, and verification needs a key that belongs on a server, not in a browser tool."
   },
   {
-    "s": "jwt-inspector",
+    "s": "jwt-verify-in-browser",
     "t": "tool",
     "d": "Decode and verify JSON Web Tokens in your browser. No server, no tracking, no third-party scripts."
   },
