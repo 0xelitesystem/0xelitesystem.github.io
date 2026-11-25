@@ -34,7 +34,7 @@ Five zero-dependency Python CLIs that audit a finished AI coding-agent session b
 - [prompt-injection-defense-reference](https://github.com/0xelitesystem/prompt-injection-defense-reference): architecture-first prompt injection defense, including defenses that do not work.
 - [security-headers-reference](https://github.com/0xelitesystem/security-headers-reference): the essential HTTP security headers with literal copy-paste values and a baseline CSP.
 - [dns-email-authentication-reference](https://github.com/0xelitesystem/dns-email-authentication-reference): SPF, DKIM, DMARC explained with example records.
-- [incident-response-runbooks](https://github.com/0xelitesystem/incident-response-runbooks): step-by-step runbooks for common security incidents.
+- [incident-runbook-skeletons](https://github.com/0xelitesystem/incident-runbook-skeletons): step-by-step runbooks for common security incidents.
 
 ## Elsewhere
 

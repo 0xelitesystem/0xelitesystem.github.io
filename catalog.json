@@ -205,12 +205,12 @@
     "d": "An educational, fully client-side bcrypt playground. Generate and verify bcrypt hashes, inspect the anatomy of a hash string, and learn why bcrypt is the right tool for password storage. Everything runs in your browser with no external dependencies."
   },
   {
-    "s": "box-model-visualizer",
+    "s": "css-box-model-explorer",
     "t": "tool",
     "d": "An interactive CSS box model. Adjust content size, padding, border, and margin per side, toggle box-sizing, and see a live nested diagram with computed total dimensions plus copyable CSS. Everything runs in your browser with no external dependenci..."
   },
   {
-    "s": "box-shadow-generator",
+    "s": "layered-box-shadow-builder",
     "t": "tool",
     "d": "Visual CSS box-shadow builder with live preview, stacked layers, inset support, and copy-ready output."
   },
@@ -280,7 +280,7 @@
     "d": "Reconstruct every irreversible action an AI agent took in a session, from the transcript you already have. Forensics for unattended agents."
   },
   {
-    "s": "case-converter",
+    "s": "naming-case-converter",
     "t": "tool",
     "d": "Convert text between camelCase, snake_case, kebab-case, CONSTANT_CASE, and more."
   },
@@ -300,7 +300,7 @@
     "d": "Visually build a chat messages array and export it in OpenAI-style and Anthropic-style JSON. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "chmod-calculator",
+    "s": "chmod-permission-grid",
     "t": "tool",
     "d": "A Unix file-permission calculator. Toggle read, write, and execute for owner, group, and other in a 3x3 grid, and watch the octal value (like 755) and the symbolic string (like rwxr-xr-x) stay in sync. Every representation is editable and drives t..."
   },
@@ -310,12 +310,12 @@
     "d": "A plain-language reference on continuous integration and continuous delivery/deployment: the practice of automatically building, testing, and shipping code so that changes reach production safely and often. It covers what CI, CD (delivery), and CD..."
   },
   {
-    "s": "cidr-subnet-calculator",
+    "s": "ipv4-cidr-breakdown",
     "t": "tool",
     "d": "Enter an IPv4 address with a CIDR prefix (for example `192.168.1.0/24`) and get the full breakdown: network address, broadcast address, netmask, wildcard mask, first and last usable host, total and usable host counts, and a binary view of the addr..."
   },
   {
-    "s": "color-blindness-simulator",
+    "s": "color-vision-deficiency-preview",
     "t": "tool",
     "d": "Preview how an image or a set of colors reads under common color-vision deficiencies, all in your browser. No server, no tracking, no third-party scripts."
   },
@@ -325,7 +325,7 @@
     "d": "A single-file browser tool that takes a text color and a background color and reports the contrast ratio between them, checked against the WCAG 2.1 thresholds for normal and large text at AA and AAA, with a live preview of the two colors together."
   },
   {
-    "s": "color-format-converter",
+    "s": "hex-rgb-hsl-hsv-converter",
     "t": "tool",
     "d": "Convert a color between HEX, RGB, HSL, and HSV with a live swatch. No server, no tracking, no third-party scripts."
   },
@@ -335,7 +335,7 @@
     "d": "Extract a dominant color palette from any image, right in your browser. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "compound-interest-visualizer",
+    "s": "monthly-compounding-growth-chart",
     "t": "tool",
     "d": "Shows how a starting amount and monthly contributions grow over time with monthly compounding. It returns the ending balance, the total you put in, and the growth on top, and plots the balance year by year with contributions and growth shaded separately."
   },
@@ -350,7 +350,7 @@
     "d": "Five chapters on turning one pillar piece into clips, threads, posts and an email, covering the hub-and-spoke structure, per-platform adaptation, a repeatable workflow, and what not to repurpose."
   },
   {
-    "s": "content-security-policy-builder",
+    "s": "csp-header-toggle-builder",
     "t": "tool",
     "d": "Builds a Content-Security-Policy header by toggling directives and choosing their allowed sources. It assembles the header string live, flags the sources that weaken the policy, and lets you copy the result."
   },
@@ -420,7 +420,7 @@
     "d": "A plain-language reference on the two most common web application attacks: cross-site request forgery (CSRF) and cross-site scripting (XSS). It covers what each attack actually is, how it works step by step, the real defenses that stop it, and how..."
   },
   {
-    "s": "css-animation-generator",
+    "s": "css-keyframes-builder",
     "t": "tool",
     "d": "Build CSS @keyframes animations visually. Set the name, duration, delay, timing function, iteration count, direction, and fill mode, edit keyframe stops with per-stop transform and opacity, preview the animation live, and copy the finished CSS wit..."
   },
@@ -430,7 +430,7 @@
     "d": "Compute a CSS `clamp()` for fluid typography and spacing from a min and max viewport and size, with correct `vw`-based linear interpolation and the math explained. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "css-flexbox-playground",
+    "s": "flexbox-property-visualizer",
     "t": "tool",
     "d": "An interactive CSS flexbox visualizer. Adjust the container and per-item flex properties, watch a live preview update, and copy the generated CSS. Everything runs in your browser with no external dependencies and works offline."
   },
@@ -455,7 +455,7 @@
     "d": "A visual CSS `cubic-bezier()` easing editor with draggable control points, a live animation preview, and a copy button. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "curl-command-builder",
+    "s": "cli-http-request-builder",
     "t": "tool",
     "d": "Fill in a form and get a properly quoted `curl` command in real time. Method, URL, query params, headers, body and auth, plus the common toggles. It only builds the string, it never sends your request. No server, no tracking, no external dependenc..."
   },
@@ -685,7 +685,7 @@
     "d": "A plain-language technical reference on feature flags for working developers."
   },
   {
-    "s": "ffmpeg-command-builder",
+    "s": "media-command-by-task",
     "t": "tool",
     "d": "Task-first ffmpeg helper. Instead of digging through documentation, pick what you want to do (compress a video, make a GIF, trim a clip, extract the audio) and get the exact command, with every flag explained in plain language and honest warnings ..."
   },
@@ -750,7 +750,7 @@
     "d": "Compute MD5, SHA-1, SHA-256, and SHA-512 hashes locally in your browser."
   },
   {
-    "s": "hash-identifier",
+    "s": "hash-type-ranker",
     "t": "tool",
     "d": "Paste a hash string and get a ranked list of the algorithms that could have produced it, based on length and format. It recognizes MD5, SHA-1, SHA-256, SHA-512, CRC32, bcrypt, argon2, NTLM, MySQL, base64-looking values, and several Unix crypt form..."
   },
@@ -770,7 +770,7 @@
     "d": "Build Apache `.htaccess` redirect and rewrite rules in your browser. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "html-entity-encoder-decoder",
+    "s": "html-entity-roundtrip",
     "t": "tool",
     "d": "Encode text to HTML entities and decode entities back to text, in your browser. No server, no tracking, no third-party scripts."
   },
@@ -840,12 +840,12 @@
     "d": "A plain-language reference on making images work for search and for people: descriptive filenames, alt text that serves both accessibility and SEO, useful captions, correct dimensions and lazy loading, image structured data, and modern formats like WebP and AVIF."
   },
   {
-    "s": "image-to-data-uri",
+    "s": "image-to-base64-snippet",
     "t": "tool",
     "d": "Convert any image into a base64 data URI you can paste straight into HTML, CSS, or Markdown."
   },
   {
-    "s": "incident-response-runbooks",
+    "s": "incident-runbook-skeletons",
     "t": "ref",
     "d": "Ten incident response runbooks following a common skeleton: trigger, immediate, investigation, containment, eradication, recovery, post-incident."
   },
@@ -920,7 +920,7 @@
     "d": "Paste JSON and generate Go structs with exported CamelCase field names, correct types, and json struct tags that preserve the original keys. Handles nested and anonymous structs and arrays of objects. Everything runs in your browser with no extern..."
   },
   {
-    "s": "json-to-json-schema",
+    "s": "json-sample-to-schema",
     "t": "tool",
     "d": "Paste a JSON sample and generate a JSON Schema (draft 2020-12) that describes its shape. The tool infers types, marks present keys as required, builds item schemas for arrays, recurses into nested objects, detects common string formats, and turns ..."
   },
@@ -1050,7 +1050,7 @@
     "d": "Generate a spec-compliant llms.txt for your site. Browser-only, no signup, no API calls."
   },
   {
-    "s": "loan-amortization-visualizer",
+    "s": "loan-payoff-schedule-chart",
     "t": "tool",
     "d": "A single-file browser tool that takes a loan amount, an annual interest rate, a term in years, and an optional extra monthly payment, and shows the monthly payment, the total interest, the total paid, and how the balance falls over the term."
   },
@@ -1090,7 +1090,7 @@
     "d": "A plain-language reference for practical Markdown: the syntax you actually look up when writing a README, an issue, or docs. It covers headings, emphasis, lists, links, images, code, blockquotes, tables, task lists, and the escaping and line-break..."
   },
   {
-    "s": "markdown-table-generator",
+    "s": "markdown-table-visual-editor",
     "t": "tool",
     "d": "Build a table visually and copy clean GitHub Flavored Markdown."
   },
@@ -1265,7 +1265,7 @@
     "d": "A plain-language reference on how to store user passwords safely. It covers why plaintext, encryption, and fast hashes are all wrong for this job, what salting and peppering actually do, the three algorithms worth using (bcrypt, scrypt, argon2), h..."
   },
   {
-    "s": "password-strength-meter",
+    "s": "password-entropy-crack-time",
     "t": "tool",
     "d": "Estimates a password's character-set entropy in bits and a rough offline crack time, scoring it from very weak to very strong."
   },
@@ -1290,7 +1290,7 @@
     "d": "How much of your latency is physics, and how much is your route?"
   },
   {
-    "s": "pkce-generator",
+    "s": "pkce-s256-pair-maker",
     "t": "tool",
     "d": "Generate an OAuth 2.0 PKCE code_verifier and S256 code_challenge in your browser with the WebCrypto API, plus a plain-language explainer of why PKCE exists."
   },
@@ -1770,7 +1770,7 @@
     "d": "A single-file personal portfolio styled as an interactive terminal. Visitors type commands (help, about, projects, contact) and get formatted output."
   },
   {
-    "s": "text-diff-viewer",
+    "s": "browser-line-diff",
     "t": "tool",
     "d": "Compare two blocks of text and see a line-level diff in your browser. No server, no tracking, no third-party scripts."
   },
@@ -1940,7 +1940,7 @@
     "d": "Local webhook inspector. Registers a Service Worker that intercepts requests to a configured path on the same origin and displays them in real time."
   },
   {
-    "s": "webhook-signature-verifier",
+    "s": "multi-provider-webhook-verifier",
     "t": "tool",
     "d": "Verify webhook signatures from Stripe, GitHub, Slack, Twilio, and any HMAC-based service. Runs entirely in your browser."
   },
