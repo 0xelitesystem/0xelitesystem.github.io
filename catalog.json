@@ -1080,7 +1080,7 @@
     "d": "Generate lorem ipsum placeholder text in your browser. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "markdown-previewer",
+    "s": "markdown-live-html-copy",
     "t": "tool",
     "d": "Live markdown to HTML preview with one-click copy, in a single HTML file."
   },
@@ -1095,7 +1095,7 @@
     "d": "Build a table visually and copy clean GitHub Flavored Markdown."
   },
   {
-    "s": "markdown-toc-generator",
+    "s": "markdown-heading-toc-linker",
     "t": "tool",
     "d": "Generate a linked table of contents from markdown headings, entirely in your browser."
   },
@@ -1190,7 +1190,7 @@
     "d": "Paste text that an encoding mistake mangled, recover the original exactly, see the full set of codecs that could have caused the damage, and get the positions that cannot be recovered at all."
   },
   {
-    "s": "mortgage-affordability-calculator",
+    "s": "income-to-home-price-calculator",
     "t": "tool",
     "d": "How much home your income supports, before a lender ever runs the numbers."
   },
@@ -1210,7 +1210,7 @@
     "d": "A plain-language reference on OAuth 2.0 and single sign-on: the roles involved, the authorization code flow with PKCE, the three kinds of tokens, scopes, OpenID Connect, how SAML and OIDC differ, and the common mistakes."
   },
   {
-    "s": "oauth-flow-debugger",
+    "s": "oauth-url-linter",
     "t": "tool",
     "d": "Paste an OAuth URL, see what's in it, and get warnings about common mistakes. All decoding happens in your browser."
   },
@@ -1220,7 +1220,7 @@
     "d": "Compare two job offers side by side, fully in your browser. Base salary, signing bonus, annual bonus, equity, 401k match, benefits, PTO, and commute cost, with a live component-by-component difference table. No server, no tracking, no external dep..."
   },
   {
-    "s": "og-image-generator",
+    "s": "og-card-from-text",
     "t": "tool",
     "d": "Generate Open Graph social cards from text input. 1200x630, ready to download."
   },
@@ -1255,7 +1255,7 @@
     "d": "A battle-tested README structure for open source projects. Skip the AI cliches. Use the structure that actually answers what visitors want to know."
   },
   {
-    "s": "password-generator",
+    "s": "csprng-passphrase-maker",
     "t": "tool",
     "d": "Generate strong passwords and passphrases in your browser using the cryptographic random source (`crypto.getRandomValues`, never `Math.random`). See an entropy estimate in bits, a strength label, and copy any result with one click. No server, no t..."
   },
@@ -1270,12 +1270,12 @@
     "d": "Estimates a password's character-set entropy in bits and a rough offline crack time, scoring it from very weak to very strong."
   },
   {
-    "s": "pdf-merge-and-split",
+    "s": "pdf-page-merge-split-rotate",
     "t": "tool",
     "d": "Merge, split, reorder and rotate PDF pages entirely in your browser. Parses the real cross reference chain, names every file it refuses, and lists per file the structures it does not carry across before you download."
   },
   {
-    "s": "percentage-calculator",
+    "s": "four-percentage-questions",
     "t": "tool",
     "d": "Four common percentage questions with clearly labeled inputs and live answers. No server, no tracking, no third-party scripts."
   },
@@ -1410,7 +1410,7 @@
     "d": "Five chapters walking the RAG loop end to end: chunking documents, embeddings, retrieval and ranking, grounding answers in sources with citations, and when RAG is the wrong tool."
   },
   {
-    "s": "rag-chunk-visualizer",
+    "s": "chunking-strategy-compare",
     "t": "tool",
     "d": "See how four different chunking strategies split your text. Side by side."
   },
@@ -1445,7 +1445,7 @@
     "d": "Audit a GitHub README for AI-generated cliche patterns. Single HTML file, BYOK Claude API, MIT licensed. No build step, no backend. Deploy free via GitHub Pages."
   },
   {
-    "s": "real-return-calculator",
+    "s": "inflation-break-even-return",
     "t": "tool",
     "d": "See how inflation erodes purchasing power over time and what nominal return you need just to break even."
   },
@@ -1500,7 +1500,7 @@
     "d": "Five chapters of plain-language reference on REST API design, covering resource naming, HTTP methods and idempotency, status codes, offset versus cursor pagination, error bodies and HATEOAS."
   },
   {
-    "s": "resume-keyword-matcher",
+    "s": "resume-jd-keyword-overlap",
     "t": "tool",
     "d": "Paste your resume and a job description, get an honest keyword-overlap analysis. One HTML file, no server, no tracking, no external dependencies. Works offline."
   },
@@ -1540,7 +1540,7 @@
     "d": "A plain-language reference for solo operators and small sellers on sales tax nexus: what it is, how economic nexus changed the rules, why selling into a state can create a tax obligation there, and what questions to ask."
   },
   {
-    "s": "savings-goal-planner",
+    "s": "savings-goal-solver",
     "t": "tool",
     "d": "Solve for the monthly amount, or for how long the goal takes."
   },
@@ -1590,7 +1590,7 @@
     "d": "Semantic Versioning (SemVer) is a naming convention for software releases that turns a version number into a promise about compatibility. It gives every release a three-part number so that anyone depending on your code can predict, at a glance, wh..."
   },
   {
-    "s": "serp-snippet-preview",
+    "s": "serp-truncation-preview",
     "t": "tool",
     "d": "See how your page looks in search before it ships, with truncation estimates."
   },
@@ -1630,7 +1630,7 @@
     "d": "A complete BYOK SaaS scaffolded into one HTML file. Free tier with daily limit, Pro tier unlocked by license code, key never leaves the user's browser."
   },
   {
-    "s": "sitemap-xml-generator",
+    "s": "url-list-to-sitemap",
     "t": "tool",
     "d": "Turns a list of page URLs into a valid sitemap.xml, with lastmod, changefreq, and priority on every entry."
   },
@@ -1640,7 +1640,7 @@
     "d": "Lint a Claude Skill SKILL.md file for spec compliance and triggering quality. Browser-only, single HTML file."
   },
   {
-    "s": "slug-generator",
+    "s": "title-to-url-slug",
     "t": "tool",
     "d": "A single-file browser tool that turns a title or phrase into a clean URL slug: lowercase, hyphen-separated, punctuation removed, accents optionally stripped, with optional stop-word removal and a length cap."
   },
@@ -1695,7 +1695,7 @@
     "d": "Paste CREATE TABLE DDL from any dialect and see the type affinity SQLite actually assigns each column, which literals silently change storage class on insert, whether a STRICT table would accept the declared type, and which columns are true rowid ..."
   },
   {
-    "s": "srt-to-vtt-converter",
+    "s": "srt-vtt-two-way",
     "t": "tool",
     "d": "Convert subtitle files between SubRip (.srt) and WebVTT (.vtt) in both directions. The input format is auto-detected, multi-line cues and blank lines are handled, and everything runs in your browser with no external dependencies. Works offline."
   },
@@ -1740,7 +1740,7 @@
     "d": "A plain-language reference on IPv4 addressing and subnetting. It covers what an IP address and subnet mask are, CIDR slash notation, the difference between network, broadcast, and host addresses, how to compute the range a subnet covers, the priva..."
   },
   {
-    "s": "subscription-cost-auditor",
+    "s": "idle-subscription-tally",
     "t": "tool",
     "d": "Totals your recurring subscriptions into a yearly figure, a monthly figure, and the annual cost of the ones you marked idle."
   },
@@ -1765,7 +1765,7 @@
     "d": "Drag temperature, top_k and top_p and watch a real softmax distribution reshape live, with every stage of the truncation pipeline shown and the edge cases explained."
   },
   {
-    "s": "terminal-portfolio",
+    "s": "single-file-shell-portfolio",
     "t": "tool",
     "d": "A single-file personal portfolio styled as an interactive terminal. Visitors type commands (help, about, projects, contact) and get formatted output."
   },
@@ -1775,7 +1775,7 @@
     "d": "Compare two blocks of text and see a line-level diff in your browser. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "text-encryptor",
+    "s": "passphrase-text-encrypt",
     "t": "tool",
     "d": "Encrypt and decrypt text in your browser with a passphrase using the Web Crypto API. The output is a portable base64 blob. Nothing leaves your browser."
   },
@@ -1800,12 +1800,12 @@
     "d": "A plain-language reference on handling time correctly in software: the difference between UTC and local time, what offsets and time zones actually are, why daylight saving time breaks naive assumptions, and how to represent timestamps unambiguousl..."
   },
   {
-    "s": "timezone-converter",
+    "s": "multi-zone-meeting-picker",
     "t": "tool",
     "d": "A single-file world clock and meeting planner. Track the current time across any set of zones, then pick a moment to see it everywhere at once and find the working-hours overlap for a call."
   },
   {
-    "s": "tip-and-split-calculator",
+    "s": "tip-split-round-up",
     "t": "tool",
     "d": "Set a tip, split the check, or round each share up to a clean total."
   },
@@ -1815,7 +1815,7 @@
     "d": "Five chapters on writing the search snippet: how the title tag and meta description differ, writing each one, fitting them before truncation, and the common mistakes that waste the slot."
   },
   {
-    "s": "token-cost-estimator",
+    "s": "custom-rate-token-cost",
     "t": "tool",
     "d": "Estimates the token count of a prompt and the API cost of running it at any provider's rates, with no API key and no calls."
   },
@@ -1835,7 +1835,7 @@
     "d": "A plain-language reference on Unicode as a system of meaning, not bytes. It covers code points versus code units, planes and the Basic Multilingual Plane, surrogate pairs, grapheme clusters and why one emoji can be many code points, the four norma..."
   },
   {
-    "s": "unicode-character-inspector",
+    "s": "unicode-codepoint-breakdown",
     "t": "tool",
     "d": "Paste or type text and get a per-character breakdown. For every character you see the glyph, its Unicode code point (U+XXXX), general category, rough block, UTF-8 byte sequence, UTF-16 code units, and the JS, HTML, and CSS escape forms. Invisible ..."
   },
@@ -1855,7 +1855,7 @@
     "d": "Break a URL into its parts, edit the query parameters in a table, and rebuild it live. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "user-agent-parser",
+    "s": "user-agent-breakdown",
     "t": "tool",
     "d": "Break a User-Agent string into browser, engine, operating system, and device type. No server, no tracking, no third-party scripts."
   },

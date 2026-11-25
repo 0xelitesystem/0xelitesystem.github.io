@@ -24,7 +24,7 @@ Five zero-dependency Python CLIs that audit a finished AI coding-agent session b
 
 - [jwt-verify-in-browser](https://0xelitesystem.github.io/jwt-verify-in-browser/): decode and verify JWTs locally, HS/RS/PS/ES algorithms, warns on alg:none.
 - [csv-to-anything](https://0xelitesystem.github.io/csv-to-anything/): convert CSV/TSV to JSON, SQL, Markdown, or TypeScript interfaces in the browser.
-- [og-image-generator](https://0xelitesystem.github.io/og-image-generator/): generate Open Graph images and ready-to-paste meta tags.
+- [og-card-from-text](https://0xelitesystem.github.io/og-card-from-text/): generate Open Graph images and ready-to-paste meta tags.
 - [wcag-contrast-ratio-check](https://0xelitesystem.github.io/wcag-contrast-ratio-check/): WCAG AA/AAA contrast ratios for any color pair.
 - [llms-txt-file-builder](https://0xelitesystem.github.io/llms-txt-file-builder/): build a spec-compliant llms.txt for any site.
 
