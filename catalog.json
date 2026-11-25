@@ -320,7 +320,7 @@
     "d": "Preview how an image or a set of colors reads under common color-vision deficiencies, all in your browser. No server, no tracking, no third-party scripts."
   },
   {
-    "s": "color-contrast-checker",
+    "s": "wcag-contrast-ratio-check",
     "t": "tool",
     "d": "A single-file browser tool that takes a text color and a background color and reports the contrast ratio between them, checked against the WCAG 2.1 thresholds for normal and large text at AA and AAA, with a live preview of the two colors together."
   },
@@ -395,7 +395,7 @@
     "d": "Enter a cross-origin request's method, headers and credentials mode plus the server's preflight and response headers, and see whether the Fetch Standard sends a preflight, which step fails, the header change that fixes it, and where shipping brows..."
   },
   {
-    "s": "cron-builder",
+    "s": "cron-next-runs-builder",
     "t": "tool",
     "d": "Visual cron expression builder with human-readable description and the next 5 firing times. Single HTML file."
   },
@@ -600,7 +600,7 @@
     "d": "Paste the raw headers of an email and this tool reconstructs the delivery path, surfaces the SPF, DKIM and DMARC results, and flags mismatches that can indicate spoofing. It is a defensive, educational tool that reads text only. No server, no trac..."
   },
   {
-    "s": "email-spam-score-checker",
+    "s": "email-spam-rule-scorer",
     "t": "tool",
     "d": "A browser tool that scores your email content against 40 SpamAssassin-style rules locally. No upload, no API, no tracking."
   },
@@ -730,7 +730,7 @@
     "d": "Evaluate a GitHub Actions `${{ }}` expression against a context JSON and see every type cast the runner applied, including the four casts where the runner disagrees with JavaScript."
   },
   {
-    "s": "gradient-generator",
+    "s": "css-gradient-composer",
     "t": "tool",
     "d": "Build CSS linear, radial, and conic gradients with a live preview and one-click copy."
   },
@@ -805,7 +805,7 @@
     "d": "Five chapters of plain-language reference on HTTPS and TLS, covering certificates and how trust is decided, HSTS, mixed content, and renewal and configuration checks that keep it healthy."
   },
   {
-    "s": "iam-policy-analyzer",
+    "s": "iam-policy-risk-flagger",
     "t": "tool",
     "d": "Browser-based AWS IAM policy analyzer. Flags privilege-escalation paths, wildcards, missing conditions, and trust-policy issues."
   },
@@ -1075,7 +1075,7 @@
     "d": "A plain-language reference on logs, metrics and traces for working developers, covering structured logging, choosing log levels, the PII and secrets to keep out of logs, and symptom-based alerting."
   },
   {
-    "s": "lorem-ipsum-generator",
+    "s": "lorem-filler-text-browser",
     "t": "tool",
     "d": "Generate lorem ipsum placeholder text in your browser. No server, no tracking, no third-party scripts."
   },
@@ -1175,7 +1175,7 @@
     "d": "Paste a production stack trace and its source map, get the original file, line and column for every frame, with the off by one column correction applied and every frame it changes flagged."
   },
   {
-    "s": "mock-data-generator",
+    "s": "browser-fake-test-data",
     "t": "tool",
     "d": "Generate fake test data in your browser. No server, no tracking, no third-party scripts."
   },
@@ -1310,7 +1310,7 @@
     "d": "A plain-language reference on position sizing: deciding how much to put into a single position based on how much you are willing to lose, not on how confident you feel."
   },
   {
-    "s": "position-sizing-calculator",
+    "s": "position-size-risk-math",
     "t": "tool",
     "d": "**Not financial advice.** This is a math calculator. It does no recommendations, no live data, no advice tailored to your situation. Position sizing without a tested edge is just slower losing. Pair this with your own backtested rules and a licens..."
   },
@@ -1425,7 +1425,7 @@
     "d": "Drop an HTML page or a .docx you are about to index and see every character a text extractor hands the model that a reader never sees: hidden runs, clipped text, off-canvas payloads."
   },
   {
-    "s": "rate-limit-tester",
+    "s": "retry-after-probe",
     "t": "tool",
     "d": "Probe a URL with N requests per second from your browser. See when it 429s, what Retry-After it returns, and how rate-limit headers behave."
   },
@@ -1470,7 +1470,7 @@
     "d": "An open-source regex playground: live match highlighting, plain-English explanation, structure diagram, and ReDoS warnings. All client-side."
   },
   {
-    "s": "regex-redos-checker",
+    "s": "redos-evil-input-finder",
     "t": "tool",
     "d": "Browser-based ReDoS checker. Detects catastrophic-backtracking patterns and synthesizes evil inputs to demonstrate the worst case."
   },
@@ -1670,7 +1670,7 @@
     "d": "Prices your coding-agent sessions at list, ranks what to fix, and scans them for leaked secrets, entirely on your own machine. Formerly auditrail."
   },
   {
-    "s": "sql-formatter",
+    "s": "sql-pretty-minify",
     "t": "tool",
     "d": "Pretty-print and minify SQL in your browser. No server, no tracking, no third-party scripts."
   },
